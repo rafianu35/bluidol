@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blu Idol – India's leading trendy, elegant jewellery brand offering 18K Gold Plated, waterproof, skin-safe, and anti-tarnish daily wear pieces.">
+  <meta property="og:title" content="Blu Idol – 18K Gold Plated & Anti-Tarnish Jewellery | For Sensitive Skin">
+  <meta property="og:description" content="Shop Blu Idol's curated collection of 18K Gold Plated demi-fine jewellery. 100% skin-safe, waterproof, and anti-tarnish daily wear pieces.">
+  <meta property="og:image" content="images/hero.png">
+  <title>Blu Idol - 18K Gold Plated & Anti Tarnish Jewellery | For Sensitive Skin</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== ANNOUNCEMENT BAR ===== -->
+  <div class="announcement-bar" id="announcement-bar">
+    <div class="announcement-content">
+      <span>✨ FREE SHIPPING ON ORDERS ABOVE ₹999</span>
+      <span class="separator">|</span>
+      <span>💎 ONLINE PAYMENT ONLY | DM TO GLAM UP 💙</span>
+      <span class="separator">|</span>
+      <span>✨ 18K GOLD PLATED & WATERPROOF</span>
+    </div>
+    <button class="announcement-close" id="ann-close" aria-label="Close announcement">×</button>
+  </div>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header" id="header">
+    <div class="header-inner container">
+      <!-- Mobile menu toggle -->
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <!-- Logo -->
+      <div class="logo">
+        <a href="#" id="logo-link" aria-label="Blu Idol Home">
+          <img src="images/logo.jpg" alt="Blu Idol Logo" class="logo-img-el">
+          <div class="logo-text">
+            <span class="logo-name">BLU IDOL</span>
+            <span class="logo-tagline">18k Gold Plated</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul>
+          <li><a href="#collections" id="nav-collections">Collections</a></li>
+          <li class="has-dropdown">
+            <a href="#shop" id="nav-shop">Shop <i class="fa fa-chevron-down fa-xs"></i></a>
+            <ul class="dropdown">
+              <li><a href="#earrings" id="nav-earrings">Earrings</a></li>
+              <li><a href="#necklaces" id="nav-necklaces">Necklaces</a></li>
+              <li><a href="#rings" id="nav-rings">Rings</a></li>
+              <li><a href="#bracelets" id="nav-bracelets">Bracelets</a></li>
+            </ul>
+          </li>
+          <li><a href="#about" id="nav-about">Our Story</a></li>
+          <li><a href="#contact" id="nav-contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button class="icon-btn" id="search-btn" aria-label="Search">
+          <i class="fa fa-search"></i>
+        </button>
+        <button class="icon-btn" id="wishlist-btn" aria-label="Wishlist">
+          <i class="fa-regular fa-heart"></i>
+          <span class="badge" id="wishlist-count">0</span>
+        </button>
+        <button class="icon-btn cart-btn" id="cart-btn" aria-label="Cart">
+          <i class="fa fa-bag-shopping"></i>
+          <span class="badge" id="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Drawer -->
+    <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation" aria-hidden="true">
+      <ul>
+        <li><a href="#collections" id="mob-collections">Collections</a></li>
+        <li><a href="#earrings" id="mob-earrings">Earrings</a></li>
+        <li><a href="#necklaces" id="mob-necklaces">Necklaces</a></li>
+        <li><a href="#rings" id="mob-rings">Rings</a></li>
+        <li><a href="#bracelets" id="mob-bracelets">Bracelets</a></li>
+        <li><a href="#about" id="mob-about">Our Story</a></li>
+        <li><a href="#contact" id="mob-contact">Contact</a></li>
+      </ul>
+      <div class="mobile-social">
+        <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" aria-label="Instagram" id="mob-instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero.png" alt="Blu Idol - 18K Gold Plated Jewellery" class="hero-img" loading="eager">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content container">
+      <div class="hero-text">
+        <p class="hero-eyebrow" id="hero-eyebrow">✦ 100% Skin-Safe &amp; Anti-Tarnish ✦</p>
+        <h1 class="hero-title" id="hero-title">
+          trendy luxury<br>
+          to a <em>new level</em>
+        </h1>
+        <p class="hero-subtitle" id="hero-subtitle">
+          Elegant, waterproof demi-fine jewelry made for daily wear and sensitive skin.
+        </p>
+        <div class="hero-cta" id="hero-cta">
+          <a href="#shop" class="btn btn-primary" id="hero-shop-btn">Shop Bestsellers</a>
+          <a href="#collections" class="btn btn-outline" id="hero-explore-btn">Browse Collections</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-label="Scroll down">
+      <span class="scroll-text">Scroll Down</span>
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ===== TRUST STRIP ===== -->
+  <section class="trust-strip" id="trust-strip">
+    <div class="container trust-inner">
+      <div class="trust-item">
+        <i class="fa fa-droplet"></i>
+        <span>Waterproof</span>
+      </div>
+      <div class="trust-item">
+        <i class="fa fa-sparkles"></i>
+        <span>Anti-Tarnish</span>
+      </div>
+      <div class="trust-item">
+        <i class="fa fa-shield-heart"></i>
+        <span>Hypoallergenic</span>
+      </div>
+      <div class="trust-item">
+        <i class="fa fa-check-double"></i>
+        <span>Lab Tested &amp; Certified</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COLLECTIONS SECTION ===== -->
+  <section class="section collections-section" id="collections">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Shop By Category</p>
+        <h2 class="section-title" id="collections-title">Our Curated <em>drops</em></h2>
+      </div>
+
+      <div class="collections-grid" id="collections-grid">
+        <!-- Earrings -->
+        <div class="collection-card" id="collection-card-1">
+          <div class="collection-img-wrap">
+            <img src="images/earrings.png" alt="Earrings Collection" loading="lazy">
+            <div class="collection-overlay"></div>
+          </div>
+          <div class="collection-info">
+            <h3>Earrings</h3>
+            <a href="#earrings" class="btn-link" id="earrings-link">Explore <i class="fa fa-arrow-right fa-xs"></i></a>
+          </div>
+        </div>
+
+        <!-- Necklaces -->
+        <div class="collection-card" id="collection-card-2">
+          <div class="collection-img-wrap">
+            <img src="images/necklace.png" alt="Necklaces Collection" loading="lazy">
+            <div class="collection-overlay"></div>
+          </div>
+          <div class="collection-info">
+            <h3>Necklaces</h3>
+            <a href="#necklaces" class="btn-link" id="necklaces-link">Explore <i class="fa fa-arrow-right fa-xs"></i></a>
+          </div>
+        </div>
+
+        <!-- Rings -->
+        <div class="collection-card" id="collection-card-3">
+          <div class="collection-img-wrap">
+            <img src="images/rings.png" alt="Rings Collection" loading="lazy">
+            <div class="collection-overlay"></div>
+          </div>
+          <div class="collection-info">
+            <h3>Rings</h3>
+            <a href="#rings" class="btn-link" id="rings-link">Explore <i class="fa fa-arrow-right fa-xs"></i></a>
+          </div>
+        </div>
+
+        <!-- Signature -->
+        <div class="collection-card" id="collection-card-4">
+          <div class="collection-img-wrap">
+            <img src="images/collection.png" alt="Signature Sets" loading="lazy">
+            <div class="collection-overlay"></div>
+          </div>
+          <div class="collection-info">
+            <h3>Sets &amp; Hoops</h3>
+            <a href="#shop" class="btn-link" id="sig-shop-link">Explore <i class="fa fa-arrow-right fa-xs"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED PRODUCTS ===== -->
+  <section class="section products-section" id="shop">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Most Loved Pieces</p>
+        <h2 class="section-title" id="products-title">our bestsellers</h2>
+      </div>
+
+      <div class="product-filters" id="product-filters">
+        <button class="filter-btn active" id="filter-all" data-filter="all">All</button>
+        <button class="filter-btn" id="filter-earrings" data-filter="earrings">Earrings</button>
+        <button class="filter-btn" id="filter-necklaces" data-filter="necklaces">Necklaces</button>
+        <button class="filter-btn" id="filter-rings" data-filter="rings">Rings</button>
+        <button class="filter-btn" id="filter-bracelets" data-filter="bracelets">Bracelets</button>
+      </div>
+
+      <div class="products-grid" id="products-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card" id="product-1" data-category="earrings">
+          <div class="product-img-wrap">
+            <img src="images/earrings.png" alt="Sapphire Drop Earrings" loading="lazy">
+            <div class="product-badges">
+              <span class="badge-new">New Drop</span>
+            </div>
+            <div class="product-actions">
+              <button class="product-wishlist" aria-label="Add to wishlist" data-product="1" id="wish-1">
+                <i class="fa-regular fa-heart"></i>
+              </button>
+              <button class="product-quick" aria-label="Quick view" data-product="1" id="quick-1">
+                <i class="fa fa-eye"></i>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Earrings</p>
+            <h3 class="product-name">Sapphire Drop Earrings</h3>
+            <div class="product-stars">
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span>(48)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹899</span>
+              <span class="price-original">₹1,499</span>
+              <span class="price-off">40% off</span>
+            </div>
+            <button class="btn btn-add-cart" id="cart-1" data-product="1">
+              <i class="fa fa-bag-shopping"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card" id="product-2" data-category="necklaces">
+          <div class="product-img-wrap">
+            <img src="images/necklace.png" alt="Gold Sapphire Pendant" loading="lazy">
+            <div class="product-badges">
+              <span class="badge-best">Bestseller</span>
+            </div>
+            <div class="product-actions">
+              <button class="product-wishlist" aria-label="Add to wishlist" data-product="2" id="wish-2">
+                <i class="fa-regular fa-heart"></i>
+              </button>
+              <button class="product-quick" aria-label="Quick view" data-product="2" id="quick-2">
+                <i class="fa fa-eye"></i>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Necklaces</p>
+            <h3 class="product-name">Gold Sapphire Pendant</h3>
+            <div class="product-stars">
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <i class="fa fa-star"></i><i class="fa fa-star-half-stroke"></i>
+              <span>(62)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹1,299</span>
+              <span class="price-original">₹1,999</span>
+              <span class="price-off">35% off</span>
+            </div>
+            <button class="btn btn-add-cart" id="cart-2" data-product="2">
+              <i class="fa fa-bag-shopping"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card" id="product-3" data-category="rings">
+          <div class="product-img-wrap">
+            <img src="images/rings.png" alt="Blue Crystal Ring Set" loading="lazy">
+            <div class="product-badges">
+              <span class="badge-sale">Sale</span>
+            </div>
+            <div class="product-actions">
+              <button class="product-wishlist" aria-label="Add to wishlist" data-product="3" id="wish-3">
+                <i class="fa-regular fa-heart"></i>
+              </button>
+              <button class="product-quick" aria-label="Quick view" data-product="3" id="quick-3">
+                <i class="fa fa-eye"></i>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Rings</p>
+            <h3 class="product-name">Blue Crystal Ring Set</h3>
+            <div class="product-stars">
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span>(37)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹749</span>
+              <span class="price-original">₹1,299</span>
+              <span class="price-off">42% off</span>
+            </div>
+            <button class="btn btn-add-cart" id="cart-3" data-product="3">
+              <i class="fa fa-bag-shopping"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card" id="product-4" data-category="earrings">
+          <div class="product-img-wrap">
+            <img src="images/collection.png" alt="Statement Hoop Collection" loading="lazy">
+            <div class="product-badges">
+              <span class="badge-new">New Drop</span>
+            </div>
+            <div class="product-actions">
+              <button class="product-wishlist" aria-label="Add to wishlist" data-product="4" id="wish-4">
+                <i class="fa-regular fa-heart"></i>
+              </button>
+              <button class="product-quick" aria-label="Quick view" data-product="4" id="quick-4">
+                <i class="fa fa-eye"></i>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Earrings</p>
+            <h3 class="product-name">Statement Hoop Collection</h3>
+            <div class="product-stars">
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span>(55)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹649</span>
+              <span class="price-original">₹999</span>
+              <span class="price-off">35% off</span>
+            </div>
+            <button class="btn btn-add-cart" id="cart-4" data-product="4">
+              <i class="fa fa-bag-shopping"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="view-all-wrap">
+        <a href="#" class="btn btn-outline" id="view-all-btn">View All Collections</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROMO / BANNER STRIP ===== -->
+  <section class="promo-banner" id="promo-banner">
+    <div class="promo-bg">
+      <img src="images/hero.png" alt="" aria-hidden="true">
+      <div class="promo-overlay"></div>
+    </div>
+    <div class="container promo-content" id="promo-content">
+      <div class="promo-text">
+        <p class="promo-eyebrow">TRENDY &amp; ELEGANT</p>
+        <h2 class="promo-title">Glam Up Your Everyday Style</h2>
+        <p class="promo-subtitle">DM us on Instagram to view custom curated luxury drops and exclusive discounts.</p>
+      </div>
+      <div class="promo-actions">
+        <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="btn btn-primary" id="promo-ig-btn">
+          <i class="fa-brands fa-instagram"></i> DM to Glam Up
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY BLU IDOL ===== -->
+  <section class="section features-section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Transparency First</p>
+        <h2 class="section-title">The Blu Idol <em>promise</em></h2>
+      </div>
+
+      <div class="features-grid" id="features-grid">
+        <div class="feature-card" id="feature-1">
+          <div class="feature-icon">
+            <i class="fa fa-shield-heart"></i>
+          </div>
+          <h3>100% Skin-Safe</h3>
+          <p>Every piece is hypoallergenic and completely nickel- and lead-free, designed carefully for extremely sensitive skin.</p>
+        </div>
+
+        <div class="feature-card" id="feature-2">
+          <div class="feature-icon">
+            <i class="fa fa-droplet"></i>
+          </div>
+          <h3>Waterproof Wear</h3>
+          <p>Go about your daily activities, shower, or swim without worry. Our jewelry is designed for full life integration.</p>
+        </div>
+
+        <div class="feature-card" id="feature-3">
+          <div class="feature-icon">
+            <i class="fa fa-circle-check"></i>
+          </div>
+          <h3>Anti-Tarnish Plating</h3>
+          <p>Using premium 18K gold vacuum-plating processes, we guarantee long-lasting luster and color retention.</p>
+        </div>
+
+        <div class="feature-card" id="feature-4">
+          <div class="feature-icon">
+            <i class="fa fa-microscope"></i>
+          </div>
+          <h3>Lab Tested Pieces</h3>
+          <p>We are dedicated to transparent, verified claims. Every collection drop is lab tested for authenticity and materials verification.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Happy Clients</p>
+        <h2 class="section-title">community love</h2>
+      </div>
+
+      <div class="testimonials-slider" id="testimonials-slider">
+
+        <div class="testimonial-card active" id="testimonial-1">
+          <div class="testimonial-stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i>
+          </div>
+          <p class="testimonial-text">"I ordered the sapphire drop earrings and they are absolutely stunning! The quality is incredible. Will definitely buy again! 💙"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">P</div>
+            <div>
+              <strong>Priya S.</strong>
+              <span>Mumbai</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" id="testimonial-2">
+          <div class="testimonial-stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <i class="fa fa-star"></i><i class="fa fa-star"></i>
+          </div>
+          <p class="testimonial-text">"Blu Idol is my favorite for everyday gold hoops. Literally haven't taken them off and they still look brand new!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <strong>Anika R.</strong>
+              <span>Delhi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" id="testimonial-3">
+          <div class="testimonial-stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <i class="fa fa-star"></i><i class="fa fa-star-half-stroke"></i>
+          </div>
+          <p class="testimonial-text">"Super beautiful gold plating and very comfortable for sensitive skin. Great customer service through Instagram DM!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">N</div>
+            <div>
+              <strong>Neha K.</strong>
+              <span>Bangalore</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="slider-controls" id="slider-controls">
+        <button class="slider-dot active" id="dot-0" aria-label="Testimonial 1"></button>
+        <button class="slider-dot" id="dot-1" aria-label="Testimonial 2"></button>
+        <button class="slider-dot" id="dot-2" aria-label="Testimonial 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INSTAGRAM STRIP ===== -->
+  <section class="instagram-section" id="instagram">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Follow Us On Instagram</p>
+        <h2 class="section-title">
+          <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" id="ig-handle">@blu_idol</a>
+        </h2>
+        <p class="section-subtitle">200+ followers • 88 posts • Trendy Luxury to a New Level</p>
+      </div>
+    </div>
+    <div class="instagram-grid" id="instagram-grid">
+      <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="ig-tile" id="ig-1">
+        <img src="images/earrings.png" alt="Instagram - Blu Idol hoops" loading="lazy">
+        <div class="ig-hover"><i class="fa-brands fa-instagram"></i></div>
+      </a>
+      <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="ig-tile" id="ig-2">
+        <img src="images/necklace.png" alt="Instagram - Blu Idol pendant" loading="lazy">
+        <div class="ig-hover"><i class="fa-brands fa-instagram"></i></div>
+      </a>
+      <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="ig-tile" id="ig-3">
+        <img src="images/rings.png" alt="Instagram - Blu Idol stack rings" loading="lazy">
+        <div class="ig-hover"><i class="fa-brands fa-instagram"></i></div>
+      </a>
+      <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="ig-tile" id="ig-4">
+        <img src="images/collection.png" alt="Instagram - Blu Idol flatlay" loading="lazy">
+        <div class="ig-hover"><i class="fa-brands fa-instagram"></i></div>
+      </a>
+      <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="ig-tile" id="ig-5">
+        <img src="images/hero.png" alt="Instagram - Blu Idol jewelry shoot" loading="lazy">
+        <div class="ig-hover"><i class="fa-brands fa-instagram"></i></div>
+      </a>
+      <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="ig-tile" id="ig-6">
+        <img src="images/earrings.png" alt="Instagram - Blu Idol drop earrings" loading="lazy">
+        <div class="ig-hover"><i class="fa-brands fa-instagram"></i></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== OUR STORY SECTION ===== -->
+  <section class="section about-section" id="about">
+    <div class="container about-inner">
+      <div class="about-image" id="about-image">
+        <img src="images/collection.png" alt="About Blu Idol" loading="lazy">
+        <div class="about-badge" id="about-badge">
+          <span class="badge-text">18K Vacuum Plated Gold</span>
+        </div>
+      </div>
+      <div class="about-content" id="about-content">
+        <p class="section-eyebrow">Our Story</p>
+        <h2 class="section-title">born to shine, Curated for <em>you</em></h2>
+        <p class="about-text">
+          Blu Idol is an Indian demi-fine jewellery brand offering statement, everyday pieces crafted in 18K Gold Plating. Inspired by active lifestyles and sensitive skin requirements, we lab test our pieces to ensure premium transparency and anti-tarnish waterproof wear.
+        </p>
+        <p class="about-text">
+          No green skin, no tarnishing, and no compromises. Simple, elegant luxury designed to let you dare to shine.
+        </p>
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <i class="fa fa-check-circle"></i>
+            <span>18K gold plated base</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fa fa-check-circle"></i>
+            <span>All pieces lab verified</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fa fa-check-circle"></i>
+            <span>Safe for sensitive skin</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fa fa-check-circle"></i>
+            <span>Waterproof daily wear</span>
+          </div>
+        </div>
+        <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="btn btn-primary" id="about-ig-btn">
+          <i class="fa-brands fa-instagram"></i> Visit Instagram Page
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWSLETTER ===== -->
+  <section class="newsletter-section" id="newsletter">
+    <div class="container newsletter-inner" id="newsletter-inner">
+      <div class="newsletter-text">
+        <p class="section-eyebrow">Subscribe</p>
+        <h2 class="newsletter-title">Subscribe to early access drops</h2>
+        <p>Get notified of our limited weekly premium drop collections and flash sales.</p>
+      </div>
+      <form class="newsletter-form" id="newsletter-form" novalidate>
+        <div class="input-wrap">
+          <input type="email" id="newsletter-email" name="email" placeholder="Email address" required aria-label="Email address">
+          <button type="submit" class="btn btn-primary" id="newsletter-submit">Join Drop List</button>
+        </div>
+        <p class="form-note">By subscribing, you agree to our Privacy Policy. Unsubscribe at any time.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand" id="footer-brand">
+        <div class="logo" style="margin-bottom: 16px;">
+          <a href="#" aria-label="Blu Idol Home">
+            <img src="images/logo.jpg" alt="Blu Idol Logo" class="logo-img-el">
+            <div class="logo-text">
+              <span class="logo-name">BLU IDOL</span>
+              <span class="logo-tagline" style="color: var(--accent-color);">18k Gold Plated</span>
+            </div>
+          </a>
+        </div>
+        <p class="footer-desc">
+          India's trendy elegant jewellery brand. Crafted in 18K gold plating, water-proof, hypoallergenic and anti-tarnish daily wear. DM to order. 💙
+        </p>
+        <div class="footer-social" id="footer-social">
+          <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" aria-label="Instagram" id="footer-ig">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links" id="footer-links-shop">
+        <h4>Collections</h4>
+        <ul>
+          <li><a href="#earrings" id="footer-earrings">Earrings</a></li>
+          <li><a href="#necklaces" id="footer-necklaces">Necklaces</a></li>
+          <li><a href="#rings" id="footer-rings">Rings</a></li>
+          <li><a href="#bracelets" id="footer-bracelets">Bracelets</a></li>
+          <li><a href="#shop" id="footer-new-arrivals">New Drops</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links" id="footer-links-info">
+        <h4>Info</h4>
+        <ul>
+          <li><a href="#about" id="footer-about">Our Story</a></li>
+          <li><a href="#" id="footer-shipping">Shipping &amp; Delivery</a></li>
+          <li><a href="#" id="footer-returns">Returns Policy</a></li>
+          <li><a href="#" id="footer-privacy">Privacy Policy</a></li>
+          <li><a href="#contact" id="footer-contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact" id="contact">
+        <h4>Get in Touch</h4>
+        <div class="contact-item">
+          <i class="fa-brands fa-instagram"></i>
+          <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" id="contact-ig">@blu_idol</a>
+        </div>
+        <div class="contact-item">
+          <i class="fa fa-envelope"></i>
+          <span>support@bluidol.in</span>
+        </div>
+        <div class="contact-item">
+          <i class="fa fa-credit-card"></i>
+          <span>Online Payment Only</span>
+        </div>
+        <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="btn btn-outline btn-sm" id="contact-dm-btn">
+          <i class="fa-brands fa-instagram"></i> DM to Glam Up
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom" id="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Blu Idol. All rights reserved. | Powered by Shopify Redesign.</p>
+        <div class="payment-icons">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+          <i class="fa-brands fa-google-pay"></i>
+          <i class="fa fa-mobile-screen"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== CART SIDEBAR ===== -->
+  <div class="cart-overlay" id="cart-overlay" aria-hidden="true"></div>
+  <aside class="cart-sidebar" id="cart-sidebar" role="dialog" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-header">
+      <h3>Your Bag</h3>
+      <button class="cart-close" id="cart-close" aria-label="Close cart">
+        <i class="fa fa-xmark"></i>
+      </button>
+    </div>
+    <div class="cart-body" id="cart-body">
+      <div class="cart-empty" id="cart-empty">
+        <i class="fa fa-bag-shopping fa-3x" style="color: var(--accent-dark);"></i>
+        <p>Your bag is currently empty</p>
+        <a href="#shop" class="btn btn-primary btn-sm" id="cart-shop-btn">View Drops</a>
+      </div>
+      <ul class="cart-items" id="cart-items"></ul>
+    </div>
+    <div class="cart-footer" id="cart-footer">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <span id="cart-total">₹0</span>
+      </div>
+      <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="btn btn-primary btn-full" id="cart-checkout">
+        Checkout via Instagram
+      </a>
+      <p class="cart-note">We process orders via DM on Instagram 💙</p>
+    </div>
+  </aside>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fa fa-chevron-up"></i>
+  </button>
+
+  <!-- ===== QUICK VIEW MODAL ===== -->
+  <div class="modal-overlay" id="modal-overlay" aria-hidden="true" role="dialog" aria-label="Product quick view">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">
+        <i class="fa fa-xmark"></i>
+      </button>
+      <div class="modal-body" id="modal-body">
+        <div class="modal-img" id="modal-img"></div>
+        <div class="modal-info" id="modal-info"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
