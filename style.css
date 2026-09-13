@@ -1970,15 +1970,15 @@ body.cart-open {
   }
 
   .hero-img {
-    object-position: 65% center; /* Keep the red-saree model and jewelry centered */
+    object-position: 78% 20%; /* Centers the regal arch model on mobile */
   }
 
   .hero-overlay {
     background: linear-gradient(
       180deg,
-      rgba(251, 247, 240, 0.12) 0%,
-      rgba(251, 247, 240, 0.4) 40%,
-      rgba(251, 247, 240, 0.92) 80%,
+      rgba(251, 247, 240, 0.05) 0%,
+      rgba(251, 247, 240, 0.2) 35%,
+      rgba(251, 247, 240, 0.9) 70%,
       #fbf7f0 100%
     );
   }
