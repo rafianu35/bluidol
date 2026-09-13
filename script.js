@@ -71,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initBackToTop();
   initNewsletter();
   initMobileBottomBar();
+  initWhatsAppTracking();
 });
 
 // --- 1. Announcement Bar ---
@@ -548,9 +549,9 @@ function initQuickView() {
           <span class="price-original">₹${item.originalPrice}</span>
         </div>
         <p class="modal-desc">${item.description}</p>
-        <button class="btn btn-primary btn-add-cart" data-product="${item.id}" style="width: 100%; margin-top: 10px;">
-          <i class="fa fa-bag-shopping"></i> Add To Cart
-        </button>
+        <a href="https://wa.me/919895432549?text=${encodeURIComponent('Hi Blu Idol, I would like to order the ' + item.name + ' (₹' + item.price + ').')}" target="_blank" rel="noopener" class="btn btn-whatsapp" id="modal-wa-btn" style="width: 100%; margin-top: 12px; font-size: 0.95rem; padding: 12px;">
+          <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i> Order on WhatsApp
+        </a>
       `;
     }
 
@@ -686,4 +687,22 @@ function initMobileBottomBar() {
       }
     }, { passive: true });
   }
+}
+
+// --- 12. WhatsApp Conversion Tracking ---
+function initWhatsAppTracking() {
+  document.body.addEventListener('click', (e) => {
+    const waBtn = e.target.closest('.btn-whatsapp, #header-wa-btn, #mob-bar-whatsapp, #mob-whatsapp, #contact-wa, #contact-wa-btn, #modal-wa-btn');
+    if (waBtn) {
+      const productId = waBtn.getAttribute('data-product');
+      const href = waBtn.getAttribute('href') || '';
+      if (typeof gtag === 'function') {
+        gtag('event', 'generate_lead', {
+          event_category: 'whatsapp_order',
+          event_label: href,
+          product_id: productId || 'general'
+        });
+      }
+    }
+  });
 }
