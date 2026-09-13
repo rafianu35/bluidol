@@ -72,6 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initNewsletter();
   initMobileBottomBar();
   initWhatsAppTracking();
+  initFAQ();
 });
 
 // --- 1. Announcement Bar ---
@@ -704,5 +705,38 @@ function initWhatsAppTracking() {
         });
       }
     }
+  });
+}
+
+// --- 13. FAQ Accordion (AEO Interactive) ---
+function initFAQ() {
+  const faqItems = document.querySelectorAll('.faq-item');
+  if (!faqItems.length) return;
+
+  faqItems.forEach(item => {
+    const questionBtn = item.querySelector('.faq-question');
+    if (!questionBtn) return;
+
+    questionBtn.addEventListener('click', () => {
+      const isActive = item.classList.contains('active');
+
+      // Close all other items for a clean accordion effect
+      faqItems.forEach(other => {
+        if (other !== item) {
+          other.classList.remove('active');
+          const btn = other.querySelector('.faq-question');
+          if (btn) btn.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      // Toggle current item
+      if (isActive) {
+        item.classList.remove('active');
+        questionBtn.setAttribute('aria-expanded', 'false');
+      } else {
+        item.classList.add('active');
+        questionBtn.setAttribute('aria-expanded', 'true');
+      }
+    });
   });
 }

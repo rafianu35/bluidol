@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.bluidol.in/</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/hero.png</image:loc>
+      <image:title>Blu Idol - 18K Gold Plated Demi-Fine Jewellery Hero</image:title>
+      <image:caption>Blu Idol: Bring Luxury To You - 18K Gold Plated, Waterproof, Anti-Tarnish Jewellery</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/earrings.png</image:loc>
+      <image:title>Sapphire Drop Earrings - Blu Idol</image:title>
+      <image:caption>Exquisite drop earrings featuring vibrant blue sapphire crystals set in 18K gold-plated casing</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/necklace.png</image:loc>
+      <image:title>Gold Sapphire Pendant - Blu Idol</image:title>
+      <image:caption>Delicate 18K gold-plated chain featuring a round sapphire-cut blue stone</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/rings.png</image:loc>
+      <image:title>Blue Crystal Ring Set - Blu Idol</image:title>
+      <image:caption>Stackable 18K gold rings embellished with tiny sapphire-blue crystal stones</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/collection.png</image:loc>
+      <image:title>Statement Hoop Collection - Blu Idol</image:title>
+      <image:caption>Bold 18K gold-plated hoops with micro-textured artisan detailing</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.bluidol.in/#shop</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.bluidol.in/#collections</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.bluidol.in/#about</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bluidol.in/#faq</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.bluidol.in/#contact</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

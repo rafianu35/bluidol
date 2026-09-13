@@ -1236,6 +1236,105 @@ img {
   color: var(--accent-dark);
 }
 
+/* --- FAQ Section (AEO & LLM Optimized) --- */
+.faq-section {
+  background-color: #ffffff;
+  padding: 80px 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.faq-list {
+  max-width: 860px;
+  margin: 40px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-item {
+  background-color: var(--bg-cream);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm, 8px);
+  overflow: hidden;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faq-item:hover {
+  border-color: var(--accent-color);
+  box-shadow: 0 4px 14px rgba(197, 160, 89, 0.12);
+}
+
+.faq-item.active {
+  border-color: var(--accent-dark);
+  box-shadow: 0 6px 20px rgba(170, 124, 17, 0.15);
+}
+
+.faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  background: none;
+  border: none;
+  text-align: left;
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  cursor: pointer;
+  gap: 16px;
+  transition: color 0.25s ease;
+}
+
+.faq-question:hover {
+  color: var(--accent-dark);
+}
+
+.faq-icon {
+  font-size: 0.95rem;
+  color: var(--accent-dark);
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0, 1, 0, 1);
+  padding: 0 24px;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 400px;
+  transition: max-height 0.4s cubic-bezier(1, 0, 1, 0);
+  padding-bottom: 22px;
+}
+
+.faq-answer p {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+  opacity: 0.88;
+  margin: 0;
+}
+
+.faq-answer a {
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+}
+
+.faq-answer a:hover {
+  color: var(--accent-dark);
+}
+
 /* --- Newsletter Section --- */
 .newsletter-section {
   background-color: var(--bg-cream);
@@ -2256,6 +2355,24 @@ body.cart-open {
   .about-highlights {
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+
+  /* --- FAQ on Mobile --- */
+  .faq-section {
+    padding: 50px 0;
+  }
+
+  .faq-question {
+    padding: 16px 18px;
+    font-size: 1rem;
+  }
+
+  .faq-answer {
+    padding: 0 18px;
+  }
+
+  .faq-item.active .faq-answer {
+    padding-bottom: 16px;
   }
 
   /* --- Newsletter on Mobile --- */

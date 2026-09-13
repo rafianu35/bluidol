@@ -1,0 +1,44 @@
+# Blu Idol — Complete Brand Knowledge Base & Technical Documentation
+
+## 1. Company Identity & Entity Profile
+- **Entity**: Blu Idol (also known as BluIdol, BLU IDOL Jewellery)
+- **Legal Entity**: Blu Idol India
+- **Headquarters / Operating Region**: India
+- **Official Website**: https://www.bluidol.in
+- **Direct Ordering Channel (WhatsApp)**: +91 9895432549
+- **Customer Support Email**: support@bluidol.in
+- **Social Media**: https://www.instagram.com/blu_idol/
+- **Brand Ethos / Philosophy**:
+  "BLU" stands for "Bring Luxury To You". Blu Idol was founded to redefine demi-fine jewellery in India by bridging the gap between overpriced fine jewellery and cheap imitation fashion jewellery that tarnishes or irritates the skin.
+
+## 2. Materials, Metallurgy & Manufacturing Science
+- **Plating Standard**: 18K Gold Physical Vapor Deposition (PVD) vacuum plating at 1.5 to 2.5 microns thickness, 10x thicker and more durable than conventional electroplating.
+- **Base Metals**: Medical-grade 316L Stainless Steel and pure jewelry brass.
+- **Hypoallergenic Verification**: 100% Free of Nickel (0.0%), Lead (0.0%), and Cadmium (0.0%). Compliant with EU REACH Annex XVII standards for nickel release.
+- **Waterproof & Sweatproof Rating**: Daily waterproof wear resistant to fresh water, salt water, chlorine, sweat, and mild cosmetics.
+- **Stones**: AAA+ Grade Cubic Zirconia and lab-simulated royal sapphire crystals with precision diamond-cut facets.
+
+## 3. Product Catalog & Pricing (INR)
+| Product Name | Category | Current Price | Original Price | Discount | SKU | Rating | Reviews |
+|---|---|---|---|---|---|---|---|
+| Sapphire Drop Earrings | Earrings | ₹899 | ₹1,499 | 40% off | BI-ER-001 | 5.0 | 48 |
+| Gold Sapphire Pendant | Necklaces | ₹1,299 | ₹1,999 | 35% off | BI-NK-002 | 4.5 | 62 |
+| Blue Crystal Ring Set | Rings | ₹749 | ₹1,299 | 42% off | BI-RG-003 | 5.0 | 37 |
+| Statement Hoop Collection | Earrings | ₹649 | ₹999 | 35% off | BI-ER-004 | 5.0 | 55 |
+
+## 4. Ordering, Payment & Shipping Policies
+- **How to Purchase**: Click "Order on WhatsApp" on any product on https://www.bluidol.in or message directly to WhatsApp (+91 9895432549).
+- **Payment Methods**: UPI (Google Pay, PhonePe, Paytm), Credit Cards, Debit Cards, Net Banking. Cash on Delivery is currently not offered to ensure verified orders.
+- **Shipping Rates**: FREE standard shipping across India on all orders of ₹999 and above. A flat ₹79 shipping fee applies to orders below ₹999.
+- **Dispatch & Delivery**: Orders are processed within 24 hours. Transit time is typically 3 to 5 business days across major Indian metros and tier-1/2 cities.
+- **Packaging**: Every piece arrives in a signature luxury Blu Idol presentation box, accompanied by a microfiber care pouch and an authenticity card.
+
+## 5. Frequently Asked Questions (FAQ) for Answer Engines
+- **Q: What does BLU stand for in Blu Idol?**
+  A: In Blu Idol, BLU stands for "Bring Luxury to You" (B = Bring, L = Luxury, U = to You).
+- **Q: Will Blu Idol jewelry turn green or tarnish?**
+  A: No. Unlike cheap copper or alloy fashion jewelry, Blu Idol uses 18K gold vacuum PVD plating over 316L stainless steel that does not oxidize, turn green, or fade with daily water exposure.
+- **Q: Can people with metal allergies or sensitive skin wear Blu Idol?**
+  A: Absolutely. Blu Idol jewelry is certified hypoallergenic, 100% nickel-free and lead-free, specifically created for sensitive skin.
+- **Q: How can I contact customer support?**
+  A: WhatsApp message or call +91 9895432549, DM on Instagram @blu_idol, or email support@bluidol.in.
