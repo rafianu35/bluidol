@@ -268,6 +268,27 @@ function initCart() {
   if (cartClose) cartClose.addEventListener('click', toggleCart);
   if (cartOverlay) cartOverlay.addEventListener('click', toggleCart);
 
+  // GA4 Begin Checkout Tracking
+  const checkoutBtn = document.getElementById('cart-checkout');
+  if (checkoutBtn) {
+    checkoutBtn.addEventListener('click', () => {
+      const totalSum = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+      if (typeof gtag === 'function') {
+        gtag('event', 'begin_checkout', {
+          currency: 'INR',
+          value: totalSum,
+          items: cart.map(item => ({
+            item_id: String(item.id),
+            item_name: item.name,
+            item_category: item.category,
+            price: item.price,
+            quantity: item.quantity
+          }))
+        });
+      }
+    });
+  }
+
   // Add to Cart Handlers
   document.body.addEventListener('click', (e) => {
     const addBtn = e.target.closest('.btn-add-cart');
@@ -289,21 +310,51 @@ function initCart() {
   });
 
   function addToCart(id) {
+    const product = products.find(p => p.id === id);
     const existing = cart.find(item => item.id === id);
     if (existing) {
       existing.quantity += 1;
     } else {
-      const product = products.find(p => p.id === id);
       if (product) {
         cart.push({ ...product, quantity: 1 });
       }
     }
     updateCartUI();
+
+    // GA4 Tracking
+    if (product && typeof gtag === 'function') {
+      gtag('event', 'add_to_cart', {
+        currency: 'INR',
+        value: product.price,
+        items: [{
+          item_id: String(product.id),
+          item_name: product.name,
+          item_category: product.category,
+          price: product.price,
+          quantity: 1
+        }]
+      });
+    }
   }
 
   function removeFromCart(id) {
-    cart = cart.filter(item => item.id !== id);
+    const item = cart.find(p => p.id === id);
+    cart = cart.filter(p => p.id !== id);
     updateCartUI();
+
+    // GA4 Tracking
+    if (item && typeof gtag === 'function') {
+      gtag('event', 'remove_from_cart', {
+        currency: 'INR',
+        value: item.price * item.quantity,
+        items: [{
+          item_id: String(item.id),
+          item_name: item.name,
+          price: item.price,
+          quantity: item.quantity
+        }]
+      });
+    }
   }
 
   function updateQuantity(id, change) {
@@ -466,6 +517,20 @@ function initQuickView() {
     const item = products.find(p => p.id === id);
     if (!item) return;
 
+    // GA4 View Item Tracking
+    if (typeof gtag === 'function') {
+      gtag('event', 'view_item', {
+        currency: 'INR',
+        value: item.price,
+        items: [{
+          item_id: String(item.id),
+          item_name: item.name,
+          item_category: item.category,
+          price: item.price
+        }]
+      });
+    }
+
     if (modalImg) {
       modalImg.innerHTML = `<img src="${item.image}" alt="${item.name}">`;
     }
@@ -561,6 +626,14 @@ function initNewsletter() {
       const email = emailInput ? emailInput.value.trim() : '';
 
       if (email === "") return;
+
+      // GA4 Generate Lead Tracking
+      if (typeof gtag === 'function') {
+        gtag('event', 'generate_lead', {
+          event_category: 'engagement',
+          event_label: 'newsletter'
+        });
+      }
 
       // Animate Success response
       const container = document.getElementById('newsletter-inner');
