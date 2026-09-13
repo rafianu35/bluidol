@@ -1131,6 +1131,50 @@ img {
   padding-left: 10px;
 }
 
+/* --- The Meaning Behind BLU (B - Bring, L - Luxury, U - To You) --- */
+.blu-acronym-container {
+  display: flex;
+  gap: 14px;
+  margin: 20px 0 24px;
+}
+
+.blu-letter-box {
+  flex: 1;
+  background-color: var(--bg-cream);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 14px 10px;
+  text-align: center;
+  transition: var(--transition-smooth);
+}
+
+.blu-letter-box:hover {
+  border-color: var(--accent-color);
+  background-color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(210, 180, 140, 0.2);
+}
+
+.acronym-letter {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--accent-dark);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.acronym-word {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--primary-color);
+}
+
 .about-text {
   font-family: var(--font-sans);
   font-size: 0.95rem;
@@ -2157,6 +2201,24 @@ body.cart-open {
   .about-inner {
     grid-template-columns: 1fr;
     gap: 28px;
+  }
+
+  .blu-acronym-container {
+    gap: 8px;
+    margin: 16px 0 20px;
+  }
+
+  .blu-letter-box {
+    padding: 10px 4px;
+  }
+
+  .acronym-letter {
+    font-size: 1.45rem;
+  }
+
+  .acronym-word {
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
   }
 
   .about-highlights {
