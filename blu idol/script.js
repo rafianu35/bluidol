@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initQuickView();
   initBackToTop();
   initNewsletter();
+  initMobileBottomBar();
 });
 
 // --- 1. Announcement Bar ---
@@ -102,23 +103,71 @@ function initHeaderScroll() {
 function initMobileMenu() {
   const hamburger = document.getElementById('hamburger');
   const navMobile = document.getElementById('nav-mobile');
+  const navOverlay = document.getElementById('nav-mobile-overlay');
+  const navClose = document.getElementById('nav-mobile-close');
+  const searchInput = document.getElementById('mobile-search-input');
   
-  if (hamburger && navMobile) {
-    hamburger.addEventListener('click', () => {
-      const expanded = hamburger.getAttribute('aria-expanded') === 'true' || false;
-      hamburger.setAttribute('aria-expanded', !expanded);
-      navMobile.classList.toggle('active');
-      hamburger.classList.toggle('open');
-    });
+  function openMenu() {
+    if (hamburger) {
+      hamburger.setAttribute('aria-expanded', 'true');
+      hamburger.classList.add('open');
+    }
+    if (navMobile) navMobile.classList.add('active');
+    if (navOverlay) navOverlay.classList.add('active');
+    document.body.classList.add('menu-open');
+  }
 
-    // Close menu when clicking a link
+  function closeMenu() {
+    if (hamburger) {
+      hamburger.setAttribute('aria-expanded', 'false');
+      hamburger.classList.remove('open');
+    }
+    if (navMobile) navMobile.classList.remove('active');
+    if (navOverlay) navOverlay.classList.remove('active');
+    document.body.classList.remove('menu-open');
+  }
+
+  if (hamburger) {
+    hamburger.addEventListener('click', () => {
+      const isOpen = navMobile && navMobile.classList.contains('active');
+      if (isOpen) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+  }
+
+  if (navClose) navClose.addEventListener('click', closeMenu);
+  if (navOverlay) navOverlay.addEventListener('click', closeMenu);
+
+  // Close menu when clicking any nav link
+  if (navMobile) {
     const mobLinks = navMobile.querySelectorAll('a');
     mobLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        hamburger.setAttribute('aria-expanded', 'false');
-        navMobile.classList.remove('active');
-        hamburger.classList.remove('open');
-      });
+      link.addEventListener('click', closeMenu);
+    });
+  }
+
+  // Mobile search input
+  if (searchInput) {
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        const query = searchInput.value.trim().toLowerCase();
+        if (query) {
+          closeMenu();
+          const shopSection = document.getElementById('shop');
+          if (shopSection) {
+            shopSection.scrollIntoView({ behavior: 'smooth' });
+          }
+          // Filter product cards matching query
+          const productCards = document.querySelectorAll('.product-card');
+          productCards.forEach(card => {
+            const text = card.textContent.toLowerCase();
+            card.style.display = text.includes(query) ? 'flex' : 'none';
+          });
+        }
+      }
     });
   }
 }
@@ -201,6 +250,9 @@ function initCart() {
   const cartEmpty = document.getElementById('cart-empty');
   const cartFooter = document.getElementById('cart-footer');
 
+  const mobBarCart = document.getElementById('mob-bar-cart');
+  const mobCartCount = document.getElementById('mob-cart-count');
+
   // Toggle Cart Drawer
   function toggleCart() {
     cartSidebar.classList.toggle('active');
@@ -208,9 +260,11 @@ function initCart() {
     const isVisible = cartSidebar.classList.contains('active');
     cartSidebar.setAttribute('aria-hidden', !isVisible);
     cartOverlay.setAttribute('aria-hidden', !isVisible);
+    document.body.classList.toggle('cart-open', isVisible);
   }
 
   if (cartBtn) cartBtn.addEventListener('click', toggleCart);
+  if (mobBarCart) mobBarCart.addEventListener('click', toggleCart);
   if (cartClose) cartClose.addEventListener('click', toggleCart);
   if (cartOverlay) cartOverlay.addEventListener('click', toggleCart);
 
@@ -270,6 +324,7 @@ function initCart() {
     // Update count badge
     const totalCount = cart.reduce((sum, item) => sum + item.quantity, 0);
     if (cartCount) cartCount.textContent = totalCount;
+    if (mobCartCount) mobCartCount.textContent = totalCount;
 
     // Render cart items
     if (cartItemsContainer) {
@@ -329,6 +384,29 @@ function initCart() {
 function initWishlist() {
   const wishlistBtn = document.getElementById('wishlist-btn');
   const wishlistCount = document.getElementById('wishlist-count');
+  const mobWishlistCount = document.getElementById('mob-wishlist-count');
+  const mobBarWishlist = document.getElementById('mob-bar-wishlist');
+
+  // When clicking Wishlist button in header or bottom bar, scroll to products or filter
+  function handleWishlistClick() {
+    const shopSection = document.getElementById('shop');
+    if (shopSection) {
+      shopSection.scrollIntoView({ behavior: 'smooth' });
+    }
+    if (wishlist.length > 0) {
+      // Filter products to show wishlisted items
+      const productCards = document.querySelectorAll('.product-card');
+      productCards.forEach(card => {
+        const id = parseInt(card.id.replace('product-', ''));
+        card.style.display = wishlist.includes(id) ? 'flex' : 'none';
+      });
+      // Deactivate all filter buttons
+      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+    }
+  }
+
+  if (wishlistBtn) wishlistBtn.addEventListener('click', handleWishlistClick);
+  if (mobBarWishlist) mobBarWishlist.addEventListener('click', handleWishlistClick);
 
   document.body.addEventListener('click', (e) => {
     const wishBtn = e.target.closest('.product-wishlist');
@@ -359,6 +437,7 @@ function initWishlist() {
   function updateWishlistUI() {
     localStorage.setItem('blu_idol_wishlist', JSON.stringify(wishlist));
     if (wishlistCount) wishlistCount.textContent = wishlist.length;
+    if (mobWishlistCount) mobWishlistCount.textContent = wishlist.length;
 
     // Highlight existing wishlist items on render
     document.querySelectorAll('.product-wishlist').forEach(btn => {
@@ -495,5 +574,43 @@ function initNewsletter() {
         `;
       }
     });
+  }
+}
+
+// --- 11. Mobile Bottom Sticky Navigation Bar ---
+function initMobileBottomBar() {
+  const homeBtn = document.getElementById('mob-bar-home');
+  const shopBtn = document.getElementById('mob-bar-shop');
+  const items = document.querySelectorAll('.mobile-bar-item');
+
+  function setActive(targetBtn) {
+    items.forEach(el => el.classList.remove('active'));
+    if (targetBtn) targetBtn.classList.add('active');
+  }
+
+  if (homeBtn) {
+    homeBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      setActive(homeBtn);
+    });
+  }
+
+  if (shopBtn) {
+    shopBtn.addEventListener('click', () => {
+      setActive(shopBtn);
+    });
+  }
+
+  // Update active state based on scroll
+  const shopSec = document.getElementById('shop');
+  if (shopSec) {
+    window.addEventListener('scroll', () => {
+      const rect = shopSec.getBoundingClientRect();
+      if (rect.top <= 250 && rect.bottom >= 250) {
+        setActive(shopBtn);
+      } else if (window.scrollY < 300) {
+        setActive(homeBtn);
+      }
+    }, { passive: true });
   }
 }

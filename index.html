@@ -87,19 +87,47 @@
       </div>
     </div>
 
+    <!-- Mobile Nav Drawer Overlay -->
+    <div class="nav-mobile-overlay" id="nav-mobile-overlay" aria-hidden="true"></div>
+
     <!-- Mobile Nav Drawer -->
     <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation" aria-hidden="true">
-      <ul>
-        <li><a href="#collections" id="mob-collections">Collections</a></li>
-        <li><a href="#earrings" id="mob-earrings">Earrings</a></li>
-        <li><a href="#necklaces" id="mob-necklaces">Necklaces</a></li>
-        <li><a href="#rings" id="mob-rings">Rings</a></li>
-        <li><a href="#bracelets" id="mob-bracelets">Bracelets</a></li>
-        <li><a href="#about" id="mob-about">Our Story</a></li>
-        <li><a href="#contact" id="mob-contact">Contact</a></li>
+      <div class="nav-mobile-header">
+        <div class="logo">
+          <img src="images/logo.jpg" alt="Blu Idol" class="logo-img-el">
+          <div class="logo-text">
+            <span class="logo-name">BLU IDOL</span>
+            <span class="logo-tagline">18k Gold Plated</span>
+          </div>
+        </div>
+        <button class="nav-mobile-close" id="nav-mobile-close" aria-label="Close menu">
+          <i class="fa fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="nav-mobile-search">
+        <i class="fa fa-search"></i>
+        <input type="text" id="mobile-search-input" placeholder="Search earrings, rings, necklaces..." aria-label="Search jewelry">
+      </div>
+
+      <ul class="nav-mobile-links">
+        <li><a href="#collections" id="mob-collections"><span>Collections</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
+        <li><a href="#earrings" id="mob-earrings"><span>Earrings</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
+        <li><a href="#necklaces" id="mob-necklaces"><span>Necklaces</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
+        <li><a href="#rings" id="mob-rings"><span>Rings</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
+        <li><a href="#bracelets" id="mob-bracelets"><span>Bracelets</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
+        <li><a href="#about" id="mob-about"><span>Our Story</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
+        <li><a href="#contact" id="mob-contact"><span>Contact Us</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
       </ul>
-      <div class="mobile-social">
-        <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" aria-label="Instagram" id="mob-instagram"><i class="fa-brands fa-instagram"></i></a>
+
+      <div class="nav-mobile-footer">
+        <div class="mobile-trust-badge">
+          <i class="fa fa-shield-heart"></i>
+          <span>100% Skin Safe &amp; Anti-Tarnish</span>
+        </div>
+        <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="btn btn-primary btn-full" id="mob-instagram">
+          <i class="fa-brands fa-instagram"></i> DM to Glam Up
+        </a>
       </div>
     </nav>
   </header>
@@ -735,6 +763,36 @@
       </div>
     </div>
   </div>
+
+  <!-- ===== MOBILE BOTTOM STICKY BAR ===== -->
+  <nav class="mobile-bottom-bar" id="mobile-bottom-bar" aria-label="Mobile Navigation">
+    <a href="#" class="mobile-bar-item active" id="mob-bar-home">
+      <i class="fa fa-house"></i>
+      <span>Home</span>
+    </a>
+    <a href="#shop" class="mobile-bar-item" id="mob-bar-shop">
+      <i class="fa fa-gem"></i>
+      <span>Shop</span>
+    </a>
+    <button class="mobile-bar-item" id="mob-bar-wishlist" aria-label="Wishlist">
+      <div class="bar-icon-wrap">
+        <i class="fa-regular fa-heart"></i>
+        <span class="badge" id="mob-wishlist-count">0</span>
+      </div>
+      <span>Wishlist</span>
+    </button>
+    <button class="mobile-bar-item" id="mob-bar-cart" aria-label="Cart">
+      <div class="bar-icon-wrap">
+        <i class="fa fa-bag-shopping"></i>
+        <span class="badge" id="mob-cart-count">0</span>
+      </div>
+      <span>Bag</span>
+    </button>
+    <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="mobile-bar-item" id="mob-bar-instagram" aria-label="Instagram DM">
+      <i class="fa-brands fa-instagram"></i>
+      <span>DM</span>
+    </a>
+  </nav>
 
   <script src="script.js"></script>
 </body>
