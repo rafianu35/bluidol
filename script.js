@@ -279,6 +279,198 @@ const products = [
     reviews: 44,
     badge: "New Drop",
     description: "Graceful chandelier-style geometric drop earrings with intricate crystal lace framework suspending a faceted pear-cut crystal teardrop. 18K gold-plated, waterproof, and designed to turn heads."
+  },
+  {
+    id: 28,
+    name: "Premium Antique Gold Elephant Motif Jhumka (Black)",
+    category: "jhumkas",
+    price: 99,
+    originalPrice: 199,
+    image: "images/antique-gold-elephant-jhumka-black.png",
+    stars: 5,
+    reviews: 65,
+    badge: "Bestseller",
+    description: "Majestic antique gold jhumka earrings featuring intricately carved royal elephant studs adorned with black teardrop crystals, suspending grand filigree bell domes with dangling black beads. Lightweight and hypoallergenic."
+  },
+  {
+    id: 29,
+    name: "Premium Antique Gold Elephant Motif Jhumka (Maroon)",
+    category: "jhumkas",
+    price: 99,
+    originalPrice: 199,
+    image: "images/antique-gold-elephant-jhumka-maroon.png",
+    stars: 5,
+    reviews: 58,
+    badge: "Trending",
+    description: "Royal elephant motif antique gold jhumka earrings embellished with rich maroon-red crystals and tiered bell domes finished with faceted maroon bead drops. Perfect for festive celebrations."
+  },
+  {
+    id: 30,
+    name: "Antique Gold Traditional Bell Jhumka Earrings (Ruby Red)",
+    category: "jhumkas",
+    price: 119,
+    originalPrice: 249,
+    image: "images/antique-gold-bell-jhumka-ruby.png",
+    stars: 5,
+    reviews: 47,
+    badge: "New",
+    description: "Classic Indian heritage jhumkas featuring an embossed geometric square top with ruby red enamel accents, suspending ornate antique gold bell domes fringed with vivid ruby-red beads."
+  },
+  {
+    id: 31,
+    name: "Antique Gold Traditional Bell Jhumka Earrings (Black)",
+    category: "jhumkas",
+    price: 119,
+    originalPrice: 249,
+    image: "images/antique-gold-bell-jhumka-black.png",
+    stars: 5,
+    reviews: 54,
+    badge: "Bestseller",
+    description: "Sophisticated antique gold traditional jhumkas with filigree square posts centered with jet-black stones, suspending textured bell domes with dangling black glass beads."
+  },
+  {
+    id: 32,
+    name: "Antique Gold Traditional Bell Jhumka Earrings (Emerald Green)",
+    category: "jhumkas",
+    price: 119,
+    originalPrice: 249,
+    image: "images/antique-gold-bell-jhumka-green.png",
+    stars: 5,
+    reviews: 42,
+    badge: "Trending",
+    description: "Traditional temple-inspired antique gold jhumkas adorned with radiant emerald-green enamel centers and matching green droplet beads. Tarnish-resistant and nickel-free."
+  },
+  {
+    id: 33,
+    name: "Antique Goddess Lakshmi Jhumka Earrings",
+    category: "jhumkas",
+    price: 45,
+    originalPrice: 99,
+    image: "images/antique-lakshmi-jhumka-earrings.png",
+    stars: 5,
+    reviews: 89,
+    badge: "Bestseller",
+    description: "Auspicious temple jewellery earrings featuring seated Goddess Lakshmi on a blooming lotus, accented by an arc of black beaded droplets. Antique matte gold finish for timeless elegance."
+  },
+  {
+    id: 34,
+    name: "Antique Radha Krishna Gold-Plated Jhumka Earrings",
+    category: "jhumkas",
+    price: 45,
+    originalPrice: 99,
+    image: "images/antique-radha-krishna-jhumka-earrings.png",
+    stars: 5,
+    reviews: 76,
+    badge: "Trending",
+    description: "Devotional handcrafted earrings depicting Lord Krishna playing the flute with Radha, bordered by floral filigree and lustrous champagne-pearl bead drops in warm antique gold plating."
+  },
+  {
+    id: 35,
+    name: "Gold-Plated Lakshmi Temple Design Grand Jhumkas",
+    category: "jhumkas",
+    price: 185,
+    originalPrice: 399,
+    image: "images/gold-plated-lakshmi-temple-grand-jhumkas.png",
+    stars: 5,
+    reviews: 63,
+    badge: "Royal Drop",
+    description: "Grand three-tier temple jhumkas featuring Goddess Lakshmi crowned above twin peacock motifs with emerald stones, suspending intricately filigreed bell domes with dangling blush-pink pearls."
+  },
+  {
+    id: 36,
+    name: "Antique Peacock Jhumkas (Black Bead Drops)",
+    category: "jhumkas",
+    price: 165,
+    originalPrice: 349,
+    image: "images/antique-peacock-jhumkas-black.png",
+    stars: 5,
+    reviews: 59,
+    badge: "Bestseller",
+    description: "Majestic sculpted peacock posts encrusted with black crystals, gracefully carrying large carved antique gold jhumka bells finished with polished black bead hangings."
+  },
+  {
+    id: 37,
+    name: "Antique Peacock Jhumkas (Emerald Green Drops)",
+    category: "jhumkas",
+    price: 165,
+    originalPrice: 349,
+    image: "images/antique-peacock-jhumkas-green.png",
+    stars: 5,
+    reviews: 51,
+    badge: "Trending",
+    description: "Exquisite antique gold peacock jhumkas with emerald-green micro crystal pavé wings, holding traditional jhumka domes with vibrant emerald bead fringes."
+  },
+  {
+    id: 38,
+    name: "Antique Butterfly Minimal Jhumkas (Turquoise)",
+    category: "jhumkas",
+    price: 89,
+    originalPrice: 189,
+    image: "images/antique-butterfly-minimal-jhumkas-turquoise.png",
+    stars: 5,
+    reviews: 48,
+    badge: "New",
+    description: "Playful butterfly-top jhumka earrings set with luminous sea-green/turquoise glass petals, suspending delicate textured jhumka bells with cluster bead tassels in antique gold finish."
+  },
+  {
+    id: 39,
+    name: "Palakya Long Jhumkas (Magenta Pink)",
+    category: "jhumkas",
+    price: 155,
+    originalPrice: 329,
+    image: "images/palakya-long-jhumkas-magenta.png",
+    stars: 5,
+    reviews: 61,
+    badge: "Bestseller",
+    description: "Elongated Palakya-style chandelier jhumkas featuring two tiers of geometric magenta crystal stations leading to a prominent bell dome adorned with vibrant magenta bead hangings."
+  },
+  {
+    id: 40,
+    name: "Oxidised Gold-Plated Rhombus Pearl Jhumkas",
+    category: "jhumkas",
+    price: 185,
+    originalPrice: 399,
+    image: "images/oxidised-gold-rhombus-pearl-jhumkas.png",
+    stars: 5,
+    reviews: 55,
+    badge: "Royal Drop",
+    description: "Regal drop jhumkas featuring a diamond-shaped post set with a cushion-cut ruby stone, elongated fluted stem, and grand antique gold bell dome fringed with glowing white pearls."
+  },
+  {
+    id: 41,
+    name: "Traditional Antique Temple Chandelier Earrings (Royal Blue)",
+    category: "jhumkas",
+    price: 125,
+    originalPrice: 259,
+    image: "images/traditional-antique-temple-earrings-blue.png",
+    stars: 5,
+    reviews: 43,
+    badge: "New",
+    description: "Ornate temple earrings showcasing a fan crest with Goddess Lakshmi flanked by twin dancing peacocks, finished with a crescent fringe of vibrant royal-blue beaded droplets."
+  },
+  {
+    id: 42,
+    name: "Traditional Antique Temple Chandelier Earrings (Ruby Red)",
+    category: "jhumkas",
+    price: 125,
+    originalPrice: 259,
+    image: "images/traditional-antique-temple-earrings-red.png",
+    stars: 5,
+    reviews: 49,
+    badge: "Trending",
+    description: "Festive temple chandelier earrings featuring Goddess Lakshmi with peacocks in antique gold, accented with sparkling ruby-red stones and matching hanging ruby bead tassels."
+  },
+  {
+    id: 43,
+    name: "Palakya Long Jhumkas (Jet Black)",
+    category: "jhumkas",
+    price: 155,
+    originalPrice: 329,
+    image: "images/palakya-long-jhumkas-black.png",
+    stars: 5,
+    reviews: 58,
+    badge: "Bestseller",
+    description: "Statement Palakya two-tier long jhumkas featuring clover and shield jet-black stone posts, suspending a deep fluted antique gold bell dome with swaying black glass beads."
   }
 ];
 
@@ -292,6 +484,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeaderScroll();
   initMobileMenu();
   initProductFilters();
+  initCategoryHashNav();
   initTestimonialSlider();
   initCart();
   initWishlist();
@@ -416,8 +609,8 @@ function initProductFilters() {
       const filterValue = button.getAttribute('data-filter');
 
       productCards.forEach(card => {
-        const cardCategory = card.getAttribute('data-category');
-        if (filterValue === 'all' || cardCategory === filterValue) {
+        const cardCategories = (card.getAttribute('data-category') || '').split(' ');
+        if (filterValue === 'all' || cardCategories.includes(filterValue)) {
           card.style.display = 'flex';
           card.style.opacity = '0';
           setTimeout(() => {
@@ -966,5 +1159,23 @@ function initFAQ() {
         questionBtn.setAttribute('aria-expanded', 'true');
       }
     });
+  });
+}
+
+// Category Hash Navigation Support
+function initCategoryHashNav() {
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    const href = anchor.getAttribute('href');
+    if (['#earrings', '#jhumkas', '#necklaces', '#bracelets', '#anklets'].includes(href)) {
+      anchor.addEventListener('click', (e) => {
+        const cat = href.replace('#', '');
+        const filterBtn = document.querySelector(`.filter-btn[data-filter="${cat}"]`);
+        if (filterBtn) {
+          filterBtn.click();
+          const shop = document.getElementById('shop');
+          if (shop) shop.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    }
   });
 }

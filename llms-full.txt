@@ -21,22 +21,45 @@
 ## 3. Product Catalog & Pricing (INR)
 | Product Name | Category | Current Price | Original Price | Discount | SKU | Rating | Reviews |
 |---|---|---|---|---|---|---|---|
-| Sapphire Drop Earrings | Earrings | ₹899 | ₹1,499 | 40% off | BI-ER-001 | 5.0 | 48 |
-| Gold Sapphire Pendant | Necklaces | ₹1,299 | ₹1,999 | 35% off | BI-NK-002 | 4.5 | 62 |
-| Blue Crystal Ring Set | Rings | ₹749 | ₹1,299 | 42% off | BI-RG-003 | 5.0 | 37 |
-| Statement Hoop Collection | Earrings | ₹649 | ₹999 | 35% off | BI-ER-004 | 5.0 | 55 |
-| Anti tarnish 3D Puffy Heart Pendant chain | Necklaces | ₹210 | ₹399 | 47% off | BI-NK-005 | 5.0 | 34 |
-| Dainty Ruby Tulip Pendant Chain | Necklaces | ₹210 | ₹399 | 47% off | BI-NK-006 | 5.0 | 29 |
-| Stainless crystal tulip pendant necklace | Necklaces | ₹239 | ₹449 | 47% off | BI-NK-007 | 5.0 | 41 |
-| Gold-Plated Rectangular Moonstone Pendant Necklace | Necklaces | ₹289 | ₹499 | 42% off | BI-NK-008 | 5.0 | 38 |
-| Anti-Tarnish Vintage Gold-Plated Tulip Flower Pendant Necklace | Necklaces | ₹249 | ₹449 | 45% off | BI-NK-009 | 5.0 | 36 |
-| Stainless Modern Gold Pendant Necklace | Necklaces | ₹259 | ₹499 | 48% off | BI-NK-010 | 5.0 | 44 |
-| Diamond Wave Bar Necklace | Necklaces | ₹199 | ₹399 | 50% off | BI-NK-011 | 5.0 | 32 |
-| Gold-Plated Maple Leaf Station Charm Necklace | Necklaces | ₹265 | ₹499 | 47% off | BI-NK-012 | 5.0 | 27 |
-| Oxidized Silver Floral Jewelry Set | Necklaces & Sets | ₹165 | ₹349 | 53% off | BI-ST-013 | 5.0 | 53 |
-| Gold-Plated Green Cat's Eye Heart Pendant Necklace | Necklaces | ₹199 | ₹399 | 50% off | BI-NK-014 | 5.0 | 39 |
-| Minimalist Gold-Plated Stainless Steel Charm Bracelet | Bracelets | ₹189 | ₹349 | 46% off | BI-BR-015 | 5.0 | 45 |
-| Gold-Plated Beaded Snake Chain Anklet | Anklets | ₹90 | ₹199 | 55% off | BI-AK-016 | 5.0 | 68 |
+| Anti tarnish 3D Puffy Heart Pendant chain | Necklaces | ₹210 | ₹399 | 47% off | BI-NK-005 | 5 | 34 |
+| Dainty Ruby Tulip Pendant Chain | Necklaces | ₹210 | ₹399 | 47% off | BI-NK-006 | 5 | 29 |
+| Stainless crystal tulip pendant necklace | Necklaces | ₹239 | ₹449 | 47% off | BI-NK-007 | 5 | 41 |
+| Gold-Plated Rectangular Moonstone Pendant Necklace | Necklaces | ₹289 | ₹499 | 42% off | BI-NK-008 | 5 | 38 |
+| Anti-Tarnish Vintage Gold-Plated Tulip Flower Pendant Necklace | Necklaces | ₹249 | ₹449 | 45% off | BI-NK-009 | 5 | 36 |
+| Stainless Modern Gold Pendant Necklace | Necklaces | ₹259 | ₹499 | 48% off | BI-NK-010 | 5 | 44 |
+| Diamond Wave Bar Necklace | Necklaces | ₹199 | ₹399 | 50% off | BI-NK-011 | 5 | 32 |
+| Gold-Plated Maple Leaf Station Charm Necklace | Necklaces | ₹265 | ₹499 | 47% off | BI-NK-012 | 5 | 27 |
+| Oxidized Silver Floral Jewelry Set | Necklaces | ₹165 | ₹349 | 53% off | BI-NK-013 | 5 | 53 |
+| Gold-Plated Green Cat's Eye Heart Pendant Necklace | Necklaces | ₹199 | ₹399 | 50% off | BI-NK-014 | 5 | 39 |
+| Minimalist Gold-Plated Stainless Steel Charm Bracelet | Bracelets | ₹189 | ₹349 | 46% off | BI-BR-015 | 5 | 45 |
+| Gold-Plated Beaded Snake Chain Anklet | Anklets | ₹90 | ₹199 | 55% off | BI-AK-016 | 5 | 68 |
+| Gold-Plated Emerald-Cut Purple Gemstone Leaf Stud Earrings | Earrings | ₹259 | ₹499 | 48% off | BI-ER-017 | 5 | 42 |
+| Gold-Plated CZ Violet Blossom Ear Tops | Earrings | ₹259 | ₹499 | 48% off | BI-ER-018 | 5 | 38 |
+| Gold-Plated Emerald Blossom CZ Stud Earrings | Earrings | ₹249 | ₹449 | 45% off | BI-ER-019 | 5 | 46 |
+| Gold-Plated Ruby Floral Halo Stud Earrings | Earrings | ₹249 | ₹449 | 45% off | BI-ER-020 | 5 | 35 |
+| Gold-Plated Sparkling Floral Stud Earrings | Earrings | ₹289 | ₹529 | 45% off | BI-ER-021 | 5 | 52 |
+| Gold-Plated American Diamond Emerald Stud Earrings | Earrings | ₹259 | ₹499 | 48% off | BI-ER-022 | 5 | 41 |
+| Gold-Plated American Diamond Floral Stud Earrings | Earrings | ₹199 | ₹399 | 50% off | BI-ER-023 | 5 | 49 |
+| Gold-Plated Crescent Stud Earrings | Earrings | ₹259 | ₹499 | 48% off | BI-ER-024 | 5 | 33 |
+| Gold-Plated Dual-Tone Blossom Halo Earrings | Earrings | ₹249 | ₹449 | 45% off | BI-ER-025 | 5 | 39 |
+| Charming Gold-Plated Floral Stud Earrings | Earrings | ₹165 | ₹349 | 53% off | BI-ER-026 | 5 | 57 |
+| Gold-Plated Cubic Zirconia Drop Earrings | Earrings | ₹249 | ₹449 | 45% off | BI-ER-027 | 5 | 44 |
+| Premium Antique Gold Elephant Motif Jhumka (Black) | Jhumkas | ₹99 | ₹199 | 50% off | BI-JH-028 | 5 | 65 |
+| Premium Antique Gold Elephant Motif Jhumka (Maroon) | Jhumkas | ₹99 | ₹199 | 50% off | BI-JH-029 | 5 | 58 |
+| Antique Gold Traditional Bell Jhumka Earrings (Ruby Red) | Jhumkas | ₹119 | ₹249 | 52% off | BI-JH-030 | 5 | 47 |
+| Antique Gold Traditional Bell Jhumka Earrings (Black) | Jhumkas | ₹119 | ₹249 | 52% off | BI-JH-031 | 5 | 54 |
+| Antique Gold Traditional Bell Jhumka Earrings (Emerald Green) | Jhumkas | ₹119 | ₹249 | 52% off | BI-JH-032 | 5 | 42 |
+| Antique Goddess Lakshmi Jhumka Earrings | Jhumkas | ₹45 | ₹99 | 55% off | BI-JH-033 | 5 | 89 |
+| Antique Radha Krishna Gold-Plated Jhumka Earrings | Jhumkas | ₹45 | ₹99 | 55% off | BI-JH-034 | 5 | 76 |
+| Gold-Plated Lakshmi Temple Design Grand Jhumkas | Jhumkas | ₹185 | ₹399 | 54% off | BI-JH-035 | 5 | 63 |
+| Antique Peacock Jhumkas (Black Bead Drops) | Jhumkas | ₹165 | ₹349 | 53% off | BI-JH-036 | 5 | 59 |
+| Antique Peacock Jhumkas (Emerald Green Drops) | Jhumkas | ₹165 | ₹349 | 53% off | BI-JH-037 | 5 | 51 |
+| Antique Butterfly Minimal Jhumkas (Turquoise) | Jhumkas | ₹89 | ₹189 | 53% off | BI-JH-038 | 5 | 48 |
+| Palakya Long Jhumkas (Magenta Pink) | Jhumkas | ₹155 | ₹329 | 53% off | BI-JH-039 | 5 | 61 |
+| Oxidised Gold-Plated Rhombus Pearl Jhumkas | Jhumkas | ₹185 | ₹399 | 54% off | BI-JH-040 | 5 | 55 |
+| Traditional Antique Temple Chandelier Earrings (Royal Blue) | Jhumkas | ₹125 | ₹259 | 52% off | BI-JH-041 | 5 | 43 |
+| Traditional Antique Temple Chandelier Earrings (Ruby Red) | Jhumkas | ₹125 | ₹259 | 52% off | BI-JH-042 | 5 | 49 |
+| Palakya Long Jhumkas (Jet Black) | Jhumkas | ₹155 | ₹329 | 53% off | BI-JH-043 | 5 | 58 |
 
 ## 4. Ordering, Payment & Shipping Policies
 - **How to Purchase**: Click "Order on WhatsApp" on any product on https://www.bluidol.in or message directly to WhatsApp (+91 9895432549).
