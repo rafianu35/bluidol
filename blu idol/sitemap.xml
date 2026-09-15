@@ -3,33 +3,13 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.bluidol.in/</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://www.bluidol.in/images/hero.png</image:loc>
       <image:title>Blu Idol - 18K Gold Plated Demi-Fine Jewellery Hero</image:title>
       <image:caption>Blu Idol: Bring Luxury To You - 18K Gold Plated, Waterproof, Anti-Tarnish Jewellery</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.bluidol.in/images/earrings.png</image:loc>
-      <image:title>Sapphire Drop Earrings - Blu Idol</image:title>
-      <image:caption>Exquisite drop earrings featuring vibrant blue sapphire crystals set in 18K gold-plated casing</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.bluidol.in/images/necklace.png</image:loc>
-      <image:title>Gold Sapphire Pendant - Blu Idol</image:title>
-      <image:caption>Delicate 18K gold-plated chain featuring a round sapphire-cut blue stone</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.bluidol.in/images/rings.png</image:loc>
-      <image:title>Blue Crystal Ring Set - Blu Idol</image:title>
-      <image:caption>Stackable 18K gold rings embellished with tiny sapphire-blue crystal stones</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.bluidol.in/images/collection.png</image:loc>
-      <image:title>Statement Hoop Collection - Blu Idol</image:title>
-      <image:caption>Bold 18K gold-plated hoops with micro-textured artisan detailing</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.bluidol.in/images/puffy-heart-pendant.png</image:loc>
@@ -90,6 +70,61 @@
       <image:loc>https://www.bluidol.in/images/beaded-snake-chain-anklets.png</image:loc>
       <image:title>Gold-Plated Beaded Snake Chain Anklet - Blu Idol</image:title>
       <image:caption>Shimmering 18K gold-plated beaded satellite snake chain anklets featuring micro-bead stations and secure lobster clasp</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/purple-gemstone-leaf-stud-earrings.png</image:loc>
+      <image:title>Gold-Plated Emerald-Cut Purple Gemstone Leaf Stud Earrings - Blu Idol</image:title>
+      <image:caption>Stunning leaf-motif stud earrings featuring an emerald-cut vibrant purple gemstone bordered by pavé-set shimmering cubic zirconia leaves in rich 18K gold plating. Hypoallergenic and lightweight for daily luxury.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/cz-violet-blossom-ear-tops.png</image:loc>
+      <image:title>Gold-Plated CZ Violet Blossom Ear Tops - Blu Idol</image:title>
+      <image:caption>Delicate circular spiral ear tops showcasing a five-petal blooming violet crystal flower framed by a dazzling pavé crystal orbit in 18K gold plating. Waterproof, hypoallergenic, and perfect for special occasions.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/emerald-blossom-cz-earrings.png</image:loc>
+      <image:title>Gold-Plated Emerald Blossom CZ Stud Earrings - Blu Idol</image:title>
+      <image:caption>Captivating dual-halo open circle earrings adorned with pear-cut ruby-pink and emerald-green gemstones, encircled by sparkling cubic zirconia pavé. Crafted with 18K gold plating for sensitive skin.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/ruby-floral-halo-stud-earrings.png</image:loc>
+      <image:title>Gold-Plated Ruby Floral Halo Stud Earrings - Blu Idol</image:title>
+      <image:caption>Exquisite concentric halo stud earrings featuring a five-petal ruby-pink crystal blossom crowned with micro pavé cubic zirconia. Finished in durable 18K gold plating for anti-tarnish everyday wear.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/sparkling-floral-stud-earrings.png</image:loc>
+      <image:title>Gold-Plated Sparkling Floral Stud Earrings - Blu Idol</image:title>
+      <image:caption>Lustrous flower stud earrings crafted with faceted teardrop cubic zirconia petals and a rich amethyst-purple center stone, mounted on 18K gold-plated setting. High-shine, tarnish-resistant, and skin-safe.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/american-diamond-emerald-stud-earrings.png</image:loc>
+      <image:title>Gold-Plated American Diamond Emerald Stud Earrings - Blu Idol</image:title>
+      <image:caption>Regal teardrop-shaped stud earrings centered with a brilliant round emerald-green gemstone within concentric pavé American diamond halos and a marquise crown. 18K gold-plated demi-fine elegance.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/american-diamond-floral-stud-earrings.png</image:loc>
+      <image:title>Gold-Plated American Diamond Floral Stud Earrings - Blu Idol</image:title>
+      <image:caption>Intricate sunburst floral stud earrings featuring a luminous pear-cut central stone encircled by an openwork filigree of glittering American diamonds. Anti-tarnish, lightweight, and skin-friendly.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/crescent-stud-earrings.png</image:loc>
+      <image:title>Gold-Plated Crescent Stud Earrings - Blu Idol</image:title>
+      <image:caption>Artisan fan-shaped crescent earrings featuring a vibrant square-cut amethyst-purple gemstone blooming into marquise crystal petals and tiered diamond arches. 18K gold-plated statement design.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/dualtone-blossom-halo-earrings.png</image:loc>
+      <image:title>Gold-Plated Dual-Tone Blossom Halo Earrings - Blu Idol</image:title>
+      <image:caption>Radiant double halo circular earrings featuring an artisanal floral crest with ruby-pink and peridot-green marquise petals accented by clear cubic zirconia. Hypoallergenic 18K gold vacuum plating.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/charming-floral-stud-earrings.png</image:loc>
+      <image:title>Charming Gold-Plated Floral Stud Earrings - Blu Idol</image:title>
+      <image:caption>Charming floral branch stud earrings featuring a sparkling six-petal ruby flower blooming over faceted ruby and clear marquise leaves. 18K gold-plated, featherweight, and gentle on sensitive ears.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/cz-drop-earrings.png</image:loc>
+      <image:title>Gold-Plated Cubic Zirconia Drop Earrings - Blu Idol</image:title>
+      <image:caption>Graceful chandelier-style geometric drop earrings with intricate crystal lace framework suspending a faceted pear-cut crystal teardrop. 18K gold-plated, waterproof, and designed to turn heads.</image:caption>
     </image:image>
   </url>
   <url>

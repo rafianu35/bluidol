@@ -5,54 +5,6 @@
 // --- Product Database ---
 const products = [
   {
-    id: 1,
-    name: "Sapphire Drop Earrings",
-    category: "earrings",
-    price: 899,
-    originalPrice: 1499,
-    image: "images/earrings.png",
-    stars: 5,
-    reviews: 48,
-    badge: "New",
-    description: "Exquisite drop earrings featuring vibrant blue sapphire crystals set in a high-polished gold-plated casing. Ideal for adding a touch of classic elegance to your evening attire."
-  },
-  {
-    id: 2,
-    name: "Gold Sapphire Pendant",
-    category: "necklaces",
-    price: 1299,
-    originalPrice: 1999,
-    image: "images/necklace.png",
-    stars: 4.5,
-    reviews: 62,
-    badge: "Bestseller",
-    description: "A delicate 18K gold-plated chain featuring a round sapphire-cut blue stone. Minimalist, modern, and perfectly suited for daily wear or layering with your favorite chains."
-  },
-  {
-    id: 3,
-    name: "Blue Crystal Ring Set",
-    category: "rings",
-    price: 749,
-    originalPrice: 1299,
-    image: "images/rings.png",
-    stars: 5,
-    reviews: 37,
-    badge: "Sale",
-    description: "A set of three stackable gold rings embellished with tiny sapphire-blue crystal stones. Versatile design that lets you style them separately or stacked together for a bold statement."
-  },
-  {
-    id: 4,
-    name: "Statement Hoop Collection",
-    category: "earrings",
-    price: 649,
-    originalPrice: 999,
-    image: "images/collection.png",
-    stars: 5,
-    reviews: 55,
-    badge: "New",
-    description: "Bold gold-plated hoops inspired by traditional artisans. Features micro-textured detailing and comfortable backings, making it a perfect trendy accessory."
-  },
-  {
     id: 5,
     name: "Anti tarnish 3D Puffy Heart Pendant chain",
     category: "necklaces",
@@ -195,6 +147,138 @@ const products = [
     reviews: 68,
     badge: "Bestseller",
     description: "Shimmering 18K gold-plated beaded satellite snake chain anklet (Price ₹90 each). Features micro-bead stations on a fluid snake chain with secure lobster clasp. Waterproof and tarnish-free."
+  },
+  {
+    id: 17,
+    name: "Gold-Plated Emerald-Cut Purple Gemstone Leaf Stud Earrings",
+    category: "earrings",
+    price: 259,
+    originalPrice: 499,
+    image: "images/purple-gemstone-leaf-stud-earrings.png",
+    stars: 5,
+    reviews: 42,
+    badge: "New Drop",
+    description: "Stunning leaf-motif stud earrings featuring an emerald-cut vibrant purple gemstone bordered by pavé-set shimmering cubic zirconia leaves in rich 18K gold plating. Hypoallergenic and lightweight for daily luxury."
+  },
+  {
+    id: 18,
+    name: "Gold-Plated CZ Violet Blossom Ear Tops",
+    category: "earrings",
+    price: 259,
+    originalPrice: 499,
+    image: "images/cz-violet-blossom-ear-tops.png",
+    stars: 5,
+    reviews: 38,
+    badge: "Trending",
+    description: "Delicate circular spiral ear tops showcasing a five-petal blooming violet crystal flower framed by a dazzling pavé crystal orbit in 18K gold plating. Waterproof, hypoallergenic, and perfect for special occasions."
+  },
+  {
+    id: 19,
+    name: "Gold-Plated Emerald Blossom CZ Stud Earrings",
+    category: "earrings",
+    price: 249,
+    originalPrice: 449,
+    image: "images/emerald-blossom-cz-earrings.png",
+    stars: 5,
+    reviews: 46,
+    badge: "Bestseller",
+    description: "Captivating dual-halo open circle earrings adorned with pear-cut ruby-pink and emerald-green gemstones, encircled by sparkling cubic zirconia pavé. Crafted with 18K gold plating for sensitive skin."
+  },
+  {
+    id: 20,
+    name: "Gold-Plated Ruby Floral Halo Stud Earrings",
+    category: "earrings",
+    price: 249,
+    originalPrice: 449,
+    image: "images/ruby-floral-halo-stud-earrings.png",
+    stars: 5,
+    reviews: 35,
+    badge: "New",
+    description: "Exquisite concentric halo stud earrings featuring a five-petal ruby-pink crystal blossom crowned with micro pavé cubic zirconia. Finished in durable 18K gold plating for anti-tarnish everyday wear."
+  },
+  {
+    id: 21,
+    name: "Gold-Plated Sparkling Floral Stud Earrings",
+    category: "earrings",
+    price: 289,
+    originalPrice: 529,
+    image: "images/sparkling-floral-stud-earrings.png",
+    stars: 5,
+    reviews: 52,
+    badge: "Bestseller",
+    description: "Lustrous flower stud earrings crafted with faceted teardrop cubic zirconia petals and a rich amethyst-purple center stone, mounted on 18K gold-plated setting. High-shine, tarnish-resistant, and skin-safe."
+  },
+  {
+    id: 22,
+    name: "Gold-Plated American Diamond Emerald Stud Earrings",
+    category: "earrings",
+    price: 259,
+    originalPrice: 499,
+    image: "images/american-diamond-emerald-stud-earrings.png",
+    stars: 5,
+    reviews: 41,
+    badge: "Trending",
+    description: "Regal teardrop-shaped stud earrings centered with a brilliant round emerald-green gemstone within concentric pavé American diamond halos and a marquise crown. 18K gold-plated demi-fine elegance."
+  },
+  {
+    id: 23,
+    name: "Gold-Plated American Diamond Floral Stud Earrings",
+    category: "earrings",
+    price: 199,
+    originalPrice: 399,
+    image: "images/american-diamond-floral-stud-earrings.png",
+    stars: 5,
+    reviews: 49,
+    badge: "Trending",
+    description: "Intricate sunburst floral stud earrings featuring a luminous pear-cut central stone encircled by an openwork filigree of glittering American diamonds. Anti-tarnish, lightweight, and skin-friendly."
+  },
+  {
+    id: 24,
+    name: "Gold-Plated Crescent Stud Earrings",
+    category: "earrings",
+    price: 259,
+    originalPrice: 499,
+    image: "images/crescent-stud-earrings.png",
+    stars: 5,
+    reviews: 33,
+    badge: "New",
+    description: "Artisan fan-shaped crescent earrings featuring a vibrant square-cut amethyst-purple gemstone blooming into marquise crystal petals and tiered diamond arches. 18K gold-plated statement design."
+  },
+  {
+    id: 25,
+    name: "Gold-Plated Dual-Tone Blossom Halo Earrings",
+    category: "earrings",
+    price: 249,
+    originalPrice: 449,
+    image: "images/dualtone-blossom-halo-earrings.png",
+    stars: 5,
+    reviews: 39,
+    badge: "Bestseller",
+    description: "Radiant double halo circular earrings featuring an artisanal floral crest with ruby-pink and peridot-green marquise petals accented by clear cubic zirconia. Hypoallergenic 18K gold vacuum plating."
+  },
+  {
+    id: 26,
+    name: "Charming Gold-Plated Floral Stud Earrings",
+    category: "earrings",
+    price: 165,
+    originalPrice: 349,
+    image: "images/charming-floral-stud-earrings.png",
+    stars: 5,
+    reviews: 57,
+    badge: "Trending",
+    description: "Charming floral branch stud earrings featuring a sparkling six-petal ruby flower blooming over faceted ruby and clear marquise leaves. 18K gold-plated, featherweight, and gentle on sensitive ears."
+  },
+  {
+    id: 27,
+    name: "Gold-Plated Cubic Zirconia Drop Earrings",
+    category: "earrings",
+    price: 249,
+    originalPrice: 449,
+    image: "images/cz-drop-earrings.png",
+    stars: 5,
+    reviews: 44,
+    badge: "New Drop",
+    description: "Graceful chandelier-style geometric drop earrings with intricate crystal lace framework suspending a faceted pear-cut crystal teardrop. 18K gold-plated, waterproof, and designed to turn heads."
   }
 ];
 
