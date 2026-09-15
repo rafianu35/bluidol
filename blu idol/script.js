@@ -99,6 +99,102 @@ const products = [
     reviews: 38,
     badge: "Bestseller",
     description: "Elegantly crafted rectangular luminous moonstone pendant encased in an 18K gold-plated bezel on a sleek snake chain. Anti-tarnish, waterproof, and hypoallergenic for everyday sophistication."
+  },
+  {
+    id: 9,
+    name: "Anti-Tarnish Vintage Gold-Plated Tulip Flower Pendant Necklace",
+    category: "necklaces",
+    price: 249,
+    originalPrice: 449,
+    image: "images/vintage-tulip-necklace.png",
+    stars: 5,
+    reviews: 36,
+    badge: "Trending",
+    description: "Vintage-inspired oval pendant featuring an embossed gold tulip on a mother-of-pearl enamel medallion, suspended on an 18K gold-plated beaded snake chain. Anti-tarnish, waterproof, and hypoallergenic."
+  },
+  {
+    id: 10,
+    name: "Stainless Modern Gold Pendant Necklace",
+    category: "necklaces",
+    price: 259,
+    originalPrice: 499,
+    image: "images/modern-gold-pendant-necklace.png",
+    stars: 5,
+    reviews: 44,
+    badge: "New",
+    description: "Modern geometric bar necklace featuring four bezel-set sparkling pear-cut crystal drops on an 18K gold-plated stainless steel chain. Anti-tarnish, waterproof, and hypoallergenic."
+  },
+  {
+    id: 11,
+    name: "Diamond Wave Bar Necklace",
+    category: "necklaces",
+    price: 199,
+    originalPrice: 399,
+    image: "images/diamond-wave-necklace.png",
+    stars: 5,
+    reviews: 32,
+    badge: "Trending",
+    description: "Graceful curved wave bar pendant adorned with pavé-set shimmering cubic zirconia stones on a delicate sterling-finish chain. Anti-tarnish, waterproof, and hypoallergenic."
+  },
+  {
+    id: 12,
+    name: "Gold-Plated Maple Leaf Station Charm Necklace",
+    category: "necklaces",
+    price: 265,
+    originalPrice: 499,
+    image: "images/maple-leaf-necklace.png",
+    stars: 5,
+    reviews: 27,
+    badge: "New",
+    description: "Whimsical autumn-inspired station necklace featuring finely detailed gold maple leaf charms and bezel-set sparkling crystals on a satellite chain. Anti-tarnish, waterproof, and hypoallergenic."
+  },
+  {
+    id: 13,
+    name: "Oxidized Silver Floral Jewelry Set",
+    category: "necklaces",
+    price: 165,
+    originalPrice: 349,
+    image: "images/oxidized-silver-floral-set.png",
+    stars: 5,
+    reviews: 53,
+    badge: "Bestseller",
+    description: "Traditional heritage oxidized silver necklace set embellished with vibrant ruby-red and emerald-green floral motifs, complete with matching stud earrings. Hypoallergenic and skin-safe."
+  },
+  {
+    id: 14,
+    name: "Gold-Plated Green Cat's Eye Heart Pendant Necklace",
+    category: "necklaces",
+    price: 199,
+    originalPrice: 399,
+    image: "images/green-heart-catseye-necklace.png",
+    stars: 5,
+    reviews: 39,
+    badge: "Trending",
+    description: "Captivating two-tone heart pendant featuring a lustrous green cat's eye stone paired with mirror-polished 18K gold plating on a dainty chain. Waterproof and hypoallergenic."
+  },
+  {
+    id: 15,
+    name: "Minimalist Gold-Plated Stainless Steel Charm Bracelet",
+    category: "bracelets",
+    price: 189,
+    originalPrice: 349,
+    image: "images/gold-charm-bracelet.png",
+    stars: 5,
+    reviews: 45,
+    badge: "New",
+    description: "Dainty 18K gold-plated stainless steel charm bracelet adorned with dangling polished disc charms and multicolor jewel-toned crystal accents. 100% waterproof and rust-proof."
+  },
+  {
+    id: 16,
+    name: "Gold-Plated Beaded Snake Chain Anklet",
+    category: "anklets",
+    price: 90,
+    originalPrice: 199,
+    image: "images/beaded-snake-chain-anklets.png",
+    stars: 5,
+    reviews: 68,
+    badge: "Bestseller",
+    description: "Shimmering 18K gold-plated beaded satellite snake chain anklet (Price ₹90 each). Features micro-bead stations on a fluid snake chain with secure lobster clasp. Waterproof and tarnish-free."
   }
 ];
 
