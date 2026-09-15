@@ -63,6 +63,18 @@ const products = [
     reviews: 34,
     badge: "Trending",
     description: "Charming 3D puffy heart pendant suspended on a delicate 18K gold-plated beaded snake chain. Crafted from premium anti-tarnish, waterproof, and hypoallergenic stainless steel for effortless daily elegance."
+  },
+  {
+    id: 6,
+    name: "Dainty Ruby Tulip Pendant Chain",
+    category: "necklaces",
+    price: 210,
+    originalPrice: 399,
+    image: "images/ruby-tulip-pendant.png",
+    stars: 5,
+    reviews: 29,
+    badge: "New",
+    description: "Graceful floral-inspired pendant featuring sparkling faceted ruby-red crystals in a delicate tulip leaf motif. Set on an 18K gold-plated anti-tarnish chain designed for waterproof daily wear."
   }
 ];
 
