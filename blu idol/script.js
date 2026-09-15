@@ -471,6 +471,18 @@ const products = [
     reviews: 58,
     badge: "Bestseller",
     description: "Statement Palakya two-tier long jhumkas featuring clover and shield jet-black stone posts, suspending a deep fluted antique gold bell dome with swaying black glass beads."
+  },
+  {
+    id: 44,
+    name: "Lotus Choker Necklace Set",
+    category: "necklaces",
+    price: 155,
+    originalPrice: 349,
+    image: "images/lotus-choker-necklace-set.png",
+    stars: 5,
+    reviews: 52,
+    badge: "Bestseller",
+    description: "Traditional antique gold-finish lotus choker necklace featuring alternating ruby-pink and emerald-green gemstone lotus petals, complete with matching lotus floral stud earrings. Hypoallergenic and skin-safe."
   }
 ];
 
