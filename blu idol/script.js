@@ -51,6 +51,18 @@ const products = [
     reviews: 55,
     badge: "New",
     description: "Bold gold-plated hoops inspired by traditional artisans. Features micro-textured detailing and comfortable backings, making it a perfect trendy accessory."
+  },
+  {
+    id: 5,
+    name: "Anti tarnish 3D Puffy Heart Pendant chain",
+    category: "necklaces",
+    price: 210,
+    originalPrice: 399,
+    image: "images/puffy-heart-pendant.png",
+    stars: 5,
+    reviews: 34,
+    badge: "Trending",
+    description: "Charming 3D puffy heart pendant suspended on a delicate 18K gold-plated beaded snake chain. Crafted from premium anti-tarnish, waterproof, and hypoallergenic stainless steel for effortless daily elegance."
   }
 ];
 
