@@ -87,6 +87,18 @@ const products = [
     reviews: 41,
     badge: "Trending",
     description: "Delicate crystal tulip pendant featuring sparkling faceted cubic zirconia petals set in an 18K gold-plated stainless steel setting. Anti-tarnish, waterproof, and hypoallergenic for everyday luxury."
+  },
+  {
+    id: 8,
+    name: "Gold-Plated Rectangular Moonstone Pendant Necklace",
+    category: "necklaces",
+    price: 289,
+    originalPrice: 499,
+    image: "images/rectangular-moonstone-necklace.png",
+    stars: 5,
+    reviews: 38,
+    badge: "Bestseller",
+    description: "Elegantly crafted rectangular luminous moonstone pendant encased in an 18K gold-plated bezel on a sleek snake chain. Anti-tarnish, waterproof, and hypoallergenic for everyday sophistication."
   }
 ];
 
