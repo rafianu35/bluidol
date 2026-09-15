@@ -75,6 +75,18 @@ const products = [
     reviews: 29,
     badge: "New",
     description: "Graceful floral-inspired pendant featuring sparkling faceted ruby-red crystals in a delicate tulip leaf motif. Set on an 18K gold-plated anti-tarnish chain designed for waterproof daily wear."
+  },
+  {
+    id: 7,
+    name: "Stainless crystal tulip pendant necklace",
+    category: "necklaces",
+    price: 239,
+    originalPrice: 449,
+    image: "images/crystal-tulip-necklace.png",
+    stars: 5,
+    reviews: 41,
+    badge: "Trending",
+    description: "Delicate crystal tulip pendant featuring sparkling faceted cubic zirconia petals set in an 18K gold-plated stainless steel setting. Anti-tarnish, waterproof, and hypoallergenic for everyday luxury."
   }
 ];
 
