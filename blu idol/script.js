@@ -483,6 +483,18 @@ const products = [
     reviews: 52,
     badge: "Bestseller",
     description: "Traditional antique gold-finish lotus choker necklace featuring alternating ruby-pink and emerald-green gemstone lotus petals, complete with matching lotus floral stud earrings. Hypoallergenic and skin-safe."
+  },
+  {
+    id: 45,
+    name: "Gold-Plated Stainless Steel Floral Daisy Bangle",
+    category: "bangles",
+    price: 225,
+    originalPrice: 449,
+    image: "images/gold-plated-stainless-steel-flower-bangle.png",
+    stars: 5,
+    reviews: 38,
+    badge: "Trending",
+    description: "Exquisite 18K gold-plated stainless steel hinged bangle featuring intricate openwork floral daisy cutouts with sparkling center crystal accents. Tarnish-free, waterproof, and hypoallergenic."
   }
 ];
 
@@ -1178,7 +1190,7 @@ function initFAQ() {
 function initCategoryHashNav() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     const href = anchor.getAttribute('href');
-    if (['#earrings', '#jhumkas', '#necklaces', '#bracelets', '#anklets'].includes(href)) {
+    if (['#earrings', '#jhumkas', '#necklaces', '#bangles', '#bracelets', '#anklets'].includes(href)) {
       anchor.addEventListener('click', (e) => {
         const cat = href.replace('#', '');
         const filterBtn = document.querySelector(`.filter-btn[data-filter="${cat}"]`);
