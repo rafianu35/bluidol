@@ -555,6 +555,210 @@ const products = [
     reviews: 45,
     badge: "Trending",
     description: "Dazzling translucent crystal-resin double flower hair claw clips adorned with sparkling iridescent aurora borealis gemstone centers. Features an interlocking non-slip claw grip with gold-tone steel spring, available in 6 jelly pastel shades (Price ₹35 each)."
+  },
+  {
+    id: 51,
+    name: "Crystal Flower Jaw Clamps",
+    category: "hair-clips",
+    price: 35,
+    originalPrice: 79,
+    image: "images/crystal-flower-jaw-clamps.png",
+    stars: 5,
+    reviews: 42,
+    badge: "Trending",
+    description: "Mini crystal flower jaw clamp hair clips featuring twin faceted crystal blossoms with iridescent aurora rhinestone centers and interlocking gold-finish grip teeth. Lightweight, secure hold for accents, bangs, and half-up styles across 6 luminous pastel shades (Price ₹35 each)."
+  },
+  {
+    id: 52,
+    name: "Floral Mini Hair Claw Clips",
+    category: "hair-clips",
+    price: 15,
+    originalPrice: 39,
+    image: "images/floral-mini-hair-claw-clips.png",
+    stars: 5,
+    reviews: 68,
+    badge: "Bestseller",
+    description: "Charming floral mini hair claw clips featuring five rounded translucent crystal flower petals centered with a dazzling multifaceted rhinestone on a gold-plated interlocking clamp. Pocket-friendly accent clips available in vibrant jewel tones (Price ₹15 each)."
+  },
+  {
+    id: 53,
+    name: "Matte Butterfly Hair Claw Clips",
+    category: "hair-clips",
+    price: 20,
+    originalPrice: 49,
+    image: "images/matte-butterfly-hair-claw-clips.png",
+    stars: 5,
+    reviews: 37,
+    badge: "New",
+    description: "Aesthetic dual-winged butterfly hair claw clips finished in ultra-soft velvety matte texture with contrasting two-tone layered wings and heavy-duty spring grip. Non-damaging secure hold in soothing pastel and neutral tones (Price ₹20 each)."
+  },
+  {
+    id: 54,
+    name: "Translucent Star-Shaped Hair Claw Clips",
+    category: "hair-clips",
+    price: 29,
+    originalPrice: 69,
+    image: "images/translucent-star-shaped-hair-claw-clips.png",
+    stars: 5,
+    reviews: 49,
+    badge: "Trending",
+    description: "Modern geometric hollow star hair claw clips crafted from glossy translucent amber, crystal clear, champagne, and smoky acrylic with sturdy interlocking comb teeth. Sleek celestial accessory for quick updos and half-buns (Price ₹29 each)."
+  },
+  {
+    id: 55,
+    name: "Matte Ribbon Bow Hair Clutcher",
+    category: "hair-clips",
+    price: 39,
+    originalPrice: 89,
+    image: "images/matte-ribbon-bow-hair-clutcher.png",
+    stars: 5,
+    reviews: 54,
+    badge: "Bestseller",
+    description: "Elegant sculpted double-shade ribbon bow hair clutcher in premium soft-touch matte finish. Features dual-tone contrast bow loops and strong interlocking teeth for medium to thick hair holding (Price ₹39 each)."
+  },
+  {
+    id: 56,
+    name: "Korean Style Tulip Hair Clips",
+    category: "hair-clips",
+    price: 69,
+    originalPrice: 149,
+    image: "images/korean-style-tulip-hair-clips.png",
+    stars: 5,
+    reviews: 33,
+    badge: "New",
+    description: "Graceful Korean-aesthetic twin tulip hair claw clip designed with sculpted matte floral buds and leafy stems set along an elegant translucent arched claw frame. Luxurious everyday statement accessory (Price ₹69 each)."
+  },
+  {
+    id: 57,
+    name: "Korean-Style Flower Wreath Hair Claw Clips (Combo of 2)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/korean-style-flower-wreath-claw-clips-combo.png",
+    stars: 5,
+    reviews: 48,
+    badge: "Trending",
+    description: "Charming Korean circular flower wreath hair claw clip combo of 2 featuring sculpted miniature daisies with iridescent crystal centers on a durable transparent hollow circular ring claw clamp. Pack of 2 coordinating clips (Price ₹99 for combo)."
+  },
+  {
+    id: 58,
+    name: "Navy Blue Matte Hibiscus Hair Claw Clips (3pc Combo)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/navy-blue-matte-hibiscus-hair-claw-clips-combo.png",
+    stars: 5,
+    reviews: 52,
+    badge: "Bestseller",
+    description: "Gorgeous 3-piece combo set of Hawaiian hibiscus flower hair claw clips in rich navy blue velvety matte finish. Includes 1 large statement flower claw clip and 2 matching medium accent clips for versatile styling (Price ₹99 for combo)."
+  },
+  {
+    id: 59,
+    name: "Dark Dusty Rose Hibiscus Hair Claw Clips (3pc Combo)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/dark-dusty-rose-hibiscus-hair-claw-clips-combo.png",
+    stars: 5,
+    reviews: 41,
+    badge: "Trending",
+    description: "Delicate 3-piece combo set of tropical hibiscus flower hair claw clips finished in sophisticated dark dusty rose matte texture. Features 1 jumbo statement clip and 2 medium companion clips with strong interlocking teeth (Price ₹99 for combo)."
+  },
+  {
+    id: 60,
+    name: "Matte Mustard Hibiscus Hair Claw Clips (3pc Combo)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/matte-mustard-hibiscus-hair-claw-clips-combo.png",
+    stars: 5,
+    reviews: 36,
+    badge: "New",
+    description: "Warm sun-kissed matte mustard yellow hibiscus flower claw clip combo of 3. Crafted with velvety soft-touch matte acrylic and strong steel spring mechanism. Includes 1 large and 2 medium clips (Price ₹99 for combo)."
+  },
+  {
+    id: 61,
+    name: "Matte Black Hibiscus Hair Claw Clips (3pc Combo)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/matte-black-hibiscus-hair-claw-clips-combo.png",
+    stars: 5,
+    reviews: 59,
+    badge: "Bestseller",
+    description: "Timeless monochrome matte black hibiscus flower hair claw clip combo of 3. Features textured ribbed petals, velvety grip, and reliable hold for all hair types. Includes 1 large statement and 2 medium clips (Price ₹99 for combo)."
+  },
+  {
+    id: 62,
+    name: "Matte White Hibiscus Hair Claw Clips (3pc Combo)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/matte-white-hibiscus-hair-claw-clips-combo.png",
+    stars: 5,
+    reviews: 44,
+    badge: "Trending",
+    description: "Crisp clean matte ivory white hibiscus flower claw clips combo of 3. Elegant tropical aesthetic with ribbed petal contours and soft matte finish. Includes 1 jumbo and 2 medium hair claws (Price ₹99 for combo)."
+  },
+  {
+    id: 63,
+    name: "Baby Pink Matte Hibiscus Hair Claw Clips (3pc Combo)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/baby-pink-matte-hibiscus-hair-claw-clips-combo.png",
+    stars: 5,
+    reviews: 50,
+    badge: "Bestseller",
+    description: "Charming pastel baby pink matte hibiscus flower hair claw clips combo of 3. Sweet floral design with soft-touch finish and comfortable non-slip teeth grip. Set of 1 large and 2 medium clips (Price ₹99 for combo)."
+  },
+  {
+    id: 64,
+    name: "Matte Grey Hibiscus Hair Claw Clips (3pc Combo)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/matte-grey-hibiscus-hair-claw-clips-combo.png",
+    stars: 5,
+    reviews: 38,
+    badge: "New",
+    description: "Modern neutral matte light grey hibiscus flower claw clips combo of 3. Minimalist aesthetic pairing soft ribbed petals with secure interlocking hold. Includes 1 large and 2 medium claw clips (Price ₹99 for combo)."
+  },
+  {
+    id: 65,
+    name: "Matte Dark Grey Hibiscus Hair Claw Clips (3pc Combo)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/matte-dark-grey-hibiscus-hair-claw-clips-combo.png",
+    stars: 5,
+    reviews: 43,
+    badge: "Trending",
+    description: "Sleek charcoal matte dark grey hibiscus flower claw clips combo of 3. Understated urban chic design with soft matte finish and reliable spring grip. Contains 1 jumbo and 2 medium clips (Price ₹99 for combo)."
+  },
+  {
+    id: 66,
+    name: "Matte Green Floral Hibiscus Hair Claw Clips (3pc Combo)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/matte-green-floral-hibiscus-hair-claw-clips-combo.png",
+    stars: 5,
+    reviews: 47,
+    badge: "Trending",
+    description: "Earthy sage matte green hibiscus flower hair claw clips combo of 3. Nature-inspired sculpted floral design with non-pulling teeth and durable steel spring. Includes 1 large and 2 medium clips (Price ₹99 for combo)."
+  },
+  {
+    id: 67,
+    name: "Dark Wine Hibiscus Hair Claw Clips (3pc Combo)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/dark-wine-hibiscus-hair-claw-clips-combo.png",
+    stars: 5,
+    reviews: 55,
+    badge: "Bestseller",
+    description: "Rich luxurious dark wine burgundy matte hibiscus flower hair claw clips combo of 3. Deep berry tones with soft velvety texture and firm interlocking grip. Set of 1 statement large and 2 medium clips (Price ₹99 for combo)."
   }
 ];
 
@@ -1250,7 +1454,7 @@ function initFAQ() {
 function initCategoryHashNav() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     const href = anchor.getAttribute('href');
-    if (['#earrings', '#jhumkas', '#necklaces', '#bangles', '#bracelets', '#anklets', '#hair-clips'].includes(href)) {
+    if (['#earrings', '#jhumkas', '#necklaces', '#bangles', '#bracelets', '#anklets', '#hair-clips', '#clip-combos'].includes(href)) {
       anchor.addEventListener('click', (e) => {
         const cat = href.replace('#', '');
         const filterBtn = document.querySelector(`.filter-btn[data-filter="${cat}"]`);

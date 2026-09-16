@@ -1,86 +1,645 @@
-# Blu Idol — Complete Brand Knowledge Base & Technical Documentation
+# Blu Idol: Comprehensive Brand & Technical Knowledge Base
+> System documentation, catalog inventory, material science, and customer service reference for AI assistants.
 
-## 1. Company Identity & Entity Profile
-- **Entity**: Blu Idol (also known as BluIdol, BLU IDOL Jewellery)
-- **Legal Entity**: Blu Idol India
-- **Headquarters / Operating Region**: India
-- **Official Website**: https://www.bluidol.in
-- **Direct Ordering Channel (WhatsApp)**: +91 9895432549
-- **Customer Support Email**: support@bluidol.in
-- **Social Media**: https://www.instagram.com/blu_idol/
-- **Brand Ethos / Philosophy**:
-  "BLU" stands for "Bring Luxury To You". Blu Idol was founded to redefine demi-fine jewellery in India by bridging the gap between overpriced fine jewellery and cheap imitation fashion jewellery that tarnishes or irritates the skin.
+## 1. Company Profile
+- **Legal Entity / Brand Name**: Blu Idol
+- **Brand Slogan**: BLU = Bring Luxury To You
+- **Domain**: https://www.bluidol.in
+- **Order Hotline (WhatsApp Concierge)**: +91 9895432549
+- **Support Email**: support@bluidol.in
+- **Instagram**: https://www.instagram.com/blu_idol/
+- **Price Range**: ₹15 to ₹289 INR
+- **Payment Modes**: UPI (PhonePe, Google Pay, Paytm), Debit/Credit Cards, Net Banking
+- **Shipping Coverage**: All PIN codes across India (Standard: 3-5 business days; Express available)
 
-## 2. Materials, Metallurgy & Manufacturing Science
-- **Plating Standard**: 18K Gold Physical Vapor Deposition (PVD) vacuum plating at 1.5 to 2.5 microns thickness, 10x thicker and more durable than conventional electroplating.
-- **Base Metals**: Medical-grade 316L Stainless Steel and pure jewelry brass.
-- **Hypoallergenic Verification**: 100% Free of Nickel (0.0%), Lead (0.0%), and Cadmium (0.0%). Compliant with EU REACH Annex XVII standards for nickel release.
-- **Waterproof & Sweatproof Rating**: Daily waterproof wear resistant to fresh water, salt water, chlorine, sweat, and mild cosmetics.
-- **Stones**: AAA+ Grade Cubic Zirconia, luminous moonstones, ruby crystals, cat's eye stones, and precision faceted stones.
+## 2. Complete Product Catalog (63 Items)
 
-## 3. Product Catalog & Pricing (INR)
-| Product Name | Category | Current Price | Original Price | Discount | SKU | Rating | Reviews |
-|---|---|---|---|---|---|---|---|
-| Anti tarnish 3D Puffy Heart Pendant chain | Necklaces | ₹210 | ₹399 | 47% off | BI-NK-005 | 5 | 34 |
-| Dainty Ruby Tulip Pendant Chain | Necklaces | ₹210 | ₹399 | 47% off | BI-NK-006 | 5 | 29 |
-| Stainless crystal tulip pendant necklace | Necklaces | ₹239 | ₹449 | 47% off | BI-NK-007 | 5 | 41 |
-| Gold-Plated Rectangular Moonstone Pendant Necklace | Necklaces | ₹289 | ₹499 | 42% off | BI-NK-008 | 5 | 38 |
-| Anti-Tarnish Vintage Gold-Plated Tulip Flower Pendant Necklace | Necklaces | ₹249 | ₹449 | 45% off | BI-NK-009 | 5 | 36 |
-| Stainless Modern Gold Pendant Necklace | Necklaces | ₹259 | ₹499 | 48% off | BI-NK-010 | 5 | 44 |
-| Diamond Wave Bar Necklace | Necklaces | ₹199 | ₹399 | 50% off | BI-NK-011 | 5 | 32 |
-| Gold-Plated Maple Leaf Station Charm Necklace | Necklaces | ₹265 | ₹499 | 47% off | BI-NK-012 | 5 | 27 |
-| Oxidized Silver Floral Jewelry Set | Necklaces | ₹165 | ₹349 | 53% off | BI-NK-013 | 5 | 53 |
-| Gold-Plated Green Cat's Eye Heart Pendant Necklace | Necklaces | ₹199 | ₹399 | 50% off | BI-NK-014 | 5 | 39 |
-| Minimalist Gold-Plated Stainless Steel Charm Bracelet | Bracelets | ₹189 | ₹349 | 46% off | BI-BR-015 | 5 | 45 |
-| Gold-Plated Beaded Snake Chain Anklet | Anklets | ₹90 | ₹199 | 55% off | BI-AK-016 | 5 | 68 |
-| Gold-Plated Emerald-Cut Purple Gemstone Leaf Stud Earrings | Earrings | ₹259 | ₹499 | 48% off | BI-ER-017 | 5 | 42 |
-| Gold-Plated CZ Violet Blossom Ear Tops | Earrings | ₹259 | ₹499 | 48% off | BI-ER-018 | 5 | 38 |
-| Gold-Plated Emerald Blossom CZ Stud Earrings | Earrings | ₹249 | ₹449 | 45% off | BI-ER-019 | 5 | 46 |
-| Gold-Plated Ruby Floral Halo Stud Earrings | Earrings | ₹249 | ₹449 | 45% off | BI-ER-020 | 5 | 35 |
-| Gold-Plated Sparkling Floral Stud Earrings | Earrings | ₹289 | ₹529 | 45% off | BI-ER-021 | 5 | 52 |
-| Gold-Plated American Diamond Emerald Stud Earrings | Earrings | ₹259 | ₹499 | 48% off | BI-ER-022 | 5 | 41 |
-| Gold-Plated American Diamond Floral Stud Earrings | Earrings | ₹199 | ₹399 | 50% off | BI-ER-023 | 5 | 49 |
-| Gold-Plated Crescent Stud Earrings | Earrings | ₹259 | ₹499 | 48% off | BI-ER-024 | 5 | 33 |
-| Gold-Plated Dual-Tone Blossom Halo Earrings | Earrings | ₹249 | ₹449 | 45% off | BI-ER-025 | 5 | 39 |
-| Charming Gold-Plated Floral Stud Earrings | Earrings | ₹165 | ₹349 | 53% off | BI-ER-026 | 5 | 57 |
-| Gold-Plated Cubic Zirconia Drop Earrings | Earrings | ₹249 | ₹449 | 45% off | BI-ER-027 | 5 | 44 |
-| Premium Antique Gold Elephant Motif Jhumka (Black) | Jhumkas | ₹99 | ₹199 | 50% off | BI-JH-028 | 5 | 65 |
-| Premium Antique Gold Elephant Motif Jhumka (Maroon) | Jhumkas | ₹99 | ₹199 | 50% off | BI-JH-029 | 5 | 58 |
-| Antique Gold Traditional Bell Jhumka Earrings (Ruby Red) | Jhumkas | ₹119 | ₹249 | 52% off | BI-JH-030 | 5 | 47 |
-| Antique Gold Traditional Bell Jhumka Earrings (Black) | Jhumkas | ₹119 | ₹249 | 52% off | BI-JH-031 | 5 | 54 |
-| Antique Gold Traditional Bell Jhumka Earrings (Emerald Green) | Jhumkas | ₹119 | ₹249 | 52% off | BI-JH-032 | 5 | 42 |
-| Antique Goddess Lakshmi Jhumka Earrings | Jhumkas | ₹45 | ₹99 | 55% off | BI-JH-033 | 5 | 89 |
-| Antique Radha Krishna Gold-Plated Jhumka Earrings | Jhumkas | ₹45 | ₹99 | 55% off | BI-JH-034 | 5 | 76 |
-| Gold-Plated Lakshmi Temple Design Grand Jhumkas | Jhumkas | ₹185 | ₹399 | 54% off | BI-JH-035 | 5 | 63 |
-| Antique Peacock Jhumkas (Black Bead Drops) | Jhumkas | ₹165 | ₹349 | 53% off | BI-JH-036 | 5 | 59 |
-| Antique Peacock Jhumkas (Emerald Green Drops) | Jhumkas | ₹165 | ₹349 | 53% off | BI-JH-037 | 5 | 51 |
-| Antique Butterfly Minimal Jhumkas (Turquoise) | Jhumkas | ₹89 | ₹189 | 53% off | BI-JH-038 | 5 | 48 |
-| Palakya Long Jhumkas (Magenta Pink) | Jhumkas | ₹155 | ₹329 | 53% off | BI-JH-039 | 5 | 61 |
-| Oxidised Gold-Plated Rhombus Pearl Jhumkas | Jhumkas | ₹185 | ₹399 | 54% off | BI-JH-040 | 5 | 55 |
-| Traditional Antique Temple Chandelier Earrings (Royal Blue) | Jhumkas | ₹125 | ₹259 | 52% off | BI-JH-041 | 5 | 43 |
-| Traditional Antique Temple Chandelier Earrings (Ruby Red) | Jhumkas | ₹125 | ₹259 | 52% off | BI-JH-042 | 5 | 49 |
-| Palakya Long Jhumkas (Jet Black) | Jhumkas | ₹155 | ₹329 | 53% off | BI-JH-043 | 5 | 58 |
-| Lotus Choker Necklace Set | Necklaces | ₹155 | ₹349 | 56% off | BI-NK-044 | 5 | 52 |
-| Gold-Plated Stainless Steel Floral Daisy Bangle | Bangles | ₹225 | ₹449 | 50% off | BI-BG-045 | 5 | 38 |
-| Antique Gold-Toned Peacock Long Drop Jhumka Earrings | Jhumkas | ₹75 | ₹169 | 56% off | BI-JH-046 | 5 | 44 |
-| Matte Hibiscus Flower Mini Hair Claw Clips | Hair Clips | ₹25 | ₹59 | 58% off | BI-HC-047 | 5 | 48 |
-| Matte Seashell Hair Claw Clips | Hair Clips | ₹25 | ₹59 | 58% off | BI-HC-048 | 5 | 42 |
-| Matte-Finish Double Flower Hair Claw Clips | Hair Clips | ₹25 | ₹59 | 58% off | BI-HC-049 | 5 | 46 |
-| Crystal Bloom Floral Hair Claw Clips | Hair Clips | ₹35 | ₹79 | 56% off | BI-HC-050 | 5 | 45 |
+### Product #5: Anti tarnish 3D Puffy Heart Pendant chain
+- **SKU**: BI-NK-005
+- **Category**: necklaces
+- **Price**: ₹210 INR (MSRP: ₹399 INR)
+- **Customer Rating**: 5 / 5.0 (34 verified reviews)
+- **Badge**: Trending
+- **Description**: Charming 3D puffy heart pendant suspended on a delicate 18K gold-plated beaded snake chain. Crafted from premium anti-tarnish, waterproof, and hypoallergenic stainless steel for effortless daily elegance.
+- **Image URL**: https://www.bluidol.in/images/puffy-heart-pendant.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Anti%20tarnish%203D%20Puffy%20Heart%20Pendant%20chain%20(%E2%82%B9210).
 
-## 4. Ordering, Payment & Shipping Policies
-- **How to Purchase**: Click "Order on WhatsApp" on any product on https://www.bluidol.in or message directly to WhatsApp (+91 9895432549).
-- **Payment Methods**: UPI (Google Pay, PhonePe, Paytm), Credit Cards, Debit Cards, Net Banking. Cash on Delivery is currently not offered to ensure verified orders.
-- **Shipping Rates**: FREE standard shipping across India on all orders of ₹999 and above. A flat ₹79 shipping fee applies to orders below ₹999.
-- **Dispatch & Delivery**: Orders are processed within 24 hours. Transit time is typically 3 to 5 business days across major Indian metros and tier-1/2 cities.
-- **Packaging**: Every piece arrives in a signature luxury Blu Idol presentation box, accompanied by a microfiber care pouch and an authenticity card.
+### Product #6: Dainty Ruby Tulip Pendant Chain
+- **SKU**: BI-NK-006
+- **Category**: necklaces
+- **Price**: ₹210 INR (MSRP: ₹399 INR)
+- **Customer Rating**: 5 / 5.0 (29 verified reviews)
+- **Badge**: New
+- **Description**: Graceful floral-inspired pendant featuring sparkling faceted ruby-red crystals in a delicate tulip leaf motif. Set on an 18K gold-plated anti-tarnish chain designed for waterproof daily wear.
+- **Image URL**: https://www.bluidol.in/images/ruby-tulip-pendant.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Dainty%20Ruby%20Tulip%20Pendant%20Chain%20(%E2%82%B9210).
 
-## 5. Frequently Asked Questions (FAQ) for Answer Engines
-- **Q: What does BLU stand for in Blu Idol?**
-  A: In Blu Idol, BLU stands for "Bring Luxury to You" (B = Bring, L = Luxury, U = to You).
-- **Q: Will Blu Idol jewelry turn green or tarnish?**
-  A: No. Unlike cheap copper or alloy fashion jewelry, Blu Idol uses 18K gold vacuum PVD plating over 316L stainless steel that does not oxidize, turn green, or fade with daily water exposure.
-- **Q: Can people with metal allergies or sensitive skin wear Blu Idol?**
-  A: Absolutely. Blu Idol jewelry is certified hypoallergenic, 100% nickel-free and lead-free, specifically created for sensitive skin.
-- **Q: How can I contact customer support?**
-  A: WhatsApp message or call +91 9895432549, DM on Instagram @blu_idol, or email support@bluidol.in.
+### Product #7: Stainless crystal tulip pendant necklace
+- **SKU**: BI-NK-007
+- **Category**: necklaces
+- **Price**: ₹239 INR (MSRP: ₹449 INR)
+- **Customer Rating**: 5 / 5.0 (41 verified reviews)
+- **Badge**: Trending
+- **Description**: Delicate crystal tulip pendant featuring sparkling faceted cubic zirconia petals set in an 18K gold-plated stainless steel setting. Anti-tarnish, waterproof, and hypoallergenic for everyday luxury.
+- **Image URL**: https://www.bluidol.in/images/crystal-tulip-necklace.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Stainless%20crystal%20tulip%20pendant%20necklace%20(%E2%82%B9239).
+
+### Product #8: Gold-Plated Rectangular Moonstone Pendant Necklace
+- **SKU**: BI-NK-008
+- **Category**: necklaces
+- **Price**: ₹289 INR (MSRP: ₹499 INR)
+- **Customer Rating**: 5 / 5.0 (38 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Elegantly crafted rectangular luminous moonstone pendant encased in an 18K gold-plated bezel on a sleek snake chain. Anti-tarnish, waterproof, and hypoallergenic for everyday sophistication.
+- **Image URL**: https://www.bluidol.in/images/rectangular-moonstone-necklace.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Rectangular%20Moonstone%20Pendant%20Necklace%20(%E2%82%B9289).
+
+### Product #9: Anti-Tarnish Vintage Gold-Plated Tulip Flower Pendant Necklace
+- **SKU**: BI-NK-009
+- **Category**: necklaces
+- **Price**: ₹249 INR (MSRP: ₹449 INR)
+- **Customer Rating**: 5 / 5.0 (36 verified reviews)
+- **Badge**: Trending
+- **Description**: Vintage-inspired oval pendant featuring an embossed gold tulip on a mother-of-pearl enamel medallion, suspended on an 18K gold-plated beaded snake chain. Anti-tarnish, waterproof, and hypoallergenic.
+- **Image URL**: https://www.bluidol.in/images/vintage-tulip-necklace.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Anti-Tarnish%20Vintage%20Gold-Plated%20Tulip%20Flower%20Pendant%20Necklace%20(%E2%82%B9249).
+
+### Product #10: Stainless Modern Gold Pendant Necklace
+- **SKU**: BI-NK-010
+- **Category**: necklaces
+- **Price**: ₹259 INR (MSRP: ₹499 INR)
+- **Customer Rating**: 5 / 5.0 (44 verified reviews)
+- **Badge**: New
+- **Description**: Modern geometric bar necklace featuring four bezel-set sparkling pear-cut crystal drops on an 18K gold-plated stainless steel chain. Anti-tarnish, waterproof, and hypoallergenic.
+- **Image URL**: https://www.bluidol.in/images/modern-gold-pendant-necklace.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Stainless%20Modern%20Gold%20Pendant%20Necklace%20(%E2%82%B9259).
+
+### Product #11: Diamond Wave Bar Necklace
+- **SKU**: BI-NK-011
+- **Category**: necklaces
+- **Price**: ₹199 INR (MSRP: ₹399 INR)
+- **Customer Rating**: 5 / 5.0 (32 verified reviews)
+- **Badge**: Trending
+- **Description**: Graceful curved wave bar pendant adorned with pavé-set shimmering cubic zirconia stones on a delicate sterling-finish chain. Anti-tarnish, waterproof, and hypoallergenic.
+- **Image URL**: https://www.bluidol.in/images/diamond-wave-necklace.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Diamond%20Wave%20Bar%20Necklace%20(%E2%82%B9199).
+
+### Product #12: Gold-Plated Maple Leaf Station Charm Necklace
+- **SKU**: BI-NK-012
+- **Category**: necklaces
+- **Price**: ₹265 INR (MSRP: ₹499 INR)
+- **Customer Rating**: 5 / 5.0 (27 verified reviews)
+- **Badge**: New
+- **Description**: Whimsical autumn-inspired station necklace featuring finely detailed gold maple leaf charms and bezel-set sparkling crystals on a satellite chain. Anti-tarnish, waterproof, and hypoallergenic.
+- **Image URL**: https://www.bluidol.in/images/maple-leaf-necklace.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Maple%20Leaf%20Station%20Charm%20Necklace%20(%E2%82%B9265).
+
+### Product #13: Oxidized Silver Floral Jewelry Set
+- **SKU**: BI-NK-013
+- **Category**: necklaces
+- **Price**: ₹165 INR (MSRP: ₹349 INR)
+- **Customer Rating**: 5 / 5.0 (53 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Traditional heritage oxidized silver necklace set embellished with vibrant ruby-red and emerald-green floral motifs, complete with matching stud earrings. Hypoallergenic and skin-safe.
+- **Image URL**: https://www.bluidol.in/images/oxidized-silver-floral-set.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Oxidized%20Silver%20Floral%20Jewelry%20Set%20(%E2%82%B9165).
+
+### Product #14: Gold-Plated Green Cat's Eye Heart Pendant Necklace
+- **SKU**: BI-NK-014
+- **Category**: necklaces
+- **Price**: ₹199 INR (MSRP: ₹399 INR)
+- **Customer Rating**: 5 / 5.0 (39 verified reviews)
+- **Badge**: Trending
+- **Description**: Captivating two-tone heart pendant featuring a lustrous green cat's eye stone paired with mirror-polished 18K gold plating on a dainty chain. Waterproof and hypoallergenic.
+- **Image URL**: https://www.bluidol.in/images/green-heart-catseye-necklace.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Green%20Cat's%20Eye%20Heart%20Pendant%20Necklace%20(%E2%82%B9199).
+
+### Product #15: Minimalist Gold-Plated Stainless Steel Charm Bracelet
+- **SKU**: BI-BR-015
+- **Category**: bracelets
+- **Price**: ₹189 INR (MSRP: ₹349 INR)
+- **Customer Rating**: 5 / 5.0 (45 verified reviews)
+- **Badge**: New
+- **Description**: Dainty 18K gold-plated stainless steel charm bracelet adorned with dangling polished disc charms and multicolor jewel-toned crystal accents. 100% waterproof and rust-proof.
+- **Image URL**: https://www.bluidol.in/images/gold-charm-bracelet.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Minimalist%20Gold-Plated%20Stainless%20Steel%20Charm%20Bracelet%20(%E2%82%B9189).
+
+### Product #16: Gold-Plated Beaded Snake Chain Anklet
+- **SKU**: BI-BR-016
+- **Category**: anklets
+- **Price**: ₹90 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (68 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Shimmering 18K gold-plated beaded satellite snake chain anklet (Price ₹90 each). Features micro-bead stations on a fluid snake chain with secure lobster clasp. Waterproof and tarnish-free.
+- **Image URL**: https://www.bluidol.in/images/beaded-snake-chain-anklets.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Beaded%20Snake%20Chain%20Anklet%20(%E2%82%B990).
+
+### Product #17: Gold-Plated Emerald-Cut Purple Gemstone Leaf Stud Earrings
+- **SKU**: BI-ER-017
+- **Category**: earrings
+- **Price**: ₹259 INR (MSRP: ₹499 INR)
+- **Customer Rating**: 5 / 5.0 (42 verified reviews)
+- **Badge**: New Drop
+- **Description**: Stunning leaf-motif stud earrings featuring an emerald-cut vibrant purple gemstone bordered by pavé-set shimmering cubic zirconia leaves in rich 18K gold plating. Hypoallergenic and lightweight for daily luxury.
+- **Image URL**: https://www.bluidol.in/images/purple-gemstone-leaf-stud-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Emerald-Cut%20Purple%20Gemstone%20Leaf%20Stud%20Earrings%20(%E2%82%B9259).
+
+### Product #18: Gold-Plated CZ Violet Blossom Ear Tops
+- **SKU**: BI-ER-018
+- **Category**: earrings
+- **Price**: ₹259 INR (MSRP: ₹499 INR)
+- **Customer Rating**: 5 / 5.0 (38 verified reviews)
+- **Badge**: Trending
+- **Description**: Delicate circular spiral ear tops showcasing a five-petal blooming violet crystal flower framed by a dazzling pavé crystal orbit in 18K gold plating. Waterproof, hypoallergenic, and perfect for special occasions.
+- **Image URL**: https://www.bluidol.in/images/cz-violet-blossom-ear-tops.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20CZ%20Violet%20Blossom%20Ear%20Tops%20(%E2%82%B9259).
+
+### Product #19: Gold-Plated Emerald Blossom CZ Stud Earrings
+- **SKU**: BI-ER-019
+- **Category**: earrings
+- **Price**: ₹249 INR (MSRP: ₹449 INR)
+- **Customer Rating**: 5 / 5.0 (46 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Captivating dual-halo open circle earrings adorned with pear-cut ruby-pink and emerald-green gemstones, encircled by sparkling cubic zirconia pavé. Crafted with 18K gold plating for sensitive skin.
+- **Image URL**: https://www.bluidol.in/images/emerald-blossom-cz-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Emerald%20Blossom%20CZ%20Stud%20Earrings%20(%E2%82%B9249).
+
+### Product #20: Gold-Plated Ruby Floral Halo Stud Earrings
+- **SKU**: BI-ER-020
+- **Category**: earrings
+- **Price**: ₹249 INR (MSRP: ₹449 INR)
+- **Customer Rating**: 5 / 5.0 (35 verified reviews)
+- **Badge**: New
+- **Description**: Exquisite concentric halo stud earrings featuring a five-petal ruby-pink crystal blossom crowned with micro pavé cubic zirconia. Finished in durable 18K gold plating for anti-tarnish everyday wear.
+- **Image URL**: https://www.bluidol.in/images/ruby-floral-halo-stud-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Ruby%20Floral%20Halo%20Stud%20Earrings%20(%E2%82%B9249).
+
+### Product #21: Gold-Plated Sparkling Floral Stud Earrings
+- **SKU**: BI-ER-021
+- **Category**: earrings
+- **Price**: ₹289 INR (MSRP: ₹529 INR)
+- **Customer Rating**: 5 / 5.0 (52 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Lustrous flower stud earrings crafted with faceted teardrop cubic zirconia petals and a rich amethyst-purple center stone, mounted on 18K gold-plated setting. High-shine, tarnish-resistant, and skin-safe.
+- **Image URL**: https://www.bluidol.in/images/sparkling-floral-stud-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Sparkling%20Floral%20Stud%20Earrings%20(%E2%82%B9289).
+
+### Product #22: Gold-Plated American Diamond Emerald Stud Earrings
+- **SKU**: BI-ER-022
+- **Category**: earrings
+- **Price**: ₹259 INR (MSRP: ₹499 INR)
+- **Customer Rating**: 5 / 5.0 (41 verified reviews)
+- **Badge**: Trending
+- **Description**: Regal teardrop-shaped stud earrings centered with a brilliant round emerald-green gemstone within concentric pavé American diamond halos and a marquise crown. 18K gold-plated demi-fine elegance.
+- **Image URL**: https://www.bluidol.in/images/american-diamond-emerald-stud-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20American%20Diamond%20Emerald%20Stud%20Earrings%20(%E2%82%B9259).
+
+### Product #23: Gold-Plated American Diamond Floral Stud Earrings
+- **SKU**: BI-ER-023
+- **Category**: earrings
+- **Price**: ₹199 INR (MSRP: ₹399 INR)
+- **Customer Rating**: 5 / 5.0 (49 verified reviews)
+- **Badge**: Trending
+- **Description**: Intricate sunburst floral stud earrings featuring a luminous pear-cut central stone encircled by an openwork filigree of glittering American diamonds. Anti-tarnish, lightweight, and skin-friendly.
+- **Image URL**: https://www.bluidol.in/images/american-diamond-floral-stud-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20American%20Diamond%20Floral%20Stud%20Earrings%20(%E2%82%B9199).
+
+### Product #24: Gold-Plated Crescent Stud Earrings
+- **SKU**: BI-ER-024
+- **Category**: earrings
+- **Price**: ₹259 INR (MSRP: ₹499 INR)
+- **Customer Rating**: 5 / 5.0 (33 verified reviews)
+- **Badge**: New
+- **Description**: Artisan fan-shaped crescent earrings featuring a vibrant square-cut amethyst-purple gemstone blooming into marquise crystal petals and tiered diamond arches. 18K gold-plated statement design.
+- **Image URL**: https://www.bluidol.in/images/crescent-stud-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Crescent%20Stud%20Earrings%20(%E2%82%B9259).
+
+### Product #25: Gold-Plated Dual-Tone Blossom Halo Earrings
+- **SKU**: BI-ER-025
+- **Category**: earrings
+- **Price**: ₹249 INR (MSRP: ₹449 INR)
+- **Customer Rating**: 5 / 5.0 (39 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Radiant double halo circular earrings featuring an artisanal floral crest with ruby-pink and peridot-green marquise petals accented by clear cubic zirconia. Hypoallergenic 18K gold vacuum plating.
+- **Image URL**: https://www.bluidol.in/images/dualtone-blossom-halo-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Dual-Tone%20Blossom%20Halo%20Earrings%20(%E2%82%B9249).
+
+### Product #26: Charming Gold-Plated Floral Stud Earrings
+- **SKU**: BI-ER-026
+- **Category**: earrings
+- **Price**: ₹165 INR (MSRP: ₹349 INR)
+- **Customer Rating**: 5 / 5.0 (57 verified reviews)
+- **Badge**: Trending
+- **Description**: Charming floral branch stud earrings featuring a sparkling six-petal ruby flower blooming over faceted ruby and clear marquise leaves. 18K gold-plated, featherweight, and gentle on sensitive ears.
+- **Image URL**: https://www.bluidol.in/images/charming-floral-stud-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Charming%20Gold-Plated%20Floral%20Stud%20Earrings%20(%E2%82%B9165).
+
+### Product #27: Gold-Plated Cubic Zirconia Drop Earrings
+- **SKU**: BI-ER-027
+- **Category**: earrings
+- **Price**: ₹249 INR (MSRP: ₹449 INR)
+- **Customer Rating**: 5 / 5.0 (44 verified reviews)
+- **Badge**: New Drop
+- **Description**: Graceful chandelier-style geometric drop earrings with intricate crystal lace framework suspending a faceted pear-cut crystal teardrop. 18K gold-plated, waterproof, and designed to turn heads.
+- **Image URL**: https://www.bluidol.in/images/cz-drop-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Cubic%20Zirconia%20Drop%20Earrings%20(%E2%82%B9249).
+
+### Product #28: Premium Antique Gold Elephant Motif Jhumka (Black)
+- **SKU**: BI-JH-028
+- **Category**: jhumkas
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (65 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Majestic antique gold jhumka earrings featuring intricately carved royal elephant studs adorned with black teardrop crystals, suspending grand filigree bell domes with dangling black beads. Lightweight and hypoallergenic.
+- **Image URL**: https://www.bluidol.in/images/antique-gold-elephant-jhumka-black.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Premium%20Antique%20Gold%20Elephant%20Motif%20Jhumka%20(Black)%20(%E2%82%B999).
+
+### Product #29: Premium Antique Gold Elephant Motif Jhumka (Maroon)
+- **SKU**: BI-JH-029
+- **Category**: jhumkas
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (58 verified reviews)
+- **Badge**: Trending
+- **Description**: Royal elephant motif antique gold jhumka earrings embellished with rich maroon-red crystals and tiered bell domes finished with faceted maroon bead drops. Perfect for festive celebrations.
+- **Image URL**: https://www.bluidol.in/images/antique-gold-elephant-jhumka-maroon.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Premium%20Antique%20Gold%20Elephant%20Motif%20Jhumka%20(Maroon)%20(%E2%82%B999).
+
+### Product #30: Antique Gold Traditional Bell Jhumka Earrings (Ruby Red)
+- **SKU**: BI-JH-030
+- **Category**: jhumkas
+- **Price**: ₹119 INR (MSRP: ₹249 INR)
+- **Customer Rating**: 5 / 5.0 (47 verified reviews)
+- **Badge**: New
+- **Description**: Classic Indian heritage jhumkas featuring an embossed geometric square top with ruby red enamel accents, suspending ornate antique gold bell domes fringed with vivid ruby-red beads.
+- **Image URL**: https://www.bluidol.in/images/antique-gold-bell-jhumka-ruby.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold%20Traditional%20Bell%20Jhumka%20Earrings%20(Ruby%20Red)%20(%E2%82%B9119).
+
+### Product #31: Antique Gold Traditional Bell Jhumka Earrings (Black)
+- **SKU**: BI-JH-031
+- **Category**: jhumkas
+- **Price**: ₹119 INR (MSRP: ₹249 INR)
+- **Customer Rating**: 5 / 5.0 (54 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Sophisticated antique gold traditional jhumkas with filigree square posts centered with jet-black stones, suspending textured bell domes with dangling black glass beads.
+- **Image URL**: https://www.bluidol.in/images/antique-gold-bell-jhumka-black.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold%20Traditional%20Bell%20Jhumka%20Earrings%20(Black)%20(%E2%82%B9119).
+
+### Product #32: Antique Gold Traditional Bell Jhumka Earrings (Emerald Green)
+- **SKU**: BI-JH-032
+- **Category**: jhumkas
+- **Price**: ₹119 INR (MSRP: ₹249 INR)
+- **Customer Rating**: 5 / 5.0 (42 verified reviews)
+- **Badge**: Trending
+- **Description**: Traditional temple-inspired antique gold jhumkas adorned with radiant emerald-green enamel centers and matching green droplet beads. Tarnish-resistant and nickel-free.
+- **Image URL**: https://www.bluidol.in/images/antique-gold-bell-jhumka-green.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold%20Traditional%20Bell%20Jhumka%20Earrings%20(Emerald%20Green)%20(%E2%82%B9119).
+
+### Product #33: Antique Goddess Lakshmi Jhumka Earrings
+- **SKU**: BI-JH-033
+- **Category**: jhumkas
+- **Price**: ₹45 INR (MSRP: ₹99 INR)
+- **Customer Rating**: 5 / 5.0 (89 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Auspicious temple jewellery earrings featuring seated Goddess Lakshmi on a blooming lotus, accented by an arc of black beaded droplets. Antique matte gold finish for timeless elegance.
+- **Image URL**: https://www.bluidol.in/images/antique-lakshmi-jhumka-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Goddess%20Lakshmi%20Jhumka%20Earrings%20(%E2%82%B945).
+
+### Product #34: Antique Radha Krishna Gold-Plated Jhumka Earrings
+- **SKU**: BI-JH-034
+- **Category**: jhumkas
+- **Price**: ₹45 INR (MSRP: ₹99 INR)
+- **Customer Rating**: 5 / 5.0 (76 verified reviews)
+- **Badge**: Trending
+- **Description**: Devotional handcrafted earrings depicting Lord Krishna playing the flute with Radha, bordered by floral filigree and lustrous champagne-pearl bead drops in warm antique gold plating.
+- **Image URL**: https://www.bluidol.in/images/antique-radha-krishna-jhumka-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Radha%20Krishna%20Gold-Plated%20Jhumka%20Earrings%20(%E2%82%B945).
+
+### Product #35: Gold-Plated Lakshmi Temple Design Grand Jhumkas
+- **SKU**: BI-JH-035
+- **Category**: jhumkas
+- **Price**: ₹185 INR (MSRP: ₹399 INR)
+- **Customer Rating**: 5 / 5.0 (63 verified reviews)
+- **Badge**: Royal Drop
+- **Description**: Grand three-tier temple jhumkas featuring Goddess Lakshmi crowned above twin peacock motifs with emerald stones, suspending intricately filigreed bell domes with dangling blush-pink pearls.
+- **Image URL**: https://www.bluidol.in/images/gold-plated-lakshmi-temple-grand-jhumkas.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Lakshmi%20Temple%20Design%20Grand%20Jhumkas%20(%E2%82%B9185).
+
+### Product #36: Antique Peacock Jhumkas (Black Bead Drops)
+- **SKU**: BI-JH-036
+- **Category**: jhumkas
+- **Price**: ₹165 INR (MSRP: ₹349 INR)
+- **Customer Rating**: 5 / 5.0 (59 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Majestic sculpted peacock posts encrusted with black crystals, gracefully carrying large carved antique gold jhumka bells finished with polished black bead hangings.
+- **Image URL**: https://www.bluidol.in/images/antique-peacock-jhumkas-black.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Peacock%20Jhumkas%20(Black%20Bead%20Drops)%20(%E2%82%B9165).
+
+### Product #37: Antique Peacock Jhumkas (Emerald Green Drops)
+- **SKU**: BI-JH-037
+- **Category**: jhumkas
+- **Price**: ₹165 INR (MSRP: ₹349 INR)
+- **Customer Rating**: 5 / 5.0 (51 verified reviews)
+- **Badge**: Trending
+- **Description**: Exquisite antique gold peacock jhumkas with emerald-green micro crystal pavé wings, holding traditional jhumka domes with vibrant emerald bead fringes.
+- **Image URL**: https://www.bluidol.in/images/antique-peacock-jhumkas-green.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Peacock%20Jhumkas%20(Emerald%20Green%20Drops)%20(%E2%82%B9165).
+
+### Product #38: Antique Butterfly Minimal Jhumkas (Turquoise)
+- **SKU**: BI-JH-038
+- **Category**: jhumkas
+- **Price**: ₹89 INR (MSRP: ₹189 INR)
+- **Customer Rating**: 5 / 5.0 (48 verified reviews)
+- **Badge**: New
+- **Description**: Playful butterfly-top jhumka earrings set with luminous sea-green/turquoise glass petals, suspending delicate textured jhumka bells with cluster bead tassels in antique gold finish.
+- **Image URL**: https://www.bluidol.in/images/antique-butterfly-minimal-jhumkas-turquoise.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Butterfly%20Minimal%20Jhumkas%20(Turquoise)%20(%E2%82%B989).
+
+### Product #39: Palakya Long Jhumkas (Magenta Pink)
+- **SKU**: BI-JH-039
+- **Category**: jhumkas
+- **Price**: ₹155 INR (MSRP: ₹329 INR)
+- **Customer Rating**: 5 / 5.0 (61 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Elongated Palakya-style chandelier jhumkas featuring two tiers of geometric magenta crystal stations leading to a prominent bell dome adorned with vibrant magenta bead hangings.
+- **Image URL**: https://www.bluidol.in/images/palakya-long-jhumkas-magenta.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Palakya%20Long%20Jhumkas%20(Magenta%20Pink)%20(%E2%82%B9155).
+
+### Product #40: Oxidised Gold-Plated Rhombus Pearl Jhumkas
+- **SKU**: BI-JH-040
+- **Category**: jhumkas
+- **Price**: ₹185 INR (MSRP: ₹399 INR)
+- **Customer Rating**: 5 / 5.0 (55 verified reviews)
+- **Badge**: Royal Drop
+- **Description**: Regal drop jhumkas featuring a diamond-shaped post set with a cushion-cut ruby stone, elongated fluted stem, and grand antique gold bell dome fringed with glowing white pearls.
+- **Image URL**: https://www.bluidol.in/images/oxidised-gold-rhombus-pearl-jhumkas.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Oxidised%20Gold-Plated%20Rhombus%20Pearl%20Jhumkas%20(%E2%82%B9185).
+
+### Product #41: Traditional Antique Temple Chandelier Earrings (Royal Blue)
+- **SKU**: BI-JH-041
+- **Category**: jhumkas
+- **Price**: ₹125 INR (MSRP: ₹259 INR)
+- **Customer Rating**: 5 / 5.0 (43 verified reviews)
+- **Badge**: New
+- **Description**: Ornate temple earrings showcasing a fan crest with Goddess Lakshmi flanked by twin dancing peacocks, finished with a crescent fringe of vibrant royal-blue beaded droplets.
+- **Image URL**: https://www.bluidol.in/images/traditional-antique-temple-earrings-blue.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Traditional%20Antique%20Temple%20Chandelier%20Earrings%20(Royal%20Blue)%20(%E2%82%B9125).
+
+### Product #42: Traditional Antique Temple Chandelier Earrings (Ruby Red)
+- **SKU**: BI-JH-042
+- **Category**: jhumkas
+- **Price**: ₹125 INR (MSRP: ₹259 INR)
+- **Customer Rating**: 5 / 5.0 (49 verified reviews)
+- **Badge**: Trending
+- **Description**: Festive temple chandelier earrings featuring Goddess Lakshmi with peacocks in antique gold, accented with sparkling ruby-red stones and matching hanging ruby bead tassels.
+- **Image URL**: https://www.bluidol.in/images/traditional-antique-temple-earrings-red.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Traditional%20Antique%20Temple%20Chandelier%20Earrings%20(Ruby%20Red)%20(%E2%82%B9125).
+
+### Product #43: Palakya Long Jhumkas (Jet Black)
+- **SKU**: BI-JH-043
+- **Category**: jhumkas
+- **Price**: ₹155 INR (MSRP: ₹329 INR)
+- **Customer Rating**: 5 / 5.0 (58 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Statement Palakya two-tier long jhumkas featuring clover and shield jet-black stone posts, suspending a deep fluted antique gold bell dome with swaying black glass beads.
+- **Image URL**: https://www.bluidol.in/images/palakya-long-jhumkas-black.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Palakya%20Long%20Jhumkas%20(Jet%20Black)%20(%E2%82%B9155).
+
+### Product #44: Lotus Choker Necklace Set
+- **SKU**: BI-NK-044
+- **Category**: necklaces
+- **Price**: ₹155 INR (MSRP: ₹349 INR)
+- **Customer Rating**: 5 / 5.0 (52 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Traditional antique gold-finish lotus choker necklace featuring alternating ruby-pink and emerald-green gemstone lotus petals, complete with matching lotus floral stud earrings. Hypoallergenic and skin-safe.
+- **Image URL**: https://www.bluidol.in/images/lotus-choker-necklace-set.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Lotus%20Choker%20Necklace%20Set%20(%E2%82%B9155).
+
+### Product #45: Gold-Plated Stainless Steel Floral Daisy Bangle
+- **SKU**: BI-BG-045
+- **Category**: bangles
+- **Price**: ₹225 INR (MSRP: ₹449 INR)
+- **Customer Rating**: 5 / 5.0 (38 verified reviews)
+- **Badge**: Trending
+- **Description**: Exquisite 18K gold-plated stainless steel hinged bangle featuring intricate openwork floral daisy cutouts with sparkling center crystal accents. Tarnish-free, waterproof, and hypoallergenic.
+- **Image URL**: https://www.bluidol.in/images/gold-plated-stainless-steel-flower-bangle.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Stainless%20Steel%20Floral%20Daisy%20Bangle%20(%E2%82%B9225).
+
+### Product #46: Antique Gold-Toned Peacock Long Drop Jhumka Earrings
+- **SKU**: BI-JH-046
+- **Category**: jhumkas
+- **Price**: ₹75 INR (MSRP: ₹169 INR)
+- **Customer Rating**: 5 / 5.0 (44 verified reviews)
+- **Badge**: Popular
+- **Description**: Majestic antique gold-toned long drop jhumka earrings featuring an ornate peacock crown top and grand flared peacock feather plumage, suspending delicate textured bell domes fringed with shimmering white pearl drops. Hypoallergenic, lightweight, and skin-friendly.
+- **Image URL**: https://www.bluidol.in/images/antique-gold-peacock-long-drop-jhumkas.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold-Toned%20Peacock%20Long%20Drop%20Jhumka%20Earrings%20(%E2%82%B975).
+
+### Product #47: Matte Hibiscus Flower Mini Hair Claw Clips
+- **SKU**: BI-HC-047
+- **Category**: hair-clips
+- **Price**: ₹25 INR (MSRP: ₹59 INR)
+- **Customer Rating**: 5 / 5.0 (48 verified reviews)
+- **Badge**: Trending
+- **Description**: Vibrant pastel matte-finish hibiscus flower mini hair claw clips crafted from durable, non-slip acrylic resin with a strong metal spring. Gentle on hair, lightweight, and perfect for half-up hairstyles or aesthetic daily styling (Price ₹25 each).
+- **Image URL**: https://www.bluidol.in/images/matte-hibiscus-flower-hair-claw-clips.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Hibiscus%20Flower%20Mini%20Hair%20Claw%20Clips%20(%E2%82%B925).
+
+### Product #48: Matte Seashell Hair Claw Clips
+- **SKU**: BI-HC-048
+- **Category**: hair-clips
+- **Price**: ₹25 INR (MSRP: ₹59 INR)
+- **Customer Rating**: 5 / 5.0 (42 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Chic matte-finish scalloped seashell hair claw clips crafted from durable, eco-friendly resin with an interlocking non-slip claw grip and strong steel spring. Available in 12 aesthetic pastel, neutral, and vibrant shades for effortless daily styling (Price ₹25 each).
+- **Image URL**: https://www.bluidol.in/images/matte-seashell-hair-claw-clips.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Seashell%20Hair%20Claw%20Clips%20(%E2%82%B925).
+
+### Product #49: Matte-Finish Double Flower Hair Claw Clips
+- **SKU**: BI-HC-049
+- **Category**: hair-clips
+- **Price**: ₹25 INR (MSRP: ₹59 INR)
+- **Customer Rating**: 5 / 5.0 (46 verified reviews)
+- **Badge**: Popular
+- **Description**: Charming matte-finish double flower hair claw clips featuring twin blooming floral blossoms on an interlocking claw grip with high-tension metal spring. Designed for secure, all-day hold on fine to medium-thick hair in 12 stunning pastel, earthy, and neutral tones (Price ₹25 each).
+- **Image URL**: https://www.bluidol.in/images/matte-finish-double-flower-hair-claw-clips.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte-Finish%20Double%20Flower%20Hair%20Claw%20Clips%20(%E2%82%B925).
+
+### Product #50: Crystal Bloom Floral Hair Claw Clips
+- **SKU**: BI-HC-050
+- **Category**: hair-clips
+- **Price**: ₹35 INR (MSRP: ₹79 INR)
+- **Customer Rating**: 5 / 5.0 (45 verified reviews)
+- **Badge**: Trending
+- **Description**: Dazzling translucent crystal-resin double flower hair claw clips adorned with sparkling iridescent aurora borealis gemstone centers. Features an interlocking non-slip claw grip with gold-tone steel spring, available in 6 jelly pastel shades (Price ₹35 each).
+- **Image URL**: https://www.bluidol.in/images/crystal-bloom-floral-hair-claw-clips.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Crystal%20Bloom%20Floral%20Hair%20Claw%20Clips%20(%E2%82%B935).
+
+### Product #51: Crystal Flower Jaw Clamps
+- **SKU**: BI-HC-051
+- **Category**: hair-clips
+- **Price**: ₹35 INR (MSRP: ₹79 INR)
+- **Customer Rating**: 5 / 5.0 (42 verified reviews)
+- **Badge**: Trending
+- **Description**: Mini crystal flower jaw clamp hair clips featuring twin faceted crystal blossoms with iridescent aurora rhinestone centers and interlocking gold-finish grip teeth. Lightweight, secure hold for accents, bangs, and half-up styles across 6 luminous pastel shades (Price ₹35 each).
+- **Image URL**: https://www.bluidol.in/images/crystal-flower-jaw-clamps.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Crystal%20Flower%20Jaw%20Clamps%20(%E2%82%B935).
+
+### Product #52: Floral Mini Hair Claw Clips
+- **SKU**: BI-HC-052
+- **Category**: hair-clips
+- **Price**: ₹15 INR (MSRP: ₹39 INR)
+- **Customer Rating**: 5 / 5.0 (68 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Charming floral mini hair claw clips featuring five rounded translucent crystal flower petals centered with a dazzling multifaceted rhinestone on a gold-plated interlocking clamp. Pocket-friendly accent clips available in vibrant jewel tones (Price ₹15 each).
+- **Image URL**: https://www.bluidol.in/images/floral-mini-hair-claw-clips.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Floral%20Mini%20Hair%20Claw%20Clips%20(%E2%82%B915).
+
+### Product #53: Matte Butterfly Hair Claw Clips
+- **SKU**: BI-HC-053
+- **Category**: hair-clips
+- **Price**: ₹20 INR (MSRP: ₹49 INR)
+- **Customer Rating**: 5 / 5.0 (37 verified reviews)
+- **Badge**: New
+- **Description**: Aesthetic dual-winged butterfly hair claw clips finished in ultra-soft velvety matte texture with contrasting two-tone layered wings and heavy-duty spring grip. Non-damaging secure hold in soothing pastel and neutral tones (Price ₹20 each).
+- **Image URL**: https://www.bluidol.in/images/matte-butterfly-hair-claw-clips.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Butterfly%20Hair%20Claw%20Clips%20(%E2%82%B920).
+
+### Product #54: Translucent Star-Shaped Hair Claw Clips
+- **SKU**: BI-HC-054
+- **Category**: hair-clips
+- **Price**: ₹29 INR (MSRP: ₹69 INR)
+- **Customer Rating**: 5 / 5.0 (49 verified reviews)
+- **Badge**: Trending
+- **Description**: Modern geometric hollow star hair claw clips crafted from glossy translucent amber, crystal clear, champagne, and smoky acrylic with sturdy interlocking comb teeth. Sleek celestial accessory for quick updos and half-buns (Price ₹29 each).
+- **Image URL**: https://www.bluidol.in/images/translucent-star-shaped-hair-claw-clips.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Translucent%20Star-Shaped%20Hair%20Claw%20Clips%20(%E2%82%B929).
+
+### Product #55: Matte Ribbon Bow Hair Clutcher
+- **SKU**: BI-HC-055
+- **Category**: hair-clips
+- **Price**: ₹39 INR (MSRP: ₹89 INR)
+- **Customer Rating**: 5 / 5.0 (54 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Elegant sculpted double-shade ribbon bow hair clutcher in premium soft-touch matte finish. Features dual-tone contrast bow loops and strong interlocking teeth for medium to thick hair holding (Price ₹39 each).
+- **Image URL**: https://www.bluidol.in/images/matte-ribbon-bow-hair-clutcher.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Ribbon%20Bow%20Hair%20Clutcher%20(%E2%82%B939).
+
+### Product #56: Korean Style Tulip Hair Clips
+- **SKU**: BI-HC-056
+- **Category**: hair-clips
+- **Price**: ₹69 INR (MSRP: ₹149 INR)
+- **Customer Rating**: 5 / 5.0 (33 verified reviews)
+- **Badge**: New
+- **Description**: Graceful Korean-aesthetic twin tulip hair claw clip designed with sculpted matte floral buds and leafy stems set along an elegant translucent arched claw frame. Luxurious everyday statement accessory (Price ₹69 each).
+- **Image URL**: https://www.bluidol.in/images/korean-style-tulip-hair-clips.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Korean%20Style%20Tulip%20Hair%20Clips%20(%E2%82%B969).
+
+### Product #57: Korean-Style Flower Wreath Hair Claw Clips (Combo of 2)
+- **SKU**: BI-CC-057
+- **Category**: clip-combos
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (48 verified reviews)
+- **Badge**: Trending
+- **Description**: Charming Korean circular flower wreath hair claw clip combo of 2 featuring sculpted miniature daisies with iridescent crystal centers on a durable transparent hollow circular ring claw clamp. Pack of 2 coordinating clips (Price ₹99 for combo).
+- **Image URL**: https://www.bluidol.in/images/korean-style-flower-wreath-claw-clips-combo.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Korean-Style%20Flower%20Wreath%20Hair%20Claw%20Clips%20(Combo%20of%202)%20(%E2%82%B999).
+
+### Product #58: Navy Blue Matte Hibiscus Hair Claw Clips (3pc Combo)
+- **SKU**: BI-CC-058
+- **Category**: clip-combos
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (52 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Gorgeous 3-piece combo set of Hawaiian hibiscus flower hair claw clips in rich navy blue velvety matte finish. Includes 1 large statement flower claw clip and 2 matching medium accent clips for versatile styling (Price ₹99 for combo).
+- **Image URL**: https://www.bluidol.in/images/navy-blue-matte-hibiscus-hair-claw-clips-combo.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Navy%20Blue%20Matte%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
+
+### Product #59: Dark Dusty Rose Hibiscus Hair Claw Clips (3pc Combo)
+- **SKU**: BI-CC-059
+- **Category**: clip-combos
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (41 verified reviews)
+- **Badge**: Trending
+- **Description**: Delicate 3-piece combo set of tropical hibiscus flower hair claw clips finished in sophisticated dark dusty rose matte texture. Features 1 jumbo statement clip and 2 medium companion clips with strong interlocking teeth (Price ₹99 for combo).
+- **Image URL**: https://www.bluidol.in/images/dark-dusty-rose-hibiscus-hair-claw-clips-combo.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Dark%20Dusty%20Rose%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
+
+### Product #60: Matte Mustard Hibiscus Hair Claw Clips (3pc Combo)
+- **SKU**: BI-CC-060
+- **Category**: clip-combos
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (36 verified reviews)
+- **Badge**: New
+- **Description**: Warm sun-kissed matte mustard yellow hibiscus flower claw clip combo of 3. Crafted with velvety soft-touch matte acrylic and strong steel spring mechanism. Includes 1 large and 2 medium clips (Price ₹99 for combo).
+- **Image URL**: https://www.bluidol.in/images/matte-mustard-hibiscus-hair-claw-clips-combo.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Mustard%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
+
+### Product #61: Matte Black Hibiscus Hair Claw Clips (3pc Combo)
+- **SKU**: BI-CC-061
+- **Category**: clip-combos
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (59 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Timeless monochrome matte black hibiscus flower hair claw clip combo of 3. Features textured ribbed petals, velvety grip, and reliable hold for all hair types. Includes 1 large statement and 2 medium clips (Price ₹99 for combo).
+- **Image URL**: https://www.bluidol.in/images/matte-black-hibiscus-hair-claw-clips-combo.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Black%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
+
+### Product #62: Matte White Hibiscus Hair Claw Clips (3pc Combo)
+- **SKU**: BI-CC-062
+- **Category**: clip-combos
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (44 verified reviews)
+- **Badge**: Trending
+- **Description**: Crisp clean matte ivory white hibiscus flower claw clips combo of 3. Elegant tropical aesthetic with ribbed petal contours and soft matte finish. Includes 1 jumbo and 2 medium hair claws (Price ₹99 for combo).
+- **Image URL**: https://www.bluidol.in/images/matte-white-hibiscus-hair-claw-clips-combo.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20White%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
+
+### Product #63: Baby Pink Matte Hibiscus Hair Claw Clips (3pc Combo)
+- **SKU**: BI-CC-063
+- **Category**: clip-combos
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (50 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Charming pastel baby pink matte hibiscus flower hair claw clips combo of 3. Sweet floral design with soft-touch finish and comfortable non-slip teeth grip. Set of 1 large and 2 medium clips (Price ₹99 for combo).
+- **Image URL**: https://www.bluidol.in/images/baby-pink-matte-hibiscus-hair-claw-clips-combo.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Baby%20Pink%20Matte%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
+
+### Product #64: Matte Grey Hibiscus Hair Claw Clips (3pc Combo)
+- **SKU**: BI-CC-064
+- **Category**: clip-combos
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (38 verified reviews)
+- **Badge**: New
+- **Description**: Modern neutral matte light grey hibiscus flower claw clips combo of 3. Minimalist aesthetic pairing soft ribbed petals with secure interlocking hold. Includes 1 large and 2 medium claw clips (Price ₹99 for combo).
+- **Image URL**: https://www.bluidol.in/images/matte-grey-hibiscus-hair-claw-clips-combo.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Grey%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
+
+### Product #65: Matte Dark Grey Hibiscus Hair Claw Clips (3pc Combo)
+- **SKU**: BI-CC-065
+- **Category**: clip-combos
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (43 verified reviews)
+- **Badge**: Trending
+- **Description**: Sleek charcoal matte dark grey hibiscus flower claw clips combo of 3. Understated urban chic design with soft matte finish and reliable spring grip. Contains 1 jumbo and 2 medium clips (Price ₹99 for combo).
+- **Image URL**: https://www.bluidol.in/images/matte-dark-grey-hibiscus-hair-claw-clips-combo.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Dark%20Grey%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
+
+### Product #66: Matte Green Floral Hibiscus Hair Claw Clips (3pc Combo)
+- **SKU**: BI-CC-066
+- **Category**: clip-combos
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (47 verified reviews)
+- **Badge**: Trending
+- **Description**: Earthy sage matte green hibiscus flower hair claw clips combo of 3. Nature-inspired sculpted floral design with non-pulling teeth and durable steel spring. Includes 1 large and 2 medium clips (Price ₹99 for combo).
+- **Image URL**: https://www.bluidol.in/images/matte-green-floral-hibiscus-hair-claw-clips-combo.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Green%20Floral%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
+
+### Product #67: Dark Wine Hibiscus Hair Claw Clips (3pc Combo)
+- **SKU**: BI-CC-067
+- **Category**: clip-combos
+- **Price**: ₹99 INR (MSRP: ₹199 INR)
+- **Customer Rating**: 5 / 5.0 (55 verified reviews)
+- **Badge**: Bestseller
+- **Description**: Rich luxurious dark wine burgundy matte hibiscus flower hair claw clips combo of 3. Deep berry tones with soft velvety texture and firm interlocking grip. Set of 1 statement large and 2 medium clips (Price ₹99 for combo).
+- **Image URL**: https://www.bluidol.in/images/dark-wine-hibiscus-hair-claw-clips-combo.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Dark%20Wine%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
