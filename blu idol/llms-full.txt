@@ -12,7 +12,7 @@
 - **Payment Modes**: UPI (PhonePe, Google Pay, Paytm), Debit/Credit Cards, Net Banking
 - **Shipping Coverage**: All PIN codes across India (Standard: 3-5 business days; Express available)
 
-## 2. Complete Product Catalog (76 Items)
+## 2. Complete Product Catalog (80 Items)
 
 ### Product #5: Anti tarnish 3D Puffy Heart Pendant chain
 - **SKU**: BI-NK-005
@@ -773,3 +773,43 @@
 - **Description**: Whimsical enchanted fairy stud earrings featuring shimmering iridescent opaline resin wings with subtle glitter accents, delicate paved crystal dresses, and sculpted golden fairy silhouettes in flight.
 - **Image URL**: https://www.bluidol.in/images/opaline-winged-fairy-stud-earrings.png
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Opaline%20Winged%20Fairy%20Stud%20Earrings%20(%E2%82%B935).
+
+### Product #81: Black-Stone Studded Gold-Toned Chandbali Earrings
+- **SKU**: BI-JH-081
+- **Category**: jhumkas
+- **Price**: ₹85 INR (MSRP: ₹189 INR)
+- **Customer Rating**: 5 / 5.0 (42 verified reviews)
+- **Badge**: Partywear
+- **Description**: Stunning traditional partywear chandbali earrings crafted with antique gold finish, featuring a six-petal black crystal flower stud top, an openwork filigree crescent medallion adorned with black floral stone clusters, and dangling black bead drops.
+- **Image URL**: https://www.bluidol.in/images/black-stone-studded-gold-toned-chandbali-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Black-Stone%20Studded%20Gold-Toned%20Chandbali%20Earrings%20(%E2%82%B985).
+
+### Product #82: Antique Gold Chandelier Chandbali Earrings
+- **SKU**: BI-JH-082
+- **Category**: jhumkas
+- **Price**: ₹185 INR (MSRP: ₹399 INR)
+- **Customer Rating**: 5 / 5.0 (49 verified reviews)
+- **Badge**: Partywear
+- **Description**: Regal grand partywear chandelier chandbali earrings in antique matte gold plating. Intricately embellished with pavé crystal accents, faceted champagne crystal teardrops, and cascading champagne briolette bead fringes with seed pearls.
+- **Image URL**: https://www.bluidol.in/images/antique-gold-chandelier-chandbali-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold%20Chandelier%20Chandbali%20Earrings%20(%E2%82%B9185).
+
+### Product #83: Gold-Plated Dhwani Chandbali Earrings
+- **SKU**: BI-JH-083
+- **Category**: jhumkas
+- **Price**: ₹119 INR (MSRP: ₹249 INR)
+- **Customer Rating**: 5 / 5.0 (38 verified reviews)
+- **Badge**: Partywear
+- **Description**: Sophisticated Dhwani partywear chandbali earrings in antique gold plating. Features a round crystal sunburst stud, an open horseshoe crescent hoop studded with sparkling zircon crystals, and dangling lustrous white pearls.
+- **Image URL**: https://www.bluidol.in/images/gold-plated-dhwani-chandbali-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Dhwani%20Chandbali%20Earrings%20(%E2%82%B9119).
+
+### Product #84: Antique Gold-Toned Turquoise Chandbali Earrings
+- **SKU**: BI-JH-084
+- **Category**: jhumkas
+- **Price**: ₹65 INR (MSRP: ₹139 INR)
+- **Customer Rating**: 5 / 5.0 (36 verified reviews)
+- **Badge**: Partywear
+- **Description**: Boho-ethnic antique gold-toned partywear chandbali earrings featuring textured filigree engraving, vibrant turquoise-blue enamel and stone accents, teardrop center inlay, and swinging turquoise bead drops.
+- **Image URL**: https://www.bluidol.in/images/antique-gold-toned-turquoise-chandbali-earrings.png
+- **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold-Toned%20Turquoise%20Chandbali%20Earrings%20(%E2%82%B965).

@@ -915,6 +915,54 @@ const products = [
     reviews: 46,
     badge: "Trending",
     description: "Whimsical enchanted fairy stud earrings featuring shimmering iridescent opaline resin wings with subtle glitter accents, delicate paved crystal dresses, and sculpted golden fairy silhouettes in flight."
+  },
+  {
+    id: 81,
+    name: "Black-Stone Studded Gold-Toned Chandbali Earrings",
+    category: "jhumkas",
+    price: 85,
+    originalPrice: 189,
+    image: "images/black-stone-studded-gold-toned-chandbali-earrings.png",
+    stars: 5,
+    reviews: 42,
+    badge: "Partywear",
+    description: "Stunning traditional partywear chandbali earrings crafted with antique gold finish, featuring a six-petal black crystal flower stud top, an openwork filigree crescent medallion adorned with black floral stone clusters, and dangling black bead drops."
+  },
+  {
+    id: 82,
+    name: "Antique Gold Chandelier Chandbali Earrings",
+    category: "jhumkas",
+    price: 185,
+    originalPrice: 399,
+    image: "images/antique-gold-chandelier-chandbali-earrings.png",
+    stars: 5,
+    reviews: 49,
+    badge: "Partywear",
+    description: "Regal grand partywear chandelier chandbali earrings in antique matte gold plating. Intricately embellished with pavé crystal accents, faceted champagne crystal teardrops, and cascading champagne briolette bead fringes with seed pearls."
+  },
+  {
+    id: 83,
+    name: "Gold-Plated Dhwani Chandbali Earrings",
+    category: "jhumkas",
+    price: 119,
+    originalPrice: 249,
+    image: "images/gold-plated-dhwani-chandbali-earrings.png",
+    stars: 5,
+    reviews: 38,
+    badge: "Partywear",
+    description: "Sophisticated Dhwani partywear chandbali earrings in antique gold plating. Features a round crystal sunburst stud, an open horseshoe crescent hoop studded with sparkling zircon crystals, and dangling lustrous white pearls."
+  },
+  {
+    id: 84,
+    name: "Antique Gold-Toned Turquoise Chandbali Earrings",
+    category: "jhumkas",
+    price: 65,
+    originalPrice: 139,
+    image: "images/antique-gold-toned-turquoise-chandbali-earrings.png",
+    stars: 5,
+    reviews: 36,
+    badge: "Partywear",
+    description: "Boho-ethnic antique gold-toned partywear chandbali earrings featuring textured filigree engraving, vibrant turquoise-blue enamel and stone accents, teardrop center inlay, and swinging turquoise bead drops."
   }
 ];
 
