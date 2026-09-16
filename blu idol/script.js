@@ -963,6 +963,30 @@ const products = [
     reviews: 36,
     badge: "Partywear",
     description: "Boho-ethnic antique gold-toned partywear chandbali earrings featuring textured filigree engraving, vibrant turquoise-blue enamel and stone accents, teardrop center inlay, and swinging turquoise bead drops."
+  },
+  {
+    id: 85,
+    name: "Matte Beige Hibiscus Hair Claw Clips (3pc Combo)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/matte-beige-hibiscus-hair-claw-clips-combo.png",
+    stars: 5,
+    reviews: 45,
+    badge: "Trending",
+    description: "Earthy warm matte beige neutral hibiscus flower hair claw clips combo of 3. Features soft velvety matte coating, scalloped textured petals, and reliable interlocking claw teeth. Set includes 1 large statement and 2 medium companion clips (Price ₹99 for combo)."
+  },
+  {
+    id: 86,
+    name: "Matte Brown Hibiscus Hair Claw Clips (3pc Combo)",
+    category: "clip-combos",
+    price: 99,
+    originalPrice: 199,
+    image: "images/matte-brown-hibiscus-hair-claw-clips-combo.png",
+    stars: 5,
+    reviews: 51,
+    badge: "Bestseller",
+    description: "Warm mocha brown matte hibiscus flower hair claw clips combo of 3. Rich velvety neutral tone with ribbed petal contours and powerful steel spring grip for all hair textures. Includes 1 jumbo and 2 medium clips (Price ₹99 for combo)."
   }
 ];
 
