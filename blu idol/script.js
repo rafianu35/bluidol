@@ -519,6 +519,18 @@ const products = [
     reviews: 48,
     badge: "Trending",
     description: "Vibrant pastel matte-finish hibiscus flower mini hair claw clips crafted from durable, non-slip acrylic resin with a strong metal spring. Gentle on hair, lightweight, and perfect for half-up hairstyles or aesthetic daily styling (Price ₹25 each)."
+  },
+  {
+    id: 48,
+    name: "Matte Seashell Hair Claw Clips",
+    category: "hair-clips",
+    price: 25,
+    originalPrice: 59,
+    image: "images/matte-seashell-hair-claw-clips.png",
+    stars: 5,
+    reviews: 42,
+    badge: "Bestseller",
+    description: "Chic matte-finish scalloped seashell hair claw clips crafted from durable, eco-friendly resin with an interlocking non-slip claw grip and strong steel spring. Available in 12 aesthetic pastel, neutral, and vibrant shades for effortless daily styling (Price ₹25 each)."
   }
 ];
 
