@@ -531,6 +531,18 @@ const products = [
     reviews: 42,
     badge: "Bestseller",
     description: "Chic matte-finish scalloped seashell hair claw clips crafted from durable, eco-friendly resin with an interlocking non-slip claw grip and strong steel spring. Available in 12 aesthetic pastel, neutral, and vibrant shades for effortless daily styling (Price ₹25 each)."
+  },
+  {
+    id: 49,
+    name: "Matte-Finish Double Flower Hair Claw Clips",
+    category: "hair-clips",
+    price: 25,
+    originalPrice: 59,
+    image: "images/matte-finish-double-flower-hair-claw-clips.png",
+    stars: 5,
+    reviews: 46,
+    badge: "Popular",
+    description: "Charming matte-finish double flower hair claw clips featuring twin blooming floral blossoms on an interlocking claw grip with high-tension metal spring. Designed for secure, all-day hold on fine to medium-thick hair in 12 stunning pastel, earthy, and neutral tones (Price ₹25 each)."
   }
 ];
 
