@@ -507,6 +507,18 @@ const products = [
     reviews: 44,
     badge: "Popular",
     description: "Majestic antique gold-toned long drop jhumka earrings featuring an ornate peacock crown top and grand flared peacock feather plumage, suspending delicate textured bell domes fringed with shimmering white pearl drops. Hypoallergenic, lightweight, and skin-friendly."
+  },
+  {
+    id: 47,
+    name: "Matte Hibiscus Flower Mini Hair Claw Clips",
+    category: "hair-clips",
+    price: 25,
+    originalPrice: 59,
+    image: "images/matte-hibiscus-flower-hair-claw-clips.png",
+    stars: 5,
+    reviews: 48,
+    badge: "Trending",
+    description: "Vibrant pastel matte-finish hibiscus flower mini hair claw clips crafted from durable, non-slip acrylic resin with a strong metal spring. Gentle on hair, lightweight, and perfect for half-up hairstyles or aesthetic daily styling (Price ₹25 each)."
   }
 ];
 
@@ -1202,7 +1214,7 @@ function initFAQ() {
 function initCategoryHashNav() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     const href = anchor.getAttribute('href');
-    if (['#earrings', '#jhumkas', '#necklaces', '#bangles', '#bracelets', '#anklets'].includes(href)) {
+    if (['#earrings', '#jhumkas', '#necklaces', '#bangles', '#bracelets', '#anklets', '#hair-clips'].includes(href)) {
       anchor.addEventListener('click', (e) => {
         const cat = href.replace('#', '');
         const filterBtn = document.querySelector(`.filter-btn[data-filter="${cat}"]`);

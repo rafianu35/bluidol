@@ -53,7 +53,7 @@
   <link rel="apple-touch-icon" href="images/logo.jpg">
 
   <!-- JSON-LD Structured Data for Google, Bing & AI Answer Engines -->
-              <script type="application/ld+json">
+                <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
@@ -77,7 +77,7 @@
         "slogan": "Bring Luxury To You",
         "telephone": "+919895432549",
         "email": "support@bluidol.in",
-        "priceRange": "₹45 - ₹289",
+        "priceRange": "₹25 - ₹289",
         "currenciesAccepted": "INR",
         "paymentAccepted": "UPI, Credit Card, Debit Card, Net Banking",
         "areaServed": {
@@ -118,7 +118,7 @@
         "@id": "https://www.bluidol.in/#bestsellers",
         "name": "Blu Idol Bestsellers Collection",
         "description": "Curated 18K gold-plated demi-fine jewellery pieces featuring anti-tarnish and waterproof durability.",
-        "numberOfItems": 42,
+        "numberOfItems": 43,
         "itemListElement": [
           {
             "@type": "Product",
@@ -1379,6 +1379,36 @@
               "bestRating": "5",
               "ratingCount": "44"
             }
+          },
+          {
+            "@type": "Product",
+            "position": 43,
+            "name": "Matte Hibiscus Flower Mini Hair Claw Clips",
+            "image": "https://www.bluidol.in/images/matte-hibiscus-flower-hair-claw-clips.png",
+            "description": "Vibrant pastel matte-finish hibiscus flower mini hair claw clips crafted from durable, non-slip acrylic resin with a strong metal spring. Gentle on hair, lightweight, and perfect for half-up hairstyles or aesthetic daily styling (Price ₹25 each).",
+            "sku": "BI-HC-047",
+            "brand": {
+              "@type": "Brand",
+              "name": "Blu Idol"
+            },
+            "offers": {
+              "@type": "Offer",
+              "url": "https://www.bluidol.in/#shop",
+              "priceCurrency": "INR",
+              "price": "25",
+              "priceValidUntil": "2027-12-31",
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
+              "seller": {
+                "@id": "https://www.bluidol.in/#organization"
+              }
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "bestRating": "5",
+              "ratingCount": "48"
+            }
           }
         ]
       },
@@ -1500,6 +1530,7 @@
               <li><a href="#bangles" id="nav-bangles">Bangles</a></li>
               <li><a href="#rings" id="nav-rings">Rings</a></li>
               <li><a href="#bracelets" id="nav-bracelets">Bracelets</a></li>
+              <li><a href="#hair-clips" id="nav-hair-clips">Hair Clips</a></li>
             </ul>
           </li>
           <li><a href="#about" id="nav-about">Our Story</a></li>
@@ -1554,6 +1585,7 @@
         <li><a href="#bangles" id="mob-bangles"><span>Bangles</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
         <li><a href="#rings" id="mob-rings"><span>Rings</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
         <li><a href="#bracelets" id="mob-bracelets"><span>Bracelets</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
+        <li><a href="#hair-clips" id="mob-hair-clips"><span>Hair Clips</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
         <li><a href="#about" id="mob-about"><span>Our Story</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
         <li><a href="#faq" id="mob-faq"><span>FAQ</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
         <li><a href="#contact" id="mob-contact"><span>Contact Us</span> <i class="fa fa-chevron-right fa-xs"></i></a></li>
@@ -1706,6 +1738,18 @@
             <a href="#anklets" class="btn-link" id="anklets-link">Explore <i class="fa fa-arrow-right fa-xs"></i></a>
           </div>
         </div>
+
+        <!-- Hair Clips -->
+        <div class="collection-card" id="collection-card-hair-clips">
+          <div class="collection-img-wrap">
+            <img src="images/matte-hibiscus-flower-hair-claw-clips.png" alt="Hair Clips Collection" loading="lazy">
+            <div class="collection-overlay"></div>
+          </div>
+          <div class="collection-info">
+            <h3>Hair Clips</h3>
+            <a href="#hair-clips" class="btn-link" id="hair-clips-link">Explore <i class="fa fa-arrow-right fa-xs"></i></a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -1726,6 +1770,7 @@
         <button class="filter-btn" id="filter-bangles" data-filter="bangles">Bangles</button>
         <button class="filter-btn" id="filter-bracelets" data-filter="bracelets">Bracelets</button>
         <button class="filter-btn" id="filter-anklets" data-filter="anklets">Anklets</button>
+        <button class="filter-btn" id="filter-hair-clips" data-filter="hair-clips">Hair Clips</button>
       </div>
 
       <div class="products-grid" id="products-grid">
@@ -3200,6 +3245,42 @@
           </div>
         </div>
 
+        <!-- Product 47 -->
+        <div class="product-card" id="product-47" data-category="hair-clips">
+          <div class="product-img-wrap">
+            <img src="images/matte-hibiscus-flower-hair-claw-clips.png" alt="Matte Hibiscus Flower Mini Hair Claw Clips" loading="lazy">
+            <div class="product-badges">
+              <span class="badge-best">Trending</span>
+            </div>
+            <div class="product-actions">
+              <button class="product-wishlist" aria-label="Add to wishlist" data-product="47" id="wish-47">
+                <i class="fa-regular fa-heart"></i>
+              </button>
+              <button class="product-quick" aria-label="Quick view" data-product="47" id="quick-47">
+                <i class="fa fa-eye"></i>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Hair Clips</p>
+            <h3 class="product-name">Matte Hibiscus Flower Mini Hair Claw Clips</h3>
+            <div class="product-stars">
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+              <span>(48)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price-current">₹25</span>
+              <span class="price-original">₹59</span>
+              <span class="price-off">58% off</span>
+            </div>
+            <a href="https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Hibiscus%20Flower%20Mini%20Hair%20Claw%20Clips%20(%E2%82%B925%20each)." target="_blank" rel="noopener" class="btn btn-whatsapp" id="wa-order-47" data-product="47">
+              <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+            </a>
+          </div>
+        </div>
+
+
 
 
 
@@ -3569,6 +3650,7 @@
             <li><a href="#bangles" id="footer-bangles">Bangles</a></li>
           <li><a href="#rings" id="footer-rings">Rings</a></li>
           <li><a href="#bracelets" id="footer-bracelets">Bracelets</a></li>
+          <li><a href="#hair-clips" id="footer-hair-clips">Hair Clips</a></li>
           <li><a href="#shop" id="footer-new-arrivals">New Drops</a></li>
         </ul>
       </div>
