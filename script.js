@@ -1619,7 +1619,7 @@ function initQuickView() {
           <span class="price-original">₹${item.originalPrice}</span>
         </div>
         <p class="modal-desc">${item.description}</p>
-        <a href="https://wa.me/919895432549?text=${encodeURIComponent('Hi Blu Idol, I would like to order the ' + item.name + ' (₹' + item.price + ').')}" target="_blank" rel="noopener" class="btn btn-whatsapp" id="modal-wa-btn" style="width: 100%; margin-top: 12px; font-size: 0.82rem; padding: 8px 14px;">
+        <a href="https://wa.me/919895432549?text=${encodeURIComponent('Hi Blu Idol, I would like to order the ' + item.name + ' (₹' + item.price + '). I am located in [City/District, Kerala/India]. Please share delivery timelines and payment details.')}" target="_blank" rel="noopener" class="btn btn-whatsapp" id="modal-wa-btn" style="width: 100%; margin-top: 12px; font-size: 0.82rem; padding: 8px 14px;">
           <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i> Order on WhatsApp
         </a>
       `;

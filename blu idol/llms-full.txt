@@ -1,18 +1,28 @@
 # Blu Idol: Comprehensive Brand & Technical Knowledge Base
-> System documentation, catalog inventory, material science, and customer service reference for AI assistants.
+> System documentation, catalog inventory, material science, regional delivery, and customer service reference for AI assistants.
 
 ## 1. Company Profile
 - **Legal Entity / Brand Name**: Blu Idol
 - **Brand Slogan**: BLU = Bring Luxury To You
+- **Headquarters & Regional Base**: Kerala, India
 - **Domain**: https://www.bluidol.in
 - **Order Hotline (WhatsApp Concierge)**: +91 9895432549
 - **Support Email**: support@bluidol.in
 - **Instagram**: https://www.instagram.com/blu_idol/
 - **Price Range**: ₹15 to ₹599 INR
 - **Payment Modes**: UPI (PhonePe, Google Pay, Paytm), Debit/Credit Cards, Net Banking
-- **Shipping Coverage**: All PIN codes across India (Standard: 3-5 business days; Express available)
+- **Shipping Coverage**: 
+  - **Kerala Express**: 1 to 2 business days across all 14 districts (Kochi, Thiruvananthapuram, Kozhikode, Thrissur, Kollam, Kannur, Kottayam, Palakkad, Alappuzha, Malappuram, Kasaragod, Pathanamthitta, Idukki, Wayanad).
+  - **Pan-India**: 3 to 5 business days across all Indian states.
+  - **Free Shipping**: Available on all orders above ₹999.
 
-## 2. Complete Product Catalog (93 Items)
+## 2. Anti-Tarnish Material Science & Regional Relevance
+- **Plating Technology**: 18K Real Gold Physical Vapor Deposition (PVD) vacuum electroplating. Creates a metallurgical bond that is 10x more wear-resistant than standard decorative immersion plating.
+- **Core Metal**: Medical-grade 316L surgical stainless steel. Completely resistant to chlorine, salt water, and skin acids.
+- **Hypoallergenic Certification**: 100% Nickel-free, Lead-free, and Cadmium-free. Prevents allergic contact dermatitis and skin discoloration.
+- **Kerala Tropical Resilience**: Laboratory and field-tested against high humidity, coastal sea air, and sweat in Kerala. Will never turn black or tarnish in humid environments.
+
+## 3. Complete Product Catalog (93 Items)
 
 ### Product #5: Anti tarnish 3D Puffy Heart Pendant chain
 - **SKU**: BI-NK-005
@@ -21,7 +31,7 @@
 - **Customer Rating**: 5 / 5.0 (34 verified reviews)
 - **Badge**: Trending
 - **Description**: Charming 3D puffy heart pendant suspended on a delicate 18K gold-plated beaded snake chain. Crafted from premium anti-tarnish, waterproof, and hypoallergenic stainless steel for effortless daily elegance.
-- **Image URL**: https://www.bluidol.in/images/puffy-heart-pendant.png
+- **Image URL**: https://www.bluidol.in/images/puffy-heart-pendant.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Anti%20tarnish%203D%20Puffy%20Heart%20Pendant%20chain%20(%E2%82%B9210).
 
 ### Product #6: Dainty Ruby Tulip Pendant Chain
@@ -31,7 +41,7 @@
 - **Customer Rating**: 5 / 5.0 (29 verified reviews)
 - **Badge**: New
 - **Description**: Graceful floral-inspired pendant featuring sparkling faceted ruby-red crystals in a delicate tulip leaf motif. Set on an 18K gold-plated anti-tarnish chain designed for waterproof daily wear.
-- **Image URL**: https://www.bluidol.in/images/ruby-tulip-pendant.png
+- **Image URL**: https://www.bluidol.in/images/ruby-tulip-pendant.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Dainty%20Ruby%20Tulip%20Pendant%20Chain%20(%E2%82%B9210).
 
 ### Product #7: Stainless crystal tulip pendant necklace
@@ -41,7 +51,7 @@
 - **Customer Rating**: 5 / 5.0 (41 verified reviews)
 - **Badge**: Trending
 - **Description**: Delicate crystal tulip pendant featuring sparkling faceted cubic zirconia petals set in an 18K gold-plated stainless steel setting. Anti-tarnish, waterproof, and hypoallergenic for everyday luxury.
-- **Image URL**: https://www.bluidol.in/images/crystal-tulip-necklace.png
+- **Image URL**: https://www.bluidol.in/images/crystal-tulip-necklace.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Stainless%20crystal%20tulip%20pendant%20necklace%20(%E2%82%B9239).
 
 ### Product #8: Gold-Plated Rectangular Moonstone Pendant Necklace
@@ -51,7 +61,7 @@
 - **Customer Rating**: 5 / 5.0 (38 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Elegantly crafted rectangular luminous moonstone pendant encased in an 18K gold-plated bezel on a sleek snake chain. Anti-tarnish, waterproof, and hypoallergenic for everyday sophistication.
-- **Image URL**: https://www.bluidol.in/images/rectangular-moonstone-necklace.png
+- **Image URL**: https://www.bluidol.in/images/rectangular-moonstone-necklace.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Rectangular%20Moonstone%20Pendant%20Necklace%20(%E2%82%B9289).
 
 ### Product #9: Anti-Tarnish Vintage Gold-Plated Tulip Flower Pendant Necklace
@@ -61,7 +71,7 @@
 - **Customer Rating**: 5 / 5.0 (36 verified reviews)
 - **Badge**: Trending
 - **Description**: Vintage-inspired oval pendant featuring an embossed gold tulip on a mother-of-pearl enamel medallion, suspended on an 18K gold-plated beaded snake chain. Anti-tarnish, waterproof, and hypoallergenic.
-- **Image URL**: https://www.bluidol.in/images/vintage-tulip-necklace.png
+- **Image URL**: https://www.bluidol.in/images/vintage-tulip-necklace.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Anti-Tarnish%20Vintage%20Gold-Plated%20Tulip%20Flower%20Pendant%20Necklace%20(%E2%82%B9249).
 
 ### Product #10: Stainless Modern Gold Pendant Necklace
@@ -71,7 +81,7 @@
 - **Customer Rating**: 5 / 5.0 (44 verified reviews)
 - **Badge**: New
 - **Description**: Modern geometric bar necklace featuring four bezel-set sparkling pear-cut crystal drops on an 18K gold-plated stainless steel chain. Anti-tarnish, waterproof, and hypoallergenic.
-- **Image URL**: https://www.bluidol.in/images/modern-gold-pendant-necklace.png
+- **Image URL**: https://www.bluidol.in/images/modern-gold-pendant-necklace.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Stainless%20Modern%20Gold%20Pendant%20Necklace%20(%E2%82%B9259).
 
 ### Product #11: Diamond Wave Bar Necklace
@@ -81,7 +91,7 @@
 - **Customer Rating**: 5 / 5.0 (32 verified reviews)
 - **Badge**: Trending
 - **Description**: Graceful curved wave bar pendant adorned with pavé-set shimmering cubic zirconia stones on a delicate sterling-finish chain. Anti-tarnish, waterproof, and hypoallergenic.
-- **Image URL**: https://www.bluidol.in/images/diamond-wave-necklace.png
+- **Image URL**: https://www.bluidol.in/images/diamond-wave-necklace.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Diamond%20Wave%20Bar%20Necklace%20(%E2%82%B9199).
 
 ### Product #12: Gold-Plated Maple Leaf Station Charm Necklace
@@ -91,7 +101,7 @@
 - **Customer Rating**: 5 / 5.0 (27 verified reviews)
 - **Badge**: New
 - **Description**: Whimsical autumn-inspired station necklace featuring finely detailed gold maple leaf charms and bezel-set sparkling crystals on a satellite chain. Anti-tarnish, waterproof, and hypoallergenic.
-- **Image URL**: https://www.bluidol.in/images/maple-leaf-necklace.png
+- **Image URL**: https://www.bluidol.in/images/maple-leaf-necklace.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Maple%20Leaf%20Station%20Charm%20Necklace%20(%E2%82%B9265).
 
 ### Product #13: Oxidized Silver Floral Jewelry Set
@@ -101,7 +111,7 @@
 - **Customer Rating**: 5 / 5.0 (53 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Traditional heritage oxidized silver necklace set embellished with vibrant ruby-red and emerald-green floral motifs, complete with matching stud earrings. Hypoallergenic and skin-safe.
-- **Image URL**: https://www.bluidol.in/images/oxidized-silver-floral-set.png
+- **Image URL**: https://www.bluidol.in/images/oxidized-silver-floral-set.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Oxidized%20Silver%20Floral%20Jewelry%20Set%20(%E2%82%B9165).
 
 ### Product #14: Gold-Plated Green Cat's Eye Heart Pendant Necklace
@@ -111,7 +121,7 @@
 - **Customer Rating**: 5 / 5.0 (39 verified reviews)
 - **Badge**: Trending
 - **Description**: Captivating two-tone heart pendant featuring a lustrous green cat's eye stone paired with mirror-polished 18K gold plating on a dainty chain. Waterproof and hypoallergenic.
-- **Image URL**: https://www.bluidol.in/images/green-heart-catseye-necklace.png
+- **Image URL**: https://www.bluidol.in/images/green-heart-catseye-necklace.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Green%20Cat's%20Eye%20Heart%20Pendant%20Necklace%20(%E2%82%B9199).
 
 ### Product #15: Minimalist Gold-Plated Stainless Steel Charm Bracelet
@@ -121,7 +131,7 @@
 - **Customer Rating**: 5 / 5.0 (45 verified reviews)
 - **Badge**: New
 - **Description**: Dainty 18K gold-plated stainless steel charm bracelet adorned with dangling polished disc charms and multicolor jewel-toned crystal accents. 100% waterproof and rust-proof.
-- **Image URL**: https://www.bluidol.in/images/gold-charm-bracelet.png
+- **Image URL**: https://www.bluidol.in/images/gold-charm-bracelet.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Minimalist%20Gold-Plated%20Stainless%20Steel%20Charm%20Bracelet%20(%E2%82%B9189).
 
 ### Product #16: Gold-Plated Beaded Snake Chain Anklet
@@ -131,7 +141,7 @@
 - **Customer Rating**: 5 / 5.0 (68 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Shimmering 18K gold-plated beaded satellite snake chain anklet (Price ₹90 each). Features micro-bead stations on a fluid snake chain with secure lobster clasp. Waterproof and tarnish-free.
-- **Image URL**: https://www.bluidol.in/images/beaded-snake-chain-anklets.png
+- **Image URL**: https://www.bluidol.in/images/beaded-snake-chain-anklets.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Beaded%20Snake%20Chain%20Anklet%20(%E2%82%B990).
 
 ### Product #17: Gold-Plated Emerald-Cut Purple Gemstone Leaf Stud Earrings
@@ -141,7 +151,7 @@
 - **Customer Rating**: 5 / 5.0 (42 verified reviews)
 - **Badge**: New Drop
 - **Description**: Stunning leaf-motif stud earrings featuring an emerald-cut vibrant purple gemstone bordered by pavé-set shimmering cubic zirconia leaves in rich 18K gold plating. Hypoallergenic and lightweight for daily luxury.
-- **Image URL**: https://www.bluidol.in/images/purple-gemstone-leaf-stud-earrings.png
+- **Image URL**: https://www.bluidol.in/images/purple-gemstone-leaf-stud-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Emerald-Cut%20Purple%20Gemstone%20Leaf%20Stud%20Earrings%20(%E2%82%B9259).
 
 ### Product #18: Gold-Plated CZ Violet Blossom Ear Tops
@@ -151,7 +161,7 @@
 - **Customer Rating**: 5 / 5.0 (38 verified reviews)
 - **Badge**: Trending
 - **Description**: Delicate circular spiral ear tops showcasing a five-petal blooming violet crystal flower framed by a dazzling pavé crystal orbit in 18K gold plating. Waterproof, hypoallergenic, and perfect for special occasions.
-- **Image URL**: https://www.bluidol.in/images/cz-violet-blossom-ear-tops.png
+- **Image URL**: https://www.bluidol.in/images/cz-violet-blossom-ear-tops.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20CZ%20Violet%20Blossom%20Ear%20Tops%20(%E2%82%B9259).
 
 ### Product #19: Gold-Plated Emerald Blossom CZ Stud Earrings
@@ -161,7 +171,7 @@
 - **Customer Rating**: 5 / 5.0 (46 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Captivating dual-halo open circle earrings adorned with pear-cut ruby-pink and emerald-green gemstones, encircled by sparkling cubic zirconia pavé. Crafted with 18K gold plating for sensitive skin.
-- **Image URL**: https://www.bluidol.in/images/emerald-blossom-cz-earrings.png
+- **Image URL**: https://www.bluidol.in/images/emerald-blossom-cz-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Emerald%20Blossom%20CZ%20Stud%20Earrings%20(%E2%82%B9249).
 
 ### Product #20: Gold-Plated Ruby Floral Halo Stud Earrings
@@ -171,7 +181,7 @@
 - **Customer Rating**: 5 / 5.0 (35 verified reviews)
 - **Badge**: New
 - **Description**: Exquisite concentric halo stud earrings featuring a five-petal ruby-pink crystal blossom crowned with micro pavé cubic zirconia. Finished in durable 18K gold plating for anti-tarnish everyday wear.
-- **Image URL**: https://www.bluidol.in/images/ruby-floral-halo-stud-earrings.png
+- **Image URL**: https://www.bluidol.in/images/ruby-floral-halo-stud-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Ruby%20Floral%20Halo%20Stud%20Earrings%20(%E2%82%B9249).
 
 ### Product #21: Gold-Plated Sparkling Floral Stud Earrings
@@ -181,7 +191,7 @@
 - **Customer Rating**: 5 / 5.0 (52 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Lustrous flower stud earrings crafted with faceted teardrop cubic zirconia petals and a rich amethyst-purple center stone, mounted on 18K gold-plated setting. High-shine, tarnish-resistant, and skin-safe.
-- **Image URL**: https://www.bluidol.in/images/sparkling-floral-stud-earrings.png
+- **Image URL**: https://www.bluidol.in/images/sparkling-floral-stud-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Sparkling%20Floral%20Stud%20Earrings%20(%E2%82%B9289).
 
 ### Product #22: Gold-Plated American Diamond Emerald Stud Earrings
@@ -191,7 +201,7 @@
 - **Customer Rating**: 5 / 5.0 (41 verified reviews)
 - **Badge**: Trending
 - **Description**: Regal teardrop-shaped stud earrings centered with a brilliant round emerald-green gemstone within concentric pavé American diamond halos and a marquise crown. 18K gold-plated demi-fine elegance.
-- **Image URL**: https://www.bluidol.in/images/american-diamond-emerald-stud-earrings.png
+- **Image URL**: https://www.bluidol.in/images/american-diamond-emerald-stud-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20American%20Diamond%20Emerald%20Stud%20Earrings%20(%E2%82%B9259).
 
 ### Product #23: Gold-Plated American Diamond Floral Stud Earrings
@@ -201,7 +211,7 @@
 - **Customer Rating**: 5 / 5.0 (49 verified reviews)
 - **Badge**: Trending
 - **Description**: Intricate sunburst floral stud earrings featuring a luminous pear-cut central stone encircled by an openwork filigree of glittering American diamonds. Anti-tarnish, lightweight, and skin-friendly.
-- **Image URL**: https://www.bluidol.in/images/american-diamond-floral-stud-earrings.png
+- **Image URL**: https://www.bluidol.in/images/american-diamond-floral-stud-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20American%20Diamond%20Floral%20Stud%20Earrings%20(%E2%82%B9199).
 
 ### Product #24: Gold-Plated Crescent Stud Earrings
@@ -211,7 +221,7 @@
 - **Customer Rating**: 5 / 5.0 (33 verified reviews)
 - **Badge**: New
 - **Description**: Artisan fan-shaped crescent earrings featuring a vibrant square-cut amethyst-purple gemstone blooming into marquise crystal petals and tiered diamond arches. 18K gold-plated statement design.
-- **Image URL**: https://www.bluidol.in/images/crescent-stud-earrings.png
+- **Image URL**: https://www.bluidol.in/images/crescent-stud-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Crescent%20Stud%20Earrings%20(%E2%82%B9259).
 
 ### Product #25: Gold-Plated Dual-Tone Blossom Halo Earrings
@@ -221,7 +231,7 @@
 - **Customer Rating**: 5 / 5.0 (39 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Radiant double halo circular earrings featuring an artisanal floral crest with ruby-pink and peridot-green marquise petals accented by clear cubic zirconia. Hypoallergenic 18K gold vacuum plating.
-- **Image URL**: https://www.bluidol.in/images/dualtone-blossom-halo-earrings.png
+- **Image URL**: https://www.bluidol.in/images/dualtone-blossom-halo-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Dual-Tone%20Blossom%20Halo%20Earrings%20(%E2%82%B9249).
 
 ### Product #26: Charming Gold-Plated Floral Stud Earrings
@@ -231,7 +241,7 @@
 - **Customer Rating**: 5 / 5.0 (57 verified reviews)
 - **Badge**: Trending
 - **Description**: Charming floral branch stud earrings featuring a sparkling six-petal ruby flower blooming over faceted ruby and clear marquise leaves. 18K gold-plated, featherweight, and gentle on sensitive ears.
-- **Image URL**: https://www.bluidol.in/images/charming-floral-stud-earrings.png
+- **Image URL**: https://www.bluidol.in/images/charming-floral-stud-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Charming%20Gold-Plated%20Floral%20Stud%20Earrings%20(%E2%82%B9165).
 
 ### Product #27: Gold-Plated Cubic Zirconia Drop Earrings
@@ -241,7 +251,7 @@
 - **Customer Rating**: 5 / 5.0 (44 verified reviews)
 - **Badge**: New Drop
 - **Description**: Graceful chandelier-style geometric drop earrings with intricate crystal lace framework suspending a faceted pear-cut crystal teardrop. 18K gold-plated, waterproof, and designed to turn heads.
-- **Image URL**: https://www.bluidol.in/images/cz-drop-earrings.png
+- **Image URL**: https://www.bluidol.in/images/cz-drop-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Cubic%20Zirconia%20Drop%20Earrings%20(%E2%82%B9249).
 
 ### Product #28: Premium Antique Gold Elephant Motif Jhumka (Black)
@@ -251,7 +261,7 @@
 - **Customer Rating**: 5 / 5.0 (65 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Majestic antique gold jhumka earrings featuring intricately carved royal elephant studs adorned with black teardrop crystals, suspending grand filigree bell domes with dangling black beads. Lightweight and hypoallergenic.
-- **Image URL**: https://www.bluidol.in/images/antique-gold-elephant-jhumka-black.png
+- **Image URL**: https://www.bluidol.in/images/antique-gold-elephant-jhumka-black.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Premium%20Antique%20Gold%20Elephant%20Motif%20Jhumka%20(Black)%20(%E2%82%B999).
 
 ### Product #29: Premium Antique Gold Elephant Motif Jhumka (Maroon)
@@ -261,7 +271,7 @@
 - **Customer Rating**: 5 / 5.0 (58 verified reviews)
 - **Badge**: Trending
 - **Description**: Royal elephant motif antique gold jhumka earrings embellished with rich maroon-red crystals and tiered bell domes finished with faceted maroon bead drops. Perfect for festive celebrations.
-- **Image URL**: https://www.bluidol.in/images/antique-gold-elephant-jhumka-maroon.png
+- **Image URL**: https://www.bluidol.in/images/antique-gold-elephant-jhumka-maroon.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Premium%20Antique%20Gold%20Elephant%20Motif%20Jhumka%20(Maroon)%20(%E2%82%B999).
 
 ### Product #30: Antique Gold Traditional Bell Jhumka Earrings (Ruby Red)
@@ -271,7 +281,7 @@
 - **Customer Rating**: 5 / 5.0 (47 verified reviews)
 - **Badge**: New
 - **Description**: Classic Indian heritage jhumkas featuring an embossed geometric square top with ruby red enamel accents, suspending ornate antique gold bell domes fringed with vivid ruby-red beads.
-- **Image URL**: https://www.bluidol.in/images/antique-gold-bell-jhumka-ruby.png
+- **Image URL**: https://www.bluidol.in/images/antique-gold-bell-jhumka-ruby.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold%20Traditional%20Bell%20Jhumka%20Earrings%20(Ruby%20Red)%20(%E2%82%B9119).
 
 ### Product #31: Antique Gold Traditional Bell Jhumka Earrings (Black)
@@ -281,7 +291,7 @@
 - **Customer Rating**: 5 / 5.0 (54 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Sophisticated antique gold traditional jhumkas with filigree square posts centered with jet-black stones, suspending textured bell domes with dangling black glass beads.
-- **Image URL**: https://www.bluidol.in/images/antique-gold-bell-jhumka-black.png
+- **Image URL**: https://www.bluidol.in/images/antique-gold-bell-jhumka-black.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold%20Traditional%20Bell%20Jhumka%20Earrings%20(Black)%20(%E2%82%B9119).
 
 ### Product #32: Antique Gold Traditional Bell Jhumka Earrings (Emerald Green)
@@ -291,7 +301,7 @@
 - **Customer Rating**: 5 / 5.0 (42 verified reviews)
 - **Badge**: Trending
 - **Description**: Traditional temple-inspired antique gold jhumkas adorned with radiant emerald-green enamel centers and matching green droplet beads. Tarnish-resistant and nickel-free.
-- **Image URL**: https://www.bluidol.in/images/antique-gold-bell-jhumka-green.png
+- **Image URL**: https://www.bluidol.in/images/antique-gold-bell-jhumka-green.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold%20Traditional%20Bell%20Jhumka%20Earrings%20(Emerald%20Green)%20(%E2%82%B9119).
 
 ### Product #33: Antique Goddess Lakshmi Jhumka Earrings
@@ -301,7 +311,7 @@
 - **Customer Rating**: 5 / 5.0 (89 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Auspicious temple jewellery earrings featuring seated Goddess Lakshmi on a blooming lotus, accented by an arc of black beaded droplets. Antique matte gold finish for timeless elegance.
-- **Image URL**: https://www.bluidol.in/images/antique-lakshmi-jhumka-earrings.png
+- **Image URL**: https://www.bluidol.in/images/antique-lakshmi-jhumka-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Goddess%20Lakshmi%20Jhumka%20Earrings%20(%E2%82%B945).
 
 ### Product #34: Antique Radha Krishna Gold-Plated Jhumka Earrings
@@ -311,7 +321,7 @@
 - **Customer Rating**: 5 / 5.0 (76 verified reviews)
 - **Badge**: Trending
 - **Description**: Devotional handcrafted earrings depicting Lord Krishna playing the flute with Radha, bordered by floral filigree and lustrous champagne-pearl bead drops in warm antique gold plating.
-- **Image URL**: https://www.bluidol.in/images/antique-radha-krishna-jhumka-earrings.png
+- **Image URL**: https://www.bluidol.in/images/antique-radha-krishna-jhumka-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Radha%20Krishna%20Gold-Plated%20Jhumka%20Earrings%20(%E2%82%B945).
 
 ### Product #35: Gold-Plated Lakshmi Temple Design Grand Jhumkas
@@ -321,7 +331,7 @@
 - **Customer Rating**: 5 / 5.0 (63 verified reviews)
 - **Badge**: Royal Drop
 - **Description**: Grand three-tier temple jhumkas featuring Goddess Lakshmi crowned above twin peacock motifs with emerald stones, suspending intricately filigreed bell domes with dangling blush-pink pearls.
-- **Image URL**: https://www.bluidol.in/images/gold-plated-lakshmi-temple-grand-jhumkas.png
+- **Image URL**: https://www.bluidol.in/images/gold-plated-lakshmi-temple-grand-jhumkas.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Lakshmi%20Temple%20Design%20Grand%20Jhumkas%20(%E2%82%B9185).
 
 ### Product #36: Antique Peacock Jhumkas (Black Bead Drops)
@@ -331,7 +341,7 @@
 - **Customer Rating**: 5 / 5.0 (59 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Majestic sculpted peacock posts encrusted with black crystals, gracefully carrying large carved antique gold jhumka bells finished with polished black bead hangings.
-- **Image URL**: https://www.bluidol.in/images/antique-peacock-jhumkas-black.png
+- **Image URL**: https://www.bluidol.in/images/antique-peacock-jhumkas-black.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Peacock%20Jhumkas%20(Black%20Bead%20Drops)%20(%E2%82%B9165).
 
 ### Product #37: Antique Peacock Jhumkas (Emerald Green Drops)
@@ -341,7 +351,7 @@
 - **Customer Rating**: 5 / 5.0 (51 verified reviews)
 - **Badge**: Trending
 - **Description**: Exquisite antique gold peacock jhumkas with emerald-green micro crystal pavé wings, holding traditional jhumka domes with vibrant emerald bead fringes.
-- **Image URL**: https://www.bluidol.in/images/antique-peacock-jhumkas-green.png
+- **Image URL**: https://www.bluidol.in/images/antique-peacock-jhumkas-green.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Peacock%20Jhumkas%20(Emerald%20Green%20Drops)%20(%E2%82%B9165).
 
 ### Product #38: Antique Butterfly Minimal Jhumkas (Turquoise)
@@ -351,7 +361,7 @@
 - **Customer Rating**: 5 / 5.0 (48 verified reviews)
 - **Badge**: New
 - **Description**: Playful butterfly-top jhumka earrings set with luminous sea-green/turquoise glass petals, suspending delicate textured jhumka bells with cluster bead tassels in antique gold finish.
-- **Image URL**: https://www.bluidol.in/images/antique-butterfly-minimal-jhumkas-turquoise.png
+- **Image URL**: https://www.bluidol.in/images/antique-butterfly-minimal-jhumkas-turquoise.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Butterfly%20Minimal%20Jhumkas%20(Turquoise)%20(%E2%82%B989).
 
 ### Product #39: Palakya Long Jhumkas (Magenta Pink)
@@ -361,7 +371,7 @@
 - **Customer Rating**: 5 / 5.0 (61 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Elongated Palakya-style chandelier jhumkas featuring two tiers of geometric magenta crystal stations leading to a prominent bell dome adorned with vibrant magenta bead hangings.
-- **Image URL**: https://www.bluidol.in/images/palakya-long-jhumkas-magenta.png
+- **Image URL**: https://www.bluidol.in/images/palakya-long-jhumkas-magenta.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Palakya%20Long%20Jhumkas%20(Magenta%20Pink)%20(%E2%82%B9155).
 
 ### Product #40: Oxidised Gold-Plated Rhombus Pearl Jhumkas
@@ -371,7 +381,7 @@
 - **Customer Rating**: 5 / 5.0 (55 verified reviews)
 - **Badge**: Royal Drop
 - **Description**: Regal drop jhumkas featuring a diamond-shaped post set with a cushion-cut ruby stone, elongated fluted stem, and grand antique gold bell dome fringed with glowing white pearls.
-- **Image URL**: https://www.bluidol.in/images/oxidised-gold-rhombus-pearl-jhumkas.png
+- **Image URL**: https://www.bluidol.in/images/oxidised-gold-rhombus-pearl-jhumkas.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Oxidised%20Gold-Plated%20Rhombus%20Pearl%20Jhumkas%20(%E2%82%B9185).
 
 ### Product #41: Traditional Antique Temple Chandelier Earrings (Royal Blue)
@@ -381,7 +391,7 @@
 - **Customer Rating**: 5 / 5.0 (43 verified reviews)
 - **Badge**: New
 - **Description**: Ornate temple earrings showcasing a fan crest with Goddess Lakshmi flanked by twin dancing peacocks, finished with a crescent fringe of vibrant royal-blue beaded droplets.
-- **Image URL**: https://www.bluidol.in/images/traditional-antique-temple-earrings-blue.png
+- **Image URL**: https://www.bluidol.in/images/traditional-antique-temple-earrings-blue.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Traditional%20Antique%20Temple%20Chandelier%20Earrings%20(Royal%20Blue)%20(%E2%82%B9125).
 
 ### Product #42: Traditional Antique Temple Chandelier Earrings (Ruby Red)
@@ -391,7 +401,7 @@
 - **Customer Rating**: 5 / 5.0 (49 verified reviews)
 - **Badge**: Trending
 - **Description**: Festive temple chandelier earrings featuring Goddess Lakshmi with peacocks in antique gold, accented with sparkling ruby-red stones and matching hanging ruby bead tassels.
-- **Image URL**: https://www.bluidol.in/images/traditional-antique-temple-earrings-red.png
+- **Image URL**: https://www.bluidol.in/images/traditional-antique-temple-earrings-red.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Traditional%20Antique%20Temple%20Chandelier%20Earrings%20(Ruby%20Red)%20(%E2%82%B9125).
 
 ### Product #43: Palakya Long Jhumkas (Jet Black)
@@ -401,7 +411,7 @@
 - **Customer Rating**: 5 / 5.0 (58 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Statement Palakya two-tier long jhumkas featuring clover and shield jet-black stone posts, suspending a deep fluted antique gold bell dome with swaying black glass beads.
-- **Image URL**: https://www.bluidol.in/images/palakya-long-jhumkas-black.png
+- **Image URL**: https://www.bluidol.in/images/palakya-long-jhumkas-black.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Palakya%20Long%20Jhumkas%20(Jet%20Black)%20(%E2%82%B9155).
 
 ### Product #44: Lotus Choker Necklace Set
@@ -411,7 +421,7 @@
 - **Customer Rating**: 5 / 5.0 (52 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Traditional antique gold-finish lotus choker necklace featuring alternating ruby-pink and emerald-green gemstone lotus petals, complete with matching lotus floral stud earrings. Hypoallergenic and skin-safe.
-- **Image URL**: https://www.bluidol.in/images/lotus-choker-necklace-set.png
+- **Image URL**: https://www.bluidol.in/images/lotus-choker-necklace-set.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Lotus%20Choker%20Necklace%20Set%20(%E2%82%B9155).
 
 ### Product #45: Gold-Plated Stainless Steel Floral Daisy Bangle
@@ -421,7 +431,7 @@
 - **Customer Rating**: 5 / 5.0 (38 verified reviews)
 - **Badge**: Trending
 - **Description**: Exquisite 18K gold-plated stainless steel hinged bangle featuring intricate openwork floral daisy cutouts with sparkling center crystal accents. Tarnish-free, waterproof, and hypoallergenic.
-- **Image URL**: https://www.bluidol.in/images/gold-plated-stainless-steel-flower-bangle.png
+- **Image URL**: https://www.bluidol.in/images/gold-plated-stainless-steel-flower-bangle.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Stainless%20Steel%20Floral%20Daisy%20Bangle%20(%E2%82%B9225).
 
 ### Product #46: Antique Gold-Toned Peacock Long Drop Jhumka Earrings
@@ -431,7 +441,7 @@
 - **Customer Rating**: 5 / 5.0 (44 verified reviews)
 - **Badge**: Popular
 - **Description**: Majestic antique gold-toned long drop jhumka earrings featuring an ornate peacock crown top and grand flared peacock feather plumage, suspending delicate textured bell domes fringed with shimmering white pearl drops. Hypoallergenic, lightweight, and skin-friendly.
-- **Image URL**: https://www.bluidol.in/images/antique-gold-peacock-long-drop-jhumkas.png
+- **Image URL**: https://www.bluidol.in/images/antique-gold-peacock-long-drop-jhumkas.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold-Toned%20Peacock%20Long%20Drop%20Jhumka%20Earrings%20(%E2%82%B975).
 
 ### Product #47: Matte Hibiscus Flower Mini Hair Claw Clips
@@ -441,7 +451,7 @@
 - **Customer Rating**: 5 / 5.0 (48 verified reviews)
 - **Badge**: Trending
 - **Description**: Vibrant pastel matte-finish hibiscus flower mini hair claw clips crafted from durable, non-slip acrylic resin with a strong metal spring. Gentle on hair, lightweight, and perfect for half-up hairstyles or aesthetic daily styling (Price ₹25 each).
-- **Image URL**: https://www.bluidol.in/images/matte-hibiscus-flower-hair-claw-clips.png
+- **Image URL**: https://www.bluidol.in/images/matte-hibiscus-flower-hair-claw-clips.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Hibiscus%20Flower%20Mini%20Hair%20Claw%20Clips%20(%E2%82%B925).
 
 ### Product #48: Matte Seashell Hair Claw Clips
@@ -451,7 +461,7 @@
 - **Customer Rating**: 5 / 5.0 (42 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Chic matte-finish scalloped seashell hair claw clips crafted from durable, eco-friendly resin with an interlocking non-slip claw grip and strong steel spring. Available in 12 aesthetic pastel, neutral, and vibrant shades for effortless daily styling (Price ₹25 each).
-- **Image URL**: https://www.bluidol.in/images/matte-seashell-hair-claw-clips.png
+- **Image URL**: https://www.bluidol.in/images/matte-seashell-hair-claw-clips.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Seashell%20Hair%20Claw%20Clips%20(%E2%82%B925).
 
 ### Product #49: Matte-Finish Double Flower Hair Claw Clips
@@ -461,7 +471,7 @@
 - **Customer Rating**: 5 / 5.0 (46 verified reviews)
 - **Badge**: Popular
 - **Description**: Charming matte-finish double flower hair claw clips featuring twin blooming floral blossoms on an interlocking claw grip with high-tension metal spring. Designed for secure, all-day hold on fine to medium-thick hair in 12 stunning pastel, earthy, and neutral tones (Price ₹25 each).
-- **Image URL**: https://www.bluidol.in/images/matte-finish-double-flower-hair-claw-clips.png
+- **Image URL**: https://www.bluidol.in/images/matte-finish-double-flower-hair-claw-clips.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte-Finish%20Double%20Flower%20Hair%20Claw%20Clips%20(%E2%82%B925).
 
 ### Product #50: Crystal Bloom Floral Hair Claw Clips
@@ -471,7 +481,7 @@
 - **Customer Rating**: 5 / 5.0 (45 verified reviews)
 - **Badge**: Trending
 - **Description**: Dazzling translucent crystal-resin double flower hair claw clips adorned with sparkling iridescent aurora borealis gemstone centers. Features an interlocking non-slip claw grip with gold-tone steel spring, available in 6 jelly pastel shades (Price ₹35 each).
-- **Image URL**: https://www.bluidol.in/images/crystal-bloom-floral-hair-claw-clips.png
+- **Image URL**: https://www.bluidol.in/images/crystal-bloom-floral-hair-claw-clips.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Crystal%20Bloom%20Floral%20Hair%20Claw%20Clips%20(%E2%82%B935).
 
 ### Product #51: Crystal Flower Jaw Clamps
@@ -481,7 +491,7 @@
 - **Customer Rating**: 5 / 5.0 (42 verified reviews)
 - **Badge**: Trending
 - **Description**: Mini crystal flower jaw clamp hair clips featuring twin faceted crystal blossoms with iridescent aurora rhinestone centers and interlocking gold-finish grip teeth. Lightweight, secure hold for accents, bangs, and half-up styles across 6 luminous pastel shades (Price ₹35 each).
-- **Image URL**: https://www.bluidol.in/images/crystal-flower-jaw-clamps.png
+- **Image URL**: https://www.bluidol.in/images/crystal-flower-jaw-clamps.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Crystal%20Flower%20Jaw%20Clamps%20(%E2%82%B935).
 
 ### Product #52: Floral Mini Hair Claw Clips
@@ -491,7 +501,7 @@
 - **Customer Rating**: 5 / 5.0 (68 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Charming floral mini hair claw clips featuring five rounded translucent crystal flower petals centered with a dazzling multifaceted rhinestone on a gold-plated interlocking clamp. Pocket-friendly accent clips available in vibrant jewel tones (Price ₹15 each).
-- **Image URL**: https://www.bluidol.in/images/floral-mini-hair-claw-clips.png
+- **Image URL**: https://www.bluidol.in/images/floral-mini-hair-claw-clips.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Floral%20Mini%20Hair%20Claw%20Clips%20(%E2%82%B915).
 
 ### Product #53: Matte Butterfly Hair Claw Clips
@@ -501,7 +511,7 @@
 - **Customer Rating**: 5 / 5.0 (37 verified reviews)
 - **Badge**: New
 - **Description**: Aesthetic dual-winged butterfly hair claw clips finished in ultra-soft velvety matte texture with contrasting two-tone layered wings and heavy-duty spring grip. Non-damaging secure hold in soothing pastel and neutral tones (Price ₹20 each).
-- **Image URL**: https://www.bluidol.in/images/matte-butterfly-hair-claw-clips.png
+- **Image URL**: https://www.bluidol.in/images/matte-butterfly-hair-claw-clips.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Butterfly%20Hair%20Claw%20Clips%20(%E2%82%B920).
 
 ### Product #54: Translucent Star-Shaped Hair Claw Clips
@@ -511,7 +521,7 @@
 - **Customer Rating**: 5 / 5.0 (49 verified reviews)
 - **Badge**: Trending
 - **Description**: Modern geometric hollow star hair claw clips crafted from glossy translucent amber, crystal clear, champagne, and smoky acrylic with sturdy interlocking comb teeth. Sleek celestial accessory for quick updos and half-buns (Price ₹29 each).
-- **Image URL**: https://www.bluidol.in/images/translucent-star-shaped-hair-claw-clips.png
+- **Image URL**: https://www.bluidol.in/images/translucent-star-shaped-hair-claw-clips.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Translucent%20Star-Shaped%20Hair%20Claw%20Clips%20(%E2%82%B929).
 
 ### Product #55: Matte Ribbon Bow Hair Clutcher
@@ -521,7 +531,7 @@
 - **Customer Rating**: 5 / 5.0 (54 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Elegant sculpted double-shade ribbon bow hair clutcher in premium soft-touch matte finish. Features dual-tone contrast bow loops and strong interlocking teeth for medium to thick hair holding (Price ₹39 each).
-- **Image URL**: https://www.bluidol.in/images/matte-ribbon-bow-hair-clutcher.png
+- **Image URL**: https://www.bluidol.in/images/matte-ribbon-bow-hair-clutcher.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Ribbon%20Bow%20Hair%20Clutcher%20(%E2%82%B939).
 
 ### Product #56: Korean Style Tulip Hair Clips
@@ -531,7 +541,7 @@
 - **Customer Rating**: 5 / 5.0 (33 verified reviews)
 - **Badge**: New
 - **Description**: Graceful Korean-aesthetic twin tulip hair claw clip designed with sculpted matte floral buds and leafy stems set along an elegant translucent arched claw frame. Luxurious everyday statement accessory (Price ₹69 each).
-- **Image URL**: https://www.bluidol.in/images/korean-style-tulip-hair-clips.png
+- **Image URL**: https://www.bluidol.in/images/korean-style-tulip-hair-clips.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Korean%20Style%20Tulip%20Hair%20Clips%20(%E2%82%B969).
 
 ### Product #57: Korean-Style Flower Wreath Hair Claw Clips (Combo of 2)
@@ -541,7 +551,7 @@
 - **Customer Rating**: 5 / 5.0 (48 verified reviews)
 - **Badge**: Trending
 - **Description**: Charming Korean circular flower wreath hair claw clip combo of 2 featuring sculpted miniature daisies with iridescent crystal centers on a durable transparent hollow circular ring claw clamp. Pack of 2 coordinating clips (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/korean-style-flower-wreath-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/korean-style-flower-wreath-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Korean-Style%20Flower%20Wreath%20Hair%20Claw%20Clips%20(Combo%20of%202)%20(%E2%82%B999).
 
 ### Product #58: Navy Blue Matte Hibiscus Hair Claw Clips (3pc Combo)
@@ -551,7 +561,7 @@
 - **Customer Rating**: 5 / 5.0 (52 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Gorgeous 3-piece combo set of Hawaiian hibiscus flower hair claw clips in rich navy blue velvety matte finish. Includes 1 large statement flower claw clip and 2 matching medium accent clips for versatile styling (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/navy-blue-matte-hibiscus-hair-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/navy-blue-matte-hibiscus-hair-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Navy%20Blue%20Matte%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
 
 ### Product #59: Dark Dusty Rose Hibiscus Hair Claw Clips (3pc Combo)
@@ -561,7 +571,7 @@
 - **Customer Rating**: 5 / 5.0 (41 verified reviews)
 - **Badge**: Trending
 - **Description**: Delicate 3-piece combo set of tropical hibiscus flower hair claw clips finished in sophisticated dark dusty rose matte texture. Features 1 jumbo statement clip and 2 medium companion clips with strong interlocking teeth (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/dark-dusty-rose-hibiscus-hair-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/dark-dusty-rose-hibiscus-hair-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Dark%20Dusty%20Rose%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
 
 ### Product #60: Matte Mustard Hibiscus Hair Claw Clips (3pc Combo)
@@ -571,7 +581,7 @@
 - **Customer Rating**: 5 / 5.0 (36 verified reviews)
 - **Badge**: New
 - **Description**: Warm sun-kissed matte mustard yellow hibiscus flower claw clip combo of 3. Crafted with velvety soft-touch matte acrylic and strong steel spring mechanism. Includes 1 large and 2 medium clips (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/matte-mustard-hibiscus-hair-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/matte-mustard-hibiscus-hair-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Mustard%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
 
 ### Product #61: Matte Black Hibiscus Hair Claw Clips (3pc Combo)
@@ -581,7 +591,7 @@
 - **Customer Rating**: 5 / 5.0 (59 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Timeless monochrome matte black hibiscus flower hair claw clip combo of 3. Features textured ribbed petals, velvety grip, and reliable hold for all hair types. Includes 1 large statement and 2 medium clips (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/matte-black-hibiscus-hair-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/matte-black-hibiscus-hair-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Black%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
 
 ### Product #62: Matte White Hibiscus Hair Claw Clips (3pc Combo)
@@ -591,7 +601,7 @@
 - **Customer Rating**: 5 / 5.0 (44 verified reviews)
 - **Badge**: Trending
 - **Description**: Crisp clean matte ivory white hibiscus flower claw clips combo of 3. Elegant tropical aesthetic with ribbed petal contours and soft matte finish. Includes 1 jumbo and 2 medium hair claws (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/matte-white-hibiscus-hair-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/matte-white-hibiscus-hair-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20White%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
 
 ### Product #63: Baby Pink Matte Hibiscus Hair Claw Clips (3pc Combo)
@@ -601,7 +611,7 @@
 - **Customer Rating**: 5 / 5.0 (50 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Charming pastel baby pink matte hibiscus flower hair claw clips combo of 3. Sweet floral design with soft-touch finish and comfortable non-slip teeth grip. Set of 1 large and 2 medium clips (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/baby-pink-matte-hibiscus-hair-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/baby-pink-matte-hibiscus-hair-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Baby%20Pink%20Matte%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
 
 ### Product #64: Matte Grey Hibiscus Hair Claw Clips (3pc Combo)
@@ -611,7 +621,7 @@
 - **Customer Rating**: 5 / 5.0 (38 verified reviews)
 - **Badge**: New
 - **Description**: Modern neutral matte light grey hibiscus flower claw clips combo of 3. Minimalist aesthetic pairing soft ribbed petals with secure interlocking hold. Includes 1 large and 2 medium claw clips (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/matte-grey-hibiscus-hair-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/matte-grey-hibiscus-hair-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Grey%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
 
 ### Product #65: Matte Dark Grey Hibiscus Hair Claw Clips (3pc Combo)
@@ -621,7 +631,7 @@
 - **Customer Rating**: 5 / 5.0 (43 verified reviews)
 - **Badge**: Trending
 - **Description**: Sleek charcoal matte dark grey hibiscus flower claw clips combo of 3. Understated urban chic design with soft matte finish and reliable spring grip. Contains 1 jumbo and 2 medium clips (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/matte-dark-grey-hibiscus-hair-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/matte-dark-grey-hibiscus-hair-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Dark%20Grey%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
 
 ### Product #66: Matte Green Floral Hibiscus Hair Claw Clips (3pc Combo)
@@ -631,7 +641,7 @@
 - **Customer Rating**: 5 / 5.0 (47 verified reviews)
 - **Badge**: Trending
 - **Description**: Earthy sage matte green hibiscus flower hair claw clips combo of 3. Nature-inspired sculpted floral design with non-pulling teeth and durable steel spring. Includes 1 large and 2 medium clips (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/matte-green-floral-hibiscus-hair-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/matte-green-floral-hibiscus-hair-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Green%20Floral%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
 
 ### Product #67: Dark Wine Hibiscus Hair Claw Clips (3pc Combo)
@@ -641,7 +651,7 @@
 - **Customer Rating**: 5 / 5.0 (55 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Rich luxurious dark wine burgundy matte hibiscus flower hair claw clips combo of 3. Deep berry tones with soft velvety texture and firm interlocking grip. Set of 1 statement large and 2 medium clips (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/dark-wine-hibiscus-hair-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/dark-wine-hibiscus-hair-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Dark%20Wine%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
 
 ### Product #68: Antique Gold Elephant Pink Stone Dangling Earrings
@@ -651,7 +661,7 @@
 - **Customer Rating**: 5 / 5.0 (39 verified reviews)
 - **Badge**: Trending
 - **Description**: Opulent antique gold-toned dangling drop earrings featuring an intricately carved royal elephant motif crowned above a luminous oval magenta pink stone, bordered with teardrop petal cabochons and swinging fuchsia pink bead drops.
-- **Image URL**: https://www.bluidol.in/images/antique-gold-elephant-pink-stone-dangling-earrings.png
+- **Image URL**: https://www.bluidol.in/images/antique-gold-elephant-pink-stone-dangling-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold%20Elephant%20Pink%20Stone%20Dangling%20Earrings%20(%E2%82%B965).
 
 ### Product #69: Shiny Gold-Toned Twisted Half-Hoop Earrings
@@ -661,7 +671,7 @@
 - **Customer Rating**: 5 / 5.0 (44 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Bold high-polish 18K gold-plated twisted croissant-style half-hoop earrings. Designed with fluid spiraling ribbing and lightweight hollow construction for effortless everyday glam and secure post fastening.
-- **Image URL**: https://www.bluidol.in/images/shiny-gold-toned-twisted-half-hoop-earrings.png
+- **Image URL**: https://www.bluidol.in/images/shiny-gold-toned-twisted-half-hoop-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Shiny%20Gold-Toned%20Twisted%20Half-Hoop%20Earrings%20(%E2%82%B940).
 
 ### Product #70: 3-Pair Gold-Plated Fashion Stud Earrings Combo Set
@@ -671,7 +681,7 @@
 - **Customer Rating**: 5 / 5.0 (58 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Versatile 3-pair earring curation comprising high-polish minimalist golden ball studs, delicate mother-of-pearl butterfly openwork studs, and sculptural double-bloom golden flower stud statement earrings.
-- **Image URL**: https://www.bluidol.in/images/gold-plated-fashion-stud-earrings-3-pair-combo.png
+- **Image URL**: https://www.bluidol.in/images/gold-plated-fashion-stud-earrings-3-pair-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%203-Pair%20Gold-Plated%20Fashion%20Stud%20Earrings%20Combo%20Set%20(%E2%82%B995).
 
 ### Product #71: Multi-Pair Korean Fashion Stud & Hoop Earring Set
@@ -681,7 +691,7 @@
 - **Customer Rating**: 5 / 5.0 (47 verified reviews)
 - **Badge**: Trending
 - **Description**: Curated Korean aesthetic 3-pair earring wardrobe featuring classic lustrous cream pearl studs, brilliant round-cut cubic zirconia solitaire studs, and sleek rectangular hollow chunky gold huggie hoops.
-- **Image URL**: https://www.bluidol.in/images/korean-fashion-stud-and-hoop-earring-set.png
+- **Image URL**: https://www.bluidol.in/images/korean-fashion-stud-and-hoop-earring-set.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Multi-Pair%20Korean%20Fashion%20Stud%20%26%20Hoop%20Earring%20Set%20(%E2%82%B965).
 
 ### Product #72: Korean Geometric Link Chain Hoop Earrings Combo (3 Pairs)
@@ -691,7 +701,7 @@
 - **Customer Rating**: 5 / 5.0 (36 verified reviews)
 - **Badge**: New
 - **Description**: Chic 3-pair combo set of Korean geometric open-link rectangular chain C-hoop earrings in smooth velvety matte pastel finishes: dusty coral pink, earthy olive green, and clean ivory cream.
-- **Image URL**: https://www.bluidol.in/images/korean-geometric-link-chain-hoop-earrings-combo.png
+- **Image URL**: https://www.bluidol.in/images/korean-geometric-link-chain-hoop-earrings-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Korean%20Geometric%20Link%20Chain%20Hoop%20Earrings%20Combo%20(3%20Pairs)%20(%E2%82%B989).
 
 ### Product #73: Gold Plated CZ Studded Floral Sunburst Stud Earrings
@@ -701,7 +711,7 @@
 - **Customer Rating**: 5 / 5.0 (63 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Radiant luxury 18K gold-plated sunburst stud earrings featuring an open circular center surrounded by 10 sparkling marquise-cut AAA cubic zirconia stones tipped with delicate golden prongs.
-- **Image URL**: https://www.bluidol.in/images/gold-plated-cz-floral-sunburst-stud-earrings.png
+- **Image URL**: https://www.bluidol.in/images/gold-plated-cz-floral-sunburst-stud-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold%20Plated%20CZ%20Studded%20Floral%20Sunburst%20Stud%20Earrings%20(%E2%82%B9165).
 
 ### Product #74: Gold-Plated Multi-Layered Triple Band Hoop Earrings
@@ -711,7 +721,7 @@
 - **Customer Rating**: 5 / 5.0 (41 verified reviews)
 - **Badge**: Trending
 - **Description**: Modern stacked triple-row huggie hoop earrings featuring twin twisted braided rope outer borders sandwiching a sleek polished mirror-finish center band. Lightweight click-top clasp for all-day comfort.
-- **Image URL**: https://www.bluidol.in/images/gold-plated-multi-layered-triple-band-hoop-earrings.png
+- **Image URL**: https://www.bluidol.in/images/gold-plated-multi-layered-triple-band-hoop-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Multi-Layered%20Triple%20Band%20Hoop%20Earrings%20(%E2%82%B965).
 
 ### Product #75: Mirror-Finish Water Drop Teardrop Stud Earrings
@@ -721,7 +731,7 @@
 - **Customer Rating**: 5 / 5.0 (52 verified reviews)
 - **Badge**: Trending
 - **Description**: Iconic sculptural water-drop teardrop earrings boasting ultra-smooth liquid gold mirror plating. High-fashion designer-inspired chunky silhouette with hollow lightweight structure for everyday elegance.
-- **Image URL**: https://www.bluidol.in/images/mirror-finish-water-drop-teardrop-stud-earrings.png
+- **Image URL**: https://www.bluidol.in/images/mirror-finish-water-drop-teardrop-stud-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Mirror-Finish%20Water%20Drop%20Teardrop%20Stud%20Earrings%20(%E2%82%B940).
 
 ### Product #76: Floral Enamel Korean Pearl Stud Earrings
@@ -731,7 +741,7 @@
 - **Customer Rating**: 5 / 5.0 (35 verified reviews)
 - **Badge**: New
 - **Description**: Dreamy Korean three-petal floral stud earrings detailed with hand-painted watercolor ombre rose pink and soft seafoam green enamel bordered in gold, centered with an iridescent faux pearl.
-- **Image URL**: https://www.bluidol.in/images/floral-enamel-korean-pearl-stud-earrings.png
+- **Image URL**: https://www.bluidol.in/images/floral-enamel-korean-pearl-stud-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Floral%20Enamel%20Korean%20Pearl%20Stud%20Earrings%20(%E2%82%B930).
 
 ### Product #77: Sculptural Bubble Beaded Half-Hoop Earrings
@@ -741,7 +751,7 @@
 - **Customer Rating**: 5 / 5.0 (42 verified reviews)
 - **Badge**: Trending
 - **Description**: Playful architectural C-shaped half hoop earrings composed of interconnected glossy golden bubble spheres that graduate in size. Radiant high-shine gold plating with secure stud push backs.
-- **Image URL**: https://www.bluidol.in/images/sculptural-bubble-beaded-half-hoop-earrings.png
+- **Image URL**: https://www.bluidol.in/images/sculptural-bubble-beaded-half-hoop-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Sculptural%20Bubble%20Beaded%20Half-Hoop%20Earrings%20(%E2%82%B935).
 
 ### Product #78: Liquid Metal Molten Chunky Huggie Earrings
@@ -751,7 +761,7 @@
 - **Customer Rating**: 5 / 5.0 (38 verified reviews)
 - **Badge**: Trending
 - **Description**: Avant-garde liquid metal organic molten chunky huggie earrings in bright chrome silver finish. Sculpted with asymmetric undulating curves that reflect light dynamically from every angle.
-- **Image URL**: https://www.bluidol.in/images/liquid-metal-molten-chunky-huggie-earrings.png
+- **Image URL**: https://www.bluidol.in/images/liquid-metal-molten-chunky-huggie-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Liquid%20Metal%20Molten%20Chunky%20Huggie%20Earrings%20(%E2%82%B945).
 
 ### Product #79: Korean Two-Tone Green & Pearl Leaf Motif Earrings
@@ -761,7 +771,7 @@
 - **Customer Rating**: 5 / 5.0 (31 verified reviews)
 - **Badge**: New
 - **Description**: Nature-inspired Korean leaf motif stud earrings featuring an overlapping twin-leaf design: one leaf in shimmering marbled emerald green enamel and one in lustrous mother-of-pearl white resin with gold rims.
-- **Image URL**: https://www.bluidol.in/images/korean-two-tone-green-pearl-leaf-motif-earrings.png
+- **Image URL**: https://www.bluidol.in/images/korean-two-tone-green-pearl-leaf-motif-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Korean%20Two-Tone%20Green%20%26%20Pearl%20Leaf%20Motif%20Earrings%20(%E2%82%B935).
 
 ### Product #80: Opaline Winged Fairy Stud Earrings
@@ -771,7 +781,7 @@
 - **Customer Rating**: 5 / 5.0 (46 verified reviews)
 - **Badge**: Trending
 - **Description**: Whimsical enchanted fairy stud earrings featuring shimmering iridescent opaline resin wings with subtle glitter accents, delicate paved crystal dresses, and sculpted golden fairy silhouettes in flight.
-- **Image URL**: https://www.bluidol.in/images/opaline-winged-fairy-stud-earrings.png
+- **Image URL**: https://www.bluidol.in/images/opaline-winged-fairy-stud-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Opaline%20Winged%20Fairy%20Stud%20Earrings%20(%E2%82%B935).
 
 ### Product #81: Black-Stone Studded Gold-Toned Chandbali Earrings
@@ -781,7 +791,7 @@
 - **Customer Rating**: 5 / 5.0 (42 verified reviews)
 - **Badge**: Partywear
 - **Description**: Stunning traditional partywear chandbali earrings crafted with antique gold finish, featuring a six-petal black crystal flower stud top, an openwork filigree crescent medallion adorned with black floral stone clusters, and dangling black bead drops.
-- **Image URL**: https://www.bluidol.in/images/black-stone-studded-gold-toned-chandbali-earrings.png
+- **Image URL**: https://www.bluidol.in/images/black-stone-studded-gold-toned-chandbali-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Black-Stone%20Studded%20Gold-Toned%20Chandbali%20Earrings%20(%E2%82%B985).
 
 ### Product #82: Antique Gold Chandelier Chandbali Earrings
@@ -791,7 +801,7 @@
 - **Customer Rating**: 5 / 5.0 (49 verified reviews)
 - **Badge**: Partywear
 - **Description**: Regal grand partywear chandelier chandbali earrings in antique matte gold plating. Intricately embellished with pavé crystal accents, faceted champagne crystal teardrops, and cascading champagne briolette bead fringes with seed pearls.
-- **Image URL**: https://www.bluidol.in/images/antique-gold-chandelier-chandbali-earrings.png
+- **Image URL**: https://www.bluidol.in/images/antique-gold-chandelier-chandbali-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold%20Chandelier%20Chandbali%20Earrings%20(%E2%82%B9185).
 
 ### Product #83: Gold-Plated Dhwani Chandbali Earrings
@@ -801,7 +811,7 @@
 - **Customer Rating**: 5 / 5.0 (38 verified reviews)
 - **Badge**: Partywear
 - **Description**: Sophisticated Dhwani partywear chandbali earrings in antique gold plating. Features a round crystal sunburst stud, an open horseshoe crescent hoop studded with sparkling zircon crystals, and dangling lustrous white pearls.
-- **Image URL**: https://www.bluidol.in/images/gold-plated-dhwani-chandbali-earrings.png
+- **Image URL**: https://www.bluidol.in/images/gold-plated-dhwani-chandbali-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Dhwani%20Chandbali%20Earrings%20(%E2%82%B9119).
 
 ### Product #84: Antique Gold-Toned Turquoise Chandbali Earrings
@@ -811,7 +821,7 @@
 - **Customer Rating**: 5 / 5.0 (36 verified reviews)
 - **Badge**: Partywear
 - **Description**: Boho-ethnic antique gold-toned partywear chandbali earrings featuring textured filigree engraving, vibrant turquoise-blue enamel and stone accents, teardrop center inlay, and swinging turquoise bead drops.
-- **Image URL**: https://www.bluidol.in/images/antique-gold-toned-turquoise-chandbali-earrings.png
+- **Image URL**: https://www.bluidol.in/images/antique-gold-toned-turquoise-chandbali-earrings.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Antique%20Gold-Toned%20Turquoise%20Chandbali%20Earrings%20(%E2%82%B965).
 
 ### Product #85: Matte Beige Hibiscus Hair Claw Clips (3pc Combo)
@@ -821,7 +831,7 @@
 - **Customer Rating**: 5 / 5.0 (45 verified reviews)
 - **Badge**: Trending
 - **Description**: Earthy warm matte beige neutral hibiscus flower hair claw clips combo of 3. Features soft velvety matte coating, scalloped textured petals, and reliable interlocking claw teeth. Set includes 1 large statement and 2 medium companion clips (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/matte-beige-hibiscus-hair-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/matte-beige-hibiscus-hair-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Beige%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
 
 ### Product #86: Matte Brown Hibiscus Hair Claw Clips (3pc Combo)
@@ -831,7 +841,7 @@
 - **Customer Rating**: 5 / 5.0 (51 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Warm mocha brown matte hibiscus flower hair claw clips combo of 3. Rich velvety neutral tone with ribbed petal contours and powerful steel spring grip for all hair textures. Includes 1 jumbo and 2 medium clips (Price ₹99 for combo).
-- **Image URL**: https://www.bluidol.in/images/matte-brown-hibiscus-hair-claw-clips-combo.png
+- **Image URL**: https://www.bluidol.in/images/matte-brown-hibiscus-hair-claw-clips-combo.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Matte%20Brown%20Hibiscus%20Hair%20Claw%20Clips%20(3pc%20Combo)%20(%E2%82%B999).
 
 ### Product #87: Gold-Plated Temple Elakkathali Choker Necklace Set
@@ -841,7 +851,7 @@
 - **Customer Rating**: 5 / 5.0 (54 verified reviews)
 - **Badge**: Royal Festive
 - **Description**: Masterpiece traditional South Indian temple Elakkathali choker necklace set in rich matte gold plating. Embellished with circular engraved deity medallions, ruby red and emerald green bead accents, and cascading leaf tassels with matching stud drop earrings.
-- **Image URL**: https://www.bluidol.in/images/gold-plated-temple-elakkathali-choker-necklace-set.png
+- **Image URL**: https://www.bluidol.in/images/gold-plated-temple-elakkathali-choker-necklace-set.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Temple%20Elakkathali%20Choker%20Necklace%20Set%20(%E2%82%B9599).
 
 ### Product #88: Visaga Aura Elakkathali Antique Gold-Plated Choker Necklace
@@ -851,7 +861,7 @@
 - **Customer Rating**: 5 / 5.0 (61 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Regal Visaga Aura Elakkathali antique gold-plated choker necklace set adorned with alternating ruby-red and emerald-green oval cabochon gemstones, beaded borders, and swinging golden leaf fringes with matching stud earrings.
-- **Image URL**: https://www.bluidol.in/images/visaga-aura-elakkathali-antique-gold-plated-choker.png
+- **Image URL**: https://www.bluidol.in/images/visaga-aura-elakkathali-antique-gold-plated-choker.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Visaga%20Aura%20Elakkathali%20Antique%20Gold-Plated%20Choker%20Necklace%20(%E2%82%B9599).
 
 ### Product #89: Gold-Plated Manga Mala Necklace Set
@@ -861,7 +871,7 @@
 - **Customer Rating**: 5 / 5.0 (47 verified reviews)
 - **Badge**: Trending
 - **Description**: Heritage Kerala Manga Mala (mango motif) necklace set in matte antique gold plating. Features sculpted royal blue and ruby red stone paisley mangoes leading to a striking central round medallion with coordinating mango stud earrings.
-- **Image URL**: https://www.bluidol.in/images/gold-plated-manga-mala-necklace-set.png
+- **Image URL**: https://www.bluidol.in/images/gold-plated-manga-mala-necklace-set.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Manga%20Mala%20Necklace%20Set%20(%E2%82%B9245).
 
 ### Product #90: Gold-Plated Pink Enamel Lotus Motif Necklace Set
@@ -871,7 +881,7 @@
 - **Customer Rating**: 5 / 5.0 (42 verified reviews)
 - **Badge**: Trending
 - **Description**: Exquisite gold-plated collar necklace set strung with circular filigree medallion links featuring hand-painted hot pink and emerald green enamel lotus blossoms with teardrop kundan centers, accompanied by matching round lotus stud earrings.
-- **Image URL**: https://www.bluidol.in/images/gold-plated-pink-enamel-lotus-motif-necklace-set.png
+- **Image URL**: https://www.bluidol.in/images/gold-plated-pink-enamel-lotus-motif-necklace-set.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Pink%20Enamel%20Lotus%20Motif%20Necklace%20Set%20(%E2%82%B9199).
 
 ### Product #91: Invisible-Wire Emerald Crescent Moon Pendant Necklace
@@ -881,7 +891,7 @@
 - **Customer Rating**: 5 / 5.0 (38 verified reviews)
 - **Badge**: New
 - **Description**: Modern ethereal choker necklace designed with a sleek floating gold cord displaying three pavé crystal crescent moon charms centered with vivid oval emerald green gemstones and golden bead accents.
-- **Image URL**: https://www.bluidol.in/images/invisible-wire-emerald-crescent-moon-pendant-necklace.png
+- **Image URL**: https://www.bluidol.in/images/invisible-wire-emerald-crescent-moon-pendant-necklace.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Invisible-Wire%20Emerald%20Crescent%20Moon%20Pendant%20Necklace%20(%E2%82%B9165).
 
 ### Product #92: Invisible-Wire Floating Crystal Flower Necklace
@@ -891,7 +901,7 @@
 - **Customer Rating**: 5 / 5.0 (44 verified reviews)
 - **Badge**: Trending
 - **Description**: Minimalist illusion neckpiece featuring three sparkling five-petal faceted cubic zirconia crystal blossoms suspended on a delicate flexible gold wire with secure lobster clasp.
-- **Image URL**: https://www.bluidol.in/images/invisible-wire-floating-crystal-flower-necklace.png
+- **Image URL**: https://www.bluidol.in/images/invisible-wire-floating-crystal-flower-necklace.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Invisible-Wire%20Floating%20Crystal%20Flower%20Necklace%20(%E2%82%B9155).
 
 ### Product #93: Gold-Plated Lakshmi Coin and Lotus Motif Necklace Set
@@ -901,7 +911,7 @@
 - **Customer Rating**: 5 / 5.0 (53 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Auspicious temple Kasu Mala necklace set pairing embossed Goddess Lakshmi coins with hand-enameled navy blue and green lotus crowns. Includes matching coin lotus stud earrings.
-- **Image URL**: https://www.bluidol.in/images/gold-plated-lakshmi-coin-lotus-necklace-set.png
+- **Image URL**: https://www.bluidol.in/images/gold-plated-lakshmi-coin-lotus-necklace-set.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Lakshmi%20Coin%20and%20Lotus%20Motif%20Necklace%20Set%20(%E2%82%B9235).
 
 ### Product #94: Invisible-Wire Ruby Crescent Moon Pendant Necklace
@@ -911,7 +921,7 @@
 - **Customer Rating**: 5 / 5.0 (39 verified reviews)
 - **Badge**: Trending
 - **Description**: Celestial floating collar necklace with three sparkling micro-pavé crescent moons set with deep ruby red oval crystals and golden spacer beads on a sleek arched gold wire cord.
-- **Image URL**: https://www.bluidol.in/images/invisible-wire-ruby-crescent-moon-pendant-necklace.png
+- **Image URL**: https://www.bluidol.in/images/invisible-wire-ruby-crescent-moon-pendant-necklace.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Invisible-Wire%20Ruby%20Crescent%20Moon%20Pendant%20Necklace%20(%E2%82%B9165).
 
 ### Product #95: Gold-Plated Crystal Tulip Pendant Necklace (Clear & Lilac)
@@ -921,7 +931,7 @@
 - **Customer Rating**: 5 / 5.0 (36 verified reviews)
 - **Badge**: New
 - **Description**: Graceful Korean-aesthetic tulip pendant suspended on a delicate 18K gold-plated link chain, featuring a faceted oval clear crystal tulip blossom with soft lavender-lilac and blush pink marquise leaves.
-- **Image URL**: https://www.bluidol.in/images/gold-plated-crystal-tulip-pendant-necklace-clear-lilac.png
+- **Image URL**: https://www.bluidol.in/images/gold-plated-crystal-tulip-pendant-necklace-clear-lilac.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Crystal%20Tulip%20Pendant%20Necklace%20(Clear%20%26%20Lilac)%20(%E2%82%B9199).
 
 ### Product #96: Gold-Plated Blush Tulip Pendant Necklace (Emerald Leaves)
@@ -931,7 +941,7 @@
 - **Customer Rating**: 5 / 5.0 (41 verified reviews)
 - **Badge**: Trending
 - **Description**: Romantic floral pendant necklace crafted in 18K gold plating with a faceted blush rose-peach crystal tulip bud stem adorned with vibrant marquise-cut emerald green leaves on a fine cable chain.
-- **Image URL**: https://www.bluidol.in/images/gold-plated-blush-tulip-pendant-necklace-emerald-leaves.png
+- **Image URL**: https://www.bluidol.in/images/gold-plated-blush-tulip-pendant-necklace-emerald-leaves.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Gold-Plated%20Blush%20Tulip%20Pendant%20Necklace%20(Emerald%20Leaves)%20(%E2%82%B9199).
 
 ### Product #97: Anti-Tarnish Station Charm Chain Necklace
@@ -941,5 +951,5 @@
 - **Customer Rating**: 5 / 5.0 (48 verified reviews)
 - **Badge**: Bestseller
 - **Description**: Waterproof and anti-tarnish 18K gold-plated stainless steel station chain featuring alternating dangling openwork heart-leaf charms, bezel-set shimmering cubic zirconia roundels, and polished golden beads.
-- **Image URL**: https://www.bluidol.in/images/anti-tarnish-station-charm-chain-necklace.png
+- **Image URL**: https://www.bluidol.in/images/anti-tarnish-station-charm-chain-necklace.webp
 - **Direct Order Link**: https://wa.me/919895432549?text=Hi%20Blu%20Idol%2C%20I%20would%20like%20to%20order%20the%20Anti-Tarnish%20Station%20Charm%20Chain%20Necklace%20(%E2%82%B9215).

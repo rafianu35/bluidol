@@ -2595,3 +2595,123 @@ body.cart-open {
 .hero-img {
   content-visibility: auto;
 }
+
+/* ==========================================================================
+   ANTI-TARNISH COMPARISON SECTION & KERALA TRUST STRIP STYLES
+   ========================================================================== */
+
+.anti-tarnish-section {
+  background-color: var(--bg-cream);
+  padding: 80px 0;
+  border-top: 1px solid rgba(210, 180, 140, 0.2);
+  border-bottom: 1px solid rgba(210, 180, 140, 0.2);
+}
+
+.comparison-table-wrap {
+  overflow-x: auto;
+  margin-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #f0ece1;
+}
+
+.comparison-table thead th {
+  background: #1a1a1a;
+  color: #ffffff;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.comparison-table thead th.highlight-col {
+  background: var(--accent-dark);
+  color: #ffffff;
+  font-size: 1.05rem;
+}
+
+.comparison-table tbody td.highlight-col {
+  background-color: rgba(210, 180, 140, 0.12);
+  color: #121212;
+}
+
+.comparison-table .check-icon {
+  color: #27ae60;
+  margin-right: 6px;
+}
+
+.comparison-table .x-icon {
+  color: #e74c3c;
+  margin-right: 6px;
+}
+
+.comparison-table .bolt-icon {
+  color: #f39c12;
+  margin-right: 6px;
+}
+
+/* Kerala Delivery Trust Strip */
+.kerala-delivery-strip {
+  margin-top: 40px;
+  background: linear-gradient(135deg, #121212 0%, #2a221b 100%);
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 28px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+}
+
+.kerala-strip-icon {
+  font-size: 2.2rem;
+  color: var(--accent-color);
+}
+
+.kerala-strip-text {
+  flex: 1;
+  min-width: 260px;
+}
+
+.kerala-strip-text h4 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.kerala-strip-text p {
+  font-size: 0.85rem;
+  color: #d2b48c;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .comparison-table th,
+  .comparison-table td {
+    padding: 12px 14px;
+    font-size: 0.85rem;
+  }
+  .kerala-delivery-strip {
+    flex-direction: column;
+    text-align: center;
+    padding: 22px 18px;
+  }
+  .kerala-strip-icon {
+    margin: 0 auto;
+  }
+}
