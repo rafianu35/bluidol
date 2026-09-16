@@ -987,6 +987,138 @@ const products = [
     reviews: 51,
     badge: "Bestseller",
     description: "Warm mocha brown matte hibiscus flower hair claw clips combo of 3. Rich velvety neutral tone with ribbed petal contours and powerful steel spring grip for all hair textures. Includes 1 jumbo and 2 medium clips (Price ₹99 for combo)."
+  },
+  {
+    id: 87,
+    name: "Gold-Plated Temple Elakkathali Choker Necklace Set",
+    category: "necklaces",
+    price: 599,
+    originalPrice: 1199,
+    image: "images/gold-plated-temple-elakkathali-choker-necklace-set.png",
+    stars: 5,
+    reviews: 54,
+    badge: "Royal Festive",
+    description: "Masterpiece traditional South Indian temple Elakkathali choker necklace set in rich matte gold plating. Embellished with circular engraved deity medallions, ruby red and emerald green bead accents, and cascading leaf tassels with matching stud drop earrings."
+  },
+  {
+    id: 88,
+    name: "Visaga Aura Elakkathali Antique Gold-Plated Choker Necklace",
+    category: "necklaces",
+    price: 599,
+    originalPrice: 1199,
+    image: "images/visaga-aura-elakkathali-antique-gold-plated-choker.png",
+    stars: 5,
+    reviews: 61,
+    badge: "Bestseller",
+    description: "Regal Visaga Aura Elakkathali antique gold-plated choker necklace set adorned with alternating ruby-red and emerald-green oval cabochon gemstones, beaded borders, and swinging golden leaf fringes with matching stud earrings."
+  },
+  {
+    id: 89,
+    name: "Gold-Plated Manga Mala Necklace Set",
+    category: "necklaces",
+    price: 245,
+    originalPrice: 499,
+    image: "images/gold-plated-manga-mala-necklace-set.png",
+    stars: 5,
+    reviews: 47,
+    badge: "Trending",
+    description: "Heritage Kerala Manga Mala (mango motif) necklace set in matte antique gold plating. Features sculpted royal blue and ruby red stone paisley mangoes leading to a striking central round medallion with coordinating mango stud earrings."
+  },
+  {
+    id: 90,
+    name: "Gold-Plated Pink Enamel Lotus Motif Necklace Set",
+    category: "necklaces",
+    price: 199,
+    originalPrice: 399,
+    image: "images/gold-plated-pink-enamel-lotus-motif-necklace-set.png",
+    stars: 5,
+    reviews: 42,
+    badge: "Trending",
+    description: "Exquisite gold-plated collar necklace set strung with circular filigree medallion links featuring hand-painted hot pink and emerald green enamel lotus blossoms with teardrop kundan centers, accompanied by matching round lotus stud earrings."
+  },
+  {
+    id: 91,
+    name: "Invisible-Wire Emerald Crescent Moon Pendant Necklace",
+    category: "necklaces",
+    price: 165,
+    originalPrice: 349,
+    image: "images/invisible-wire-emerald-crescent-moon-pendant-necklace.png",
+    stars: 5,
+    reviews: 38,
+    badge: "New",
+    description: "Modern ethereal choker necklace designed with a sleek floating gold cord displaying three pavé crystal crescent moon charms centered with vivid oval emerald green gemstones and golden bead accents."
+  },
+  {
+    id: 92,
+    name: "Invisible-Wire Floating Crystal Flower Necklace",
+    category: "necklaces",
+    price: 155,
+    originalPrice: 329,
+    image: "images/invisible-wire-floating-crystal-flower-necklace.png",
+    stars: 5,
+    reviews: 44,
+    badge: "Trending",
+    description: "Minimalist illusion neckpiece featuring three sparkling five-petal faceted cubic zirconia crystal blossoms suspended on a delicate flexible gold wire with secure lobster clasp."
+  },
+  {
+    id: 93,
+    name: "Gold-Plated Lakshmi Coin and Lotus Motif Necklace Set",
+    category: "necklaces",
+    price: 235,
+    originalPrice: 489,
+    image: "images/gold-plated-lakshmi-coin-lotus-necklace-set.png",
+    stars: 5,
+    reviews: 53,
+    badge: "Bestseller",
+    description: "Auspicious temple Kasu Mala necklace set pairing embossed Goddess Lakshmi coins with hand-enameled navy blue and green lotus crowns. Includes matching coin lotus stud earrings."
+  },
+  {
+    id: 94,
+    name: "Invisible-Wire Ruby Crescent Moon Pendant Necklace",
+    category: "necklaces",
+    price: 165,
+    originalPrice: 349,
+    image: "images/invisible-wire-ruby-crescent-moon-pendant-necklace.png",
+    stars: 5,
+    reviews: 39,
+    badge: "Trending",
+    description: "Celestial floating collar necklace with three sparkling micro-pavé crescent moons set with deep ruby red oval crystals and golden spacer beads on a sleek arched gold wire cord."
+  },
+  {
+    id: 95,
+    name: "Gold-Plated Crystal Tulip Pendant Necklace (Clear & Lilac)",
+    category: "necklaces",
+    price: 199,
+    originalPrice: 399,
+    image: "images/gold-plated-crystal-tulip-pendant-necklace-clear-lilac.png",
+    stars: 5,
+    reviews: 36,
+    badge: "New",
+    description: "Graceful Korean-aesthetic tulip pendant suspended on a delicate 18K gold-plated link chain, featuring a faceted oval clear crystal tulip blossom with soft lavender-lilac and blush pink marquise leaves."
+  },
+  {
+    id: 96,
+    name: "Gold-Plated Blush Tulip Pendant Necklace (Emerald Leaves)",
+    category: "necklaces",
+    price: 199,
+    originalPrice: 399,
+    image: "images/gold-plated-blush-tulip-pendant-necklace-emerald-leaves.png",
+    stars: 5,
+    reviews: 41,
+    badge: "Trending",
+    description: "Romantic floral pendant necklace crafted in 18K gold plating with a faceted blush rose-peach crystal tulip bud stem adorned with vibrant marquise-cut emerald green leaves on a fine cable chain."
+  },
+  {
+    id: 97,
+    name: "Anti-Tarnish Station Charm Chain Necklace",
+    category: "necklaces",
+    price: 215,
+    originalPrice: 449,
+    image: "images/anti-tarnish-station-charm-chain-necklace.png",
+    stars: 5,
+    reviews: 48,
+    badge: "Bestseller",
+    description: "Waterproof and anti-tarnish 18K gold-plated stainless steel station chain featuring alternating dangling openwork heart-leaf charms, bezel-set shimmering cubic zirconia roundels, and polished golden beads."
   }
 ];
 
