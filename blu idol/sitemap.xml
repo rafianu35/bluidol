@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.bluidol.in/</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -215,6 +215,11 @@
       <image:loc>https://www.bluidol.in/images/gold-plated-stainless-steel-flower-bangle.png</image:loc>
       <image:title>Gold-Plated Stainless Steel Floral Daisy Bangle - Blu Idol</image:title>
       <image:caption>Exquisite 18K gold-plated stainless steel hinged bangle featuring intricate openwork floral daisy cutouts with sparkling center crystal accents. Tarnish-free, waterproof, and hypoallergenic.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bluidol.in/images/antique-gold-peacock-long-drop-jhumkas.png</image:loc>
+      <image:title>Antique Gold-Toned Peacock Long Drop Jhumka Earrings - Blu Idol</image:title>
+      <image:caption>Majestic antique gold-toned long drop jhumka earrings featuring an ornate peacock crown top and grand flared peacock feather plumage, suspending delicate textured bell domes fringed with shimmering white pearl drops. Hypoallergenic, lightweight, and skin-friendly.</image:caption>
     </image:image>
   </url>
   <url>

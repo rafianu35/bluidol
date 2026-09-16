@@ -495,6 +495,18 @@ const products = [
     reviews: 38,
     badge: "Trending",
     description: "Exquisite 18K gold-plated stainless steel hinged bangle featuring intricate openwork floral daisy cutouts with sparkling center crystal accents. Tarnish-free, waterproof, and hypoallergenic."
+  },
+  {
+    id: 46,
+    name: "Antique Gold-Toned Peacock Long Drop Jhumka Earrings",
+    category: "jhumkas",
+    price: 75,
+    originalPrice: 169,
+    image: "images/antique-gold-peacock-long-drop-jhumkas.png",
+    stars: 5,
+    reviews: 44,
+    badge: "Popular",
+    description: "Majestic antique gold-toned long drop jhumka earrings featuring an ornate peacock crown top and grand flared peacock feather plumage, suspending delicate textured bell domes fringed with shimmering white pearl drops. Hypoallergenic, lightweight, and skin-friendly."
   }
 ];
 
