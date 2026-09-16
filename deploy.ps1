@@ -8,6 +8,7 @@ Copy-Item -Path 'style.css' -Destination 'blu idol\style.css' -Force -ErrorActio
 Copy-Item -Path 'index.html' -Destination 'blu idol\index.html' -Force -ErrorAction SilentlyContinue
 Copy-Item -Path 'script.js' -Destination 'blu idol\script.js' -Force -ErrorAction SilentlyContinue
 Copy-Item -Path 'CNAME' -Destination 'blu idol\CNAME' -Force -ErrorAction SilentlyContinue
+Copy-Item -Path 'vercel.json' -Destination 'blu idol\vercel.json' -Force -ErrorAction SilentlyContinue
 Copy-Item -Path 'robots.txt' -Destination 'blu idol\robots.txt' -Force -ErrorAction SilentlyContinue
 Copy-Item -Path 'sitemap.xml' -Destination 'blu idol\sitemap.xml' -Force -ErrorAction SilentlyContinue
 Copy-Item -Path 'llms.txt' -Destination 'blu idol\llms.txt' -Force -ErrorAction SilentlyContinue

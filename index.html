@@ -2971,12 +2971,19 @@
   </script>
 
   <!-- Google Fonts -->
+  <!-- Preconnect to external CDNs for faster asset discovery -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+  <!-- Preload LCP Hero Image in next-gen WebP -->
+  <link rel="preload" as="image" href="images/hero.webp" type="image/webp" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Asynchronous Font Awesome (non-render-blocking) -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -3009,7 +3016,7 @@
       <!-- Logo -->
       <div class="logo">
         <a href="#" id="logo-link" aria-label="Blu Idol Home">
-          <img src="images/logo.jpg" alt="Blu Idol Logo" class="logo-img-el">
+          <img src="images/logo.webp" alt="Blu Idol Logo" class="logo-img-el" width="48" height="48" decoding="async">
           <div class="logo-text">
             <span class="logo-name">BLU IDOL</span>
             <span class="logo-tagline">Bring Luxury To You</span>
@@ -3062,7 +3069,7 @@
     <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation" aria-hidden="true">
       <div class="nav-mobile-header">
         <div class="logo">
-          <img src="images/logo.jpg" alt="Blu Idol" class="logo-img-el">
+          <img src="images/logo.webp" alt="Blu Idol" class="logo-img-el" width="48" height="48" decoding="async">
           <div class="logo-text">
             <span class="logo-name">BLU IDOL</span>
             <span class="logo-tagline">Bring Luxury To You</span>
@@ -3111,7 +3118,7 @@
   <!-- ===== HERO SECTION ===== -->
   <section class="hero" id="hero">
     <div class="hero-bg">
-      <img src="images/hero.png" alt="Blu Idol - 18K Gold Plated Jewellery" class="hero-img" loading="eager">
+      <img src="images/hero.webp" alt="Blu Idol - 18K Gold Plated Jewellery" class="hero-img" loading="eager" fetchpriority="high" decoding="async" width="1376" height="768">
       <div class="hero-overlay"></div>
     </div>
 
@@ -3172,7 +3179,7 @@
         <!-- Jhumkas -->
         <div class="collection-card" id="collection-card-jhumkas">
           <div class="collection-img-wrap">
-            <img src="images/antique-gold-elephant-jhumka-black.png" alt="Antique Jhumkas Collection" loading="lazy">
+            <img src="images/antique-gold-elephant-jhumka-black.webp" alt="Antique Jhumkas Collection" loading="lazy" decoding="async" width="300" height="300">
             <div class="collection-overlay"></div>
           </div>
           <div class="collection-info">
@@ -3184,7 +3191,7 @@
         <!-- Earrings -->
         <div class="collection-card" id="collection-card-1">
           <div class="collection-img-wrap">
-            <img src="images/sparkling-floral-stud-earrings.png" alt="Earrings Collection" loading="lazy">
+            <img src="images/sparkling-floral-stud-earrings.webp" alt="Earrings Collection" loading="lazy" decoding="async" width="300" height="300">
             <div class="collection-overlay"></div>
           </div>
           <div class="collection-info">
@@ -3196,7 +3203,7 @@
         <!-- Necklaces -->
         <div class="collection-card" id="collection-card-2">
           <div class="collection-img-wrap">
-            <img src="images/vintage-tulip-necklace.png" alt="Necklaces Collection" loading="lazy">
+            <img src="images/vintage-tulip-necklace.webp" alt="Necklaces Collection" loading="lazy" decoding="async" width="300" height="300">
             <div class="collection-overlay"></div>
           </div>
           <div class="collection-info">
@@ -3208,7 +3215,7 @@
         <!-- Bangles -->
         <div class="collection-card" id="collection-card-bangles">
           <div class="collection-img-wrap">
-            <img src="images/gold-plated-stainless-steel-flower-bangle.png" alt="Bangles Collection" loading="lazy">
+            <img src="images/gold-plated-stainless-steel-flower-bangle.webp" alt="Bangles Collection" loading="lazy" decoding="async" width="300" height="300">
             <div class="collection-overlay"></div>
           </div>
           <div class="collection-info">
@@ -3220,7 +3227,7 @@
         <!-- Bracelets -->
         <div class="collection-card" id="collection-card-3">
           <div class="collection-img-wrap">
-            <img src="images/gold-charm-bracelet.png" alt="Bracelets Collection" loading="lazy">
+            <img src="images/gold-charm-bracelet.webp" alt="Bracelets Collection" loading="lazy" decoding="async" width="300" height="300">
             <div class="collection-overlay"></div>
           </div>
           <div class="collection-info">
@@ -3232,7 +3239,7 @@
         <!-- Anklets -->
         <div class="collection-card" id="collection-card-4">
           <div class="collection-img-wrap">
-            <img src="images/beaded-snake-chain-anklets.png" alt="Anklets Collection" loading="lazy">
+            <img src="images/beaded-snake-chain-anklets.webp" alt="Anklets Collection" loading="lazy" decoding="async" width="300" height="300">
             <div class="collection-overlay"></div>
           </div>
           <div class="collection-info">
@@ -3244,7 +3251,7 @@
         <!-- Hair Clips -->
         <div class="collection-card" id="collection-card-hair-clips">
           <div class="collection-img-wrap">
-            <img src="images/matte-hibiscus-flower-hair-claw-clips.png" alt="Hair Clips Collection" loading="lazy">
+            <img src="images/matte-hibiscus-flower-hair-claw-clips.webp" alt="Hair Clips Collection" loading="lazy" decoding="async" width="300" height="300">
             <div class="collection-overlay"></div>
           </div>
           <div class="collection-info">
@@ -3254,7 +3261,7 @@
         </div>
         <div class="collection-card" id="collection-card-clip-combos">
           <div class="collection-img-wrap">
-            <img src="images/navy-blue-matte-hibiscus-hair-claw-clips-combo.png" alt="Clip Combos Collection" loading="lazy">
+            <img src="images/navy-blue-matte-hibiscus-hair-claw-clips-combo.webp" alt="Clip Combos Collection" loading="lazy" decoding="async" width="300" height="300">
             <div class="collection-overlay"></div>
           </div>
           <div class="collection-info">
@@ -3291,7 +3298,7 @@
         <!-- Product 5 -->
         <div class="product-card" id="product-5" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/puffy-heart-pendant.png" alt="Anti tarnish 3D Puffy Heart Pendant chain" loading="lazy">
+            <img src="images/puffy-heart-pendant.webp" alt="Anti tarnish 3D Puffy Heart Pendant chain" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -3326,7 +3333,7 @@
         <!-- Product 6 -->
         <div class="product-card" id="product-6" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/ruby-tulip-pendant.png" alt="Dainty Ruby Tulip Pendant Chain" loading="lazy">
+            <img src="images/ruby-tulip-pendant.webp" alt="Dainty Ruby Tulip Pendant Chain" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-new">New</span>
             </div>
@@ -3361,7 +3368,7 @@
         <!-- Product 7 -->
         <div class="product-card" id="product-7" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/crystal-tulip-necklace.png" alt="Stainless crystal tulip pendant necklace" loading="lazy">
+            <img src="images/crystal-tulip-necklace.webp" alt="Stainless crystal tulip pendant necklace" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -3396,7 +3403,7 @@
         <!-- Product 8 -->
         <div class="product-card" id="product-8" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/rectangular-moonstone-necklace.png" alt="Gold-Plated Rectangular Moonstone Pendant Necklace" loading="lazy">
+            <img src="images/rectangular-moonstone-necklace.webp" alt="Gold-Plated Rectangular Moonstone Pendant Necklace" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -3431,7 +3438,7 @@
         <!-- Product 9 -->
         <div class="product-card" id="product-9" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/vintage-tulip-necklace.png" alt="Anti-Tarnish Vintage Gold-Plated Tulip Flower Pendant Necklace" loading="lazy">
+            <img src="images/vintage-tulip-necklace.webp" alt="Anti-Tarnish Vintage Gold-Plated Tulip Flower Pendant Necklace" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -3466,7 +3473,7 @@
         <!-- Product 10 -->
         <div class="product-card" id="product-10" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/modern-gold-pendant-necklace.png" alt="Stainless Modern Gold Pendant Necklace" loading="lazy">
+            <img src="images/modern-gold-pendant-necklace.webp" alt="Stainless Modern Gold Pendant Necklace" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-new">New</span>
             </div>
@@ -3501,7 +3508,7 @@
         <!-- Product 11 -->
         <div class="product-card" id="product-11" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/diamond-wave-necklace.png" alt="Diamond Wave Bar Necklace" loading="lazy">
+            <img src="images/diamond-wave-necklace.webp" alt="Diamond Wave Bar Necklace" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -3536,7 +3543,7 @@
         <!-- Product 12 -->
         <div class="product-card" id="product-12" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/maple-leaf-necklace.png" alt="Gold-Plated Maple Leaf Station Charm Necklace" loading="lazy">
+            <img src="images/maple-leaf-necklace.webp" alt="Gold-Plated Maple Leaf Station Charm Necklace" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-new">New</span>
             </div>
@@ -3571,7 +3578,7 @@
         <!-- Product 13 -->
         <div class="product-card" id="product-13" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/oxidized-silver-floral-set.png" alt="Oxidized Silver Floral Jewelry Set" loading="lazy">
+            <img src="images/oxidized-silver-floral-set.webp" alt="Oxidized Silver Floral Jewelry Set" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -3606,7 +3613,7 @@
         <!-- Product 14 -->
         <div class="product-card" id="product-14" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/green-heart-catseye-necklace.png" alt="Gold-Plated Green Cat's Eye Heart Pendant Necklace" loading="lazy">
+            <img src="images/green-heart-catseye-necklace.webp" alt="Gold-Plated Green Cat's Eye Heart Pendant Necklace" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -3641,7 +3648,7 @@
         <!-- Product 15 -->
         <div class="product-card" id="product-15" data-category="bracelets">
           <div class="product-img-wrap">
-            <img src="images/gold-charm-bracelet.png" alt="Minimalist Gold-Plated Stainless Steel Charm Bracelet" loading="lazy">
+            <img src="images/gold-charm-bracelet.webp" alt="Minimalist Gold-Plated Stainless Steel Charm Bracelet" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-new">New</span>
             </div>
@@ -3676,7 +3683,7 @@
         <!-- Product 16 -->
         <div class="product-card" id="product-16" data-category="anklets">
           <div class="product-img-wrap">
-            <img src="images/beaded-snake-chain-anklets.png" alt="Gold-Plated Beaded Snake Chain Anklet" loading="lazy">
+            <img src="images/beaded-snake-chain-anklets.webp" alt="Gold-Plated Beaded Snake Chain Anklet" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -3711,7 +3718,7 @@
         <!-- Product 17 -->
         <div class="product-card" id="product-17" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/purple-gemstone-leaf-stud-earrings.png" alt="Gold-Plated Emerald-Cut Purple Gemstone Leaf Stud Earrings" loading="lazy">
+            <img src="images/purple-gemstone-leaf-stud-earrings.webp" alt="Gold-Plated Emerald-Cut Purple Gemstone Leaf Stud Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-new">New Drop</span>
             </div>
@@ -3746,7 +3753,7 @@
         <!-- Product 18 -->
         <div class="product-card" id="product-18" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/cz-violet-blossom-ear-tops.png" alt="Gold-Plated CZ Violet Blossom Ear Tops" loading="lazy">
+            <img src="images/cz-violet-blossom-ear-tops.webp" alt="Gold-Plated CZ Violet Blossom Ear Tops" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -3781,7 +3788,7 @@
         <!-- Product 19 -->
         <div class="product-card" id="product-19" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/emerald-blossom-cz-earrings.png" alt="Gold-Plated Emerald Blossom CZ Stud Earrings" loading="lazy">
+            <img src="images/emerald-blossom-cz-earrings.webp" alt="Gold-Plated Emerald Blossom CZ Stud Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -3816,7 +3823,7 @@
         <!-- Product 20 -->
         <div class="product-card" id="product-20" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/ruby-floral-halo-stud-earrings.png" alt="Gold-Plated Ruby Floral Halo Stud Earrings" loading="lazy">
+            <img src="images/ruby-floral-halo-stud-earrings.webp" alt="Gold-Plated Ruby Floral Halo Stud Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-new">New</span>
             </div>
@@ -3851,7 +3858,7 @@
         <!-- Product 21 -->
         <div class="product-card" id="product-21" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/sparkling-floral-stud-earrings.png" alt="Gold-Plated Sparkling Floral Stud Earrings" loading="lazy">
+            <img src="images/sparkling-floral-stud-earrings.webp" alt="Gold-Plated Sparkling Floral Stud Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -3886,7 +3893,7 @@
         <!-- Product 22 -->
         <div class="product-card" id="product-22" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/american-diamond-emerald-stud-earrings.png" alt="Gold-Plated American Diamond Emerald Stud Earrings" loading="lazy">
+            <img src="images/american-diamond-emerald-stud-earrings.webp" alt="Gold-Plated American Diamond Emerald Stud Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -3921,7 +3928,7 @@
         <!-- Product 23 -->
         <div class="product-card" id="product-23" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/american-diamond-floral-stud-earrings.png" alt="Gold-Plated American Diamond Floral Stud Earrings" loading="lazy">
+            <img src="images/american-diamond-floral-stud-earrings.webp" alt="Gold-Plated American Diamond Floral Stud Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -3956,7 +3963,7 @@
         <!-- Product 24 -->
         <div class="product-card" id="product-24" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/crescent-stud-earrings.png" alt="Gold-Plated Crescent Stud Earrings" loading="lazy">
+            <img src="images/crescent-stud-earrings.webp" alt="Gold-Plated Crescent Stud Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-new">New</span>
             </div>
@@ -3991,7 +3998,7 @@
         <!-- Product 25 -->
         <div class="product-card" id="product-25" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/dualtone-blossom-halo-earrings.png" alt="Gold-Plated Dual-Tone Blossom Halo Earrings" loading="lazy">
+            <img src="images/dualtone-blossom-halo-earrings.webp" alt="Gold-Plated Dual-Tone Blossom Halo Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -4026,7 +4033,7 @@
         <!-- Product 26 -->
         <div class="product-card" id="product-26" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/charming-floral-stud-earrings.png" alt="Charming Gold-Plated Floral Stud Earrings" loading="lazy">
+            <img src="images/charming-floral-stud-earrings.webp" alt="Charming Gold-Plated Floral Stud Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -4061,7 +4068,7 @@
         <!-- Product 27 -->
         <div class="product-card" id="product-27" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/cz-drop-earrings.png" alt="Gold-Plated Cubic Zirconia Drop Earrings" loading="lazy">
+            <img src="images/cz-drop-earrings.webp" alt="Gold-Plated Cubic Zirconia Drop Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-new">New Drop</span>
             </div>
@@ -4096,7 +4103,7 @@
         <!-- Product 28 -->
         <div class="product-card" id="product-28" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-gold-elephant-jhumka-black.png" alt="Premium Antique Gold Elephant Motif Jhumka (Black)" loading="lazy">
+            <img src="images/antique-gold-elephant-jhumka-black.webp" alt="Premium Antique Gold Elephant Motif Jhumka (Black)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -4131,7 +4138,7 @@
         <!-- Product 29 -->
         <div class="product-card" id="product-29" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-gold-elephant-jhumka-maroon.png" alt="Premium Antique Gold Elephant Motif Jhumka (Maroon)" loading="lazy">
+            <img src="images/antique-gold-elephant-jhumka-maroon.webp" alt="Premium Antique Gold Elephant Motif Jhumka (Maroon)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -4166,7 +4173,7 @@
         <!-- Product 30 -->
         <div class="product-card" id="product-30" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-gold-bell-jhumka-ruby.png" alt="Antique Gold Traditional Bell Jhumka Earrings (Ruby Red)" loading="lazy">
+            <img src="images/antique-gold-bell-jhumka-ruby.webp" alt="Antique Gold Traditional Bell Jhumka Earrings (Ruby Red)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-new">New</span>
             </div>
@@ -4201,7 +4208,7 @@
         <!-- Product 31 -->
         <div class="product-card" id="product-31" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-gold-bell-jhumka-black.png" alt="Antique Gold Traditional Bell Jhumka Earrings (Black)" loading="lazy">
+            <img src="images/antique-gold-bell-jhumka-black.webp" alt="Antique Gold Traditional Bell Jhumka Earrings (Black)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -4236,7 +4243,7 @@
         <!-- Product 32 -->
         <div class="product-card" id="product-32" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-gold-bell-jhumka-green.png" alt="Antique Gold Traditional Bell Jhumka Earrings (Emerald Green)" loading="lazy">
+            <img src="images/antique-gold-bell-jhumka-green.webp" alt="Antique Gold Traditional Bell Jhumka Earrings (Emerald Green)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -4271,7 +4278,7 @@
         <!-- Product 33 -->
         <div class="product-card" id="product-33" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-lakshmi-jhumka-earrings.png" alt="Antique Goddess Lakshmi Jhumka Earrings" loading="lazy">
+            <img src="images/antique-lakshmi-jhumka-earrings.webp" alt="Antique Goddess Lakshmi Jhumka Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -4306,7 +4313,7 @@
         <!-- Product 34 -->
         <div class="product-card" id="product-34" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-radha-krishna-jhumka-earrings.png" alt="Antique Radha Krishna Gold-Plated Jhumka Earrings" loading="lazy">
+            <img src="images/antique-radha-krishna-jhumka-earrings.webp" alt="Antique Radha Krishna Gold-Plated Jhumka Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -4341,7 +4348,7 @@
         <!-- Product 35 -->
         <div class="product-card" id="product-35" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/gold-plated-lakshmi-temple-grand-jhumkas.png" alt="Gold-Plated Lakshmi Temple Design Grand Jhumkas" loading="lazy">
+            <img src="images/gold-plated-lakshmi-temple-grand-jhumkas.webp" alt="Gold-Plated Lakshmi Temple Design Grand Jhumkas" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Royal Drop</span>
             </div>
@@ -4376,7 +4383,7 @@
         <!-- Product 36 -->
         <div class="product-card" id="product-36" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-peacock-jhumkas-black.png" alt="Antique Peacock Jhumkas (Black Bead Drops)" loading="lazy">
+            <img src="images/antique-peacock-jhumkas-black.webp" alt="Antique Peacock Jhumkas (Black Bead Drops)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -4411,7 +4418,7 @@
         <!-- Product 37 -->
         <div class="product-card" id="product-37" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-peacock-jhumkas-green.png" alt="Antique Peacock Jhumkas (Emerald Green Drops)" loading="lazy">
+            <img src="images/antique-peacock-jhumkas-green.webp" alt="Antique Peacock Jhumkas (Emerald Green Drops)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -4446,7 +4453,7 @@
         <!-- Product 38 -->
         <div class="product-card" id="product-38" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-butterfly-minimal-jhumkas-turquoise.png" alt="Antique Butterfly Minimal Jhumkas (Turquoise)" loading="lazy">
+            <img src="images/antique-butterfly-minimal-jhumkas-turquoise.webp" alt="Antique Butterfly Minimal Jhumkas (Turquoise)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-new">New</span>
             </div>
@@ -4481,7 +4488,7 @@
         <!-- Product 39 -->
         <div class="product-card" id="product-39" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/palakya-long-jhumkas-magenta.png" alt="Palakya Long Jhumkas (Magenta Pink)" loading="lazy">
+            <img src="images/palakya-long-jhumkas-magenta.webp" alt="Palakya Long Jhumkas (Magenta Pink)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -4516,7 +4523,7 @@
         <!-- Product 40 -->
         <div class="product-card" id="product-40" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/oxidised-gold-rhombus-pearl-jhumkas.png" alt="Oxidised Gold-Plated Rhombus Pearl Jhumkas" loading="lazy">
+            <img src="images/oxidised-gold-rhombus-pearl-jhumkas.webp" alt="Oxidised Gold-Plated Rhombus Pearl Jhumkas" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Royal Drop</span>
             </div>
@@ -4551,7 +4558,7 @@
         <!-- Product 41 -->
         <div class="product-card" id="product-41" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/traditional-antique-temple-earrings-blue.png" alt="Traditional Antique Temple Chandelier Earrings (Royal Blue)" loading="lazy">
+            <img src="images/traditional-antique-temple-earrings-blue.webp" alt="Traditional Antique Temple Chandelier Earrings (Royal Blue)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-new">New</span>
             </div>
@@ -4586,7 +4593,7 @@
         <!-- Product 42 -->
         <div class="product-card" id="product-42" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/traditional-antique-temple-earrings-red.png" alt="Traditional Antique Temple Chandelier Earrings (Ruby Red)" loading="lazy">
+            <img src="images/traditional-antique-temple-earrings-red.webp" alt="Traditional Antique Temple Chandelier Earrings (Ruby Red)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -4621,7 +4628,7 @@
         <!-- Product 43 -->
         <div class="product-card" id="product-43" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/palakya-long-jhumkas-black.png" alt="Palakya Long Jhumkas (Jet Black)" loading="lazy">
+            <img src="images/palakya-long-jhumkas-black.webp" alt="Palakya Long Jhumkas (Jet Black)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -4656,7 +4663,7 @@
         <!-- Product 44 -->
         <div class="product-card" id="product-44" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/lotus-choker-necklace-set.png" alt="Lotus Choker Necklace Set" loading="lazy">
+            <img src="images/lotus-choker-necklace-set.webp" alt="Lotus Choker Necklace Set" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -4691,7 +4698,7 @@
         <!-- Product 45 -->
         <div class="product-card" id="product-45" data-category="bangles">
           <div class="product-img-wrap">
-            <img src="images/gold-plated-stainless-steel-flower-bangle.png" alt="Gold-Plated Stainless Steel Floral Daisy Bangle" loading="lazy">
+            <img src="images/gold-plated-stainless-steel-flower-bangle.webp" alt="Gold-Plated Stainless Steel Floral Daisy Bangle" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -4726,7 +4733,7 @@
         <!-- Product 46 -->
         <div class="product-card" id="product-46" data-category="jhumkas">
           <div class="product-img-wrap">
-            <img src="images/antique-gold-peacock-long-drop-jhumkas.png" alt="Antique Gold-Toned Peacock Long Drop Jhumka Earrings" loading="lazy">
+            <img src="images/antique-gold-peacock-long-drop-jhumkas.webp" alt="Antique Gold-Toned Peacock Long Drop Jhumka Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Popular</span>
             </div>
@@ -4761,7 +4768,7 @@
         <!-- Product 47 -->
         <div class="product-card" id="product-47" data-category="hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-hibiscus-flower-hair-claw-clips.png" alt="Matte Hibiscus Flower Mini Hair Claw Clips" loading="lazy">
+            <img src="images/matte-hibiscus-flower-hair-claw-clips.webp" alt="Matte Hibiscus Flower Mini Hair Claw Clips" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -4796,7 +4803,7 @@
         <!-- Product 48 -->
         <div class="product-card" id="product-48" data-category="hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-seashell-hair-claw-clips.png" alt="Matte Seashell Hair Claw Clips" loading="lazy">
+            <img src="images/matte-seashell-hair-claw-clips.webp" alt="Matte Seashell Hair Claw Clips" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -4831,7 +4838,7 @@
         <!-- Product 49 -->
         <div class="product-card" id="product-49" data-category="hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-finish-double-flower-hair-claw-clips.png" alt="Matte-Finish Double Flower Hair Claw Clips" loading="lazy">
+            <img src="images/matte-finish-double-flower-hair-claw-clips.webp" alt="Matte-Finish Double Flower Hair Claw Clips" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Popular</span>
             </div>
@@ -4866,7 +4873,7 @@
         <!-- Product 50 -->
         <div class="product-card" id="product-50" data-category="hair-clips">
           <div class="product-img-wrap">
-            <img src="images/crystal-bloom-floral-hair-claw-clips.png" alt="Crystal Bloom Floral Hair Claw Clips" loading="lazy">
+            <img src="images/crystal-bloom-floral-hair-claw-clips.webp" alt="Crystal Bloom Floral Hair Claw Clips" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -4901,7 +4908,7 @@
         <!-- Product 51 -->
         <div class="product-card" id="product-51" data-category="hair-clips">
           <div class="product-img-wrap">
-            <img src="images/crystal-flower-jaw-clamps.png" alt="Crystal Flower Jaw Clamps" loading="lazy">
+            <img src="images/crystal-flower-jaw-clamps.webp" alt="Crystal Flower Jaw Clamps" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -4936,7 +4943,7 @@
         <!-- Product 52 -->
         <div class="product-card" id="product-52" data-category="hair-clips">
           <div class="product-img-wrap">
-            <img src="images/floral-mini-hair-claw-clips.png" alt="Floral Mini Hair Claw Clips" loading="lazy">
+            <img src="images/floral-mini-hair-claw-clips.webp" alt="Floral Mini Hair Claw Clips" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -4971,7 +4978,7 @@
         <!-- Product 53 -->
         <div class="product-card" id="product-53" data-category="hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-butterfly-hair-claw-clips.png" alt="Matte Butterfly Hair Claw Clips" loading="lazy">
+            <img src="images/matte-butterfly-hair-claw-clips.webp" alt="Matte Butterfly Hair Claw Clips" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">New</span>
             </div>
@@ -5006,7 +5013,7 @@
         <!-- Product 54 -->
         <div class="product-card" id="product-54" data-category="hair-clips">
           <div class="product-img-wrap">
-            <img src="images/translucent-star-shaped-hair-claw-clips.png" alt="Translucent Star-Shaped Hair Claw Clips" loading="lazy">
+            <img src="images/translucent-star-shaped-hair-claw-clips.webp" alt="Translucent Star-Shaped Hair Claw Clips" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5041,7 +5048,7 @@
         <!-- Product 55 -->
         <div class="product-card" id="product-55" data-category="hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-ribbon-bow-hair-clutcher.png" alt="Matte Ribbon Bow Hair Clutcher" loading="lazy">
+            <img src="images/matte-ribbon-bow-hair-clutcher.webp" alt="Matte Ribbon Bow Hair Clutcher" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -5076,7 +5083,7 @@
         <!-- Product 56 -->
         <div class="product-card" id="product-56" data-category="hair-clips">
           <div class="product-img-wrap">
-            <img src="images/korean-style-tulip-hair-clips.png" alt="Korean Style Tulip Hair Clips" loading="lazy">
+            <img src="images/korean-style-tulip-hair-clips.webp" alt="Korean Style Tulip Hair Clips" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">New</span>
             </div>
@@ -5111,7 +5118,7 @@
         <!-- Product 57 -->
         <div class="product-card" id="product-57" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/korean-style-flower-wreath-claw-clips-combo.png" alt="Korean-Style Flower Wreath Hair Claw Clips (Combo of 2)" loading="lazy">
+            <img src="images/korean-style-flower-wreath-claw-clips-combo.webp" alt="Korean-Style Flower Wreath Hair Claw Clips (Combo of 2)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5146,7 +5153,7 @@
         <!-- Product 58 -->
         <div class="product-card" id="product-58" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/navy-blue-matte-hibiscus-hair-claw-clips-combo.png" alt="Navy Blue Matte Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy">
+            <img src="images/navy-blue-matte-hibiscus-hair-claw-clips-combo.webp" alt="Navy Blue Matte Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -5181,7 +5188,7 @@
         <!-- Product 59 -->
         <div class="product-card" id="product-59" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/dark-dusty-rose-hibiscus-hair-claw-clips-combo.png" alt="Dark Dusty Rose Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy">
+            <img src="images/dark-dusty-rose-hibiscus-hair-claw-clips-combo.webp" alt="Dark Dusty Rose Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5216,7 +5223,7 @@
         <!-- Product 60 -->
         <div class="product-card" id="product-60" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-mustard-hibiscus-hair-claw-clips-combo.png" alt="Matte Mustard Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy">
+            <img src="images/matte-mustard-hibiscus-hair-claw-clips-combo.webp" alt="Matte Mustard Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">New</span>
             </div>
@@ -5251,7 +5258,7 @@
         <!-- Product 61 -->
         <div class="product-card" id="product-61" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-black-hibiscus-hair-claw-clips-combo.png" alt="Matte Black Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy">
+            <img src="images/matte-black-hibiscus-hair-claw-clips-combo.webp" alt="Matte Black Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -5286,7 +5293,7 @@
         <!-- Product 62 -->
         <div class="product-card" id="product-62" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-white-hibiscus-hair-claw-clips-combo.png" alt="Matte White Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy">
+            <img src="images/matte-white-hibiscus-hair-claw-clips-combo.webp" alt="Matte White Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5321,7 +5328,7 @@
         <!-- Product 63 -->
         <div class="product-card" id="product-63" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/baby-pink-matte-hibiscus-hair-claw-clips-combo.png" alt="Baby Pink Matte Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy">
+            <img src="images/baby-pink-matte-hibiscus-hair-claw-clips-combo.webp" alt="Baby Pink Matte Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -5356,7 +5363,7 @@
         <!-- Product 64 -->
         <div class="product-card" id="product-64" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-grey-hibiscus-hair-claw-clips-combo.png" alt="Matte Grey Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy">
+            <img src="images/matte-grey-hibiscus-hair-claw-clips-combo.webp" alt="Matte Grey Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">New</span>
             </div>
@@ -5391,7 +5398,7 @@
         <!-- Product 65 -->
         <div class="product-card" id="product-65" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-dark-grey-hibiscus-hair-claw-clips-combo.png" alt="Matte Dark Grey Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy">
+            <img src="images/matte-dark-grey-hibiscus-hair-claw-clips-combo.webp" alt="Matte Dark Grey Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5426,7 +5433,7 @@
         <!-- Product 66 -->
         <div class="product-card" id="product-66" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-green-floral-hibiscus-hair-claw-clips-combo.png" alt="Matte Green Floral Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy">
+            <img src="images/matte-green-floral-hibiscus-hair-claw-clips-combo.webp" alt="Matte Green Floral Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5461,7 +5468,7 @@
         <!-- Product 67 -->
         <div class="product-card" id="product-67" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/dark-wine-hibiscus-hair-claw-clips-combo.png" alt="Dark Wine Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy">
+            <img src="images/dark-wine-hibiscus-hair-claw-clips-combo.webp" alt="Dark Wine Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -5496,7 +5503,7 @@
         <!-- Product 68 -->
         <div class="product-card" id="product-68" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-gold-elephant-pink-stone-dangling-earrings.png" alt="Antique Gold Elephant Pink Stone Dangling Earrings" loading="lazy">
+            <img src="images/antique-gold-elephant-pink-stone-dangling-earrings.webp" alt="Antique Gold Elephant Pink Stone Dangling Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5531,7 +5538,7 @@
         <!-- Product 69 -->
         <div class="product-card" id="product-69" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/shiny-gold-toned-twisted-half-hoop-earrings.png" alt="Shiny Gold-Toned Twisted Half-Hoop Earrings" loading="lazy">
+            <img src="images/shiny-gold-toned-twisted-half-hoop-earrings.webp" alt="Shiny Gold-Toned Twisted Half-Hoop Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -5566,7 +5573,7 @@
         <!-- Product 70 -->
         <div class="product-card" id="product-70" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/gold-plated-fashion-stud-earrings-3-pair-combo.png" alt="3-Pair Gold-Plated Fashion Stud Earrings Combo Set" loading="lazy">
+            <img src="images/gold-plated-fashion-stud-earrings-3-pair-combo.webp" alt="3-Pair Gold-Plated Fashion Stud Earrings Combo Set" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -5601,7 +5608,7 @@
         <!-- Product 71 -->
         <div class="product-card" id="product-71" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/korean-fashion-stud-and-hoop-earring-set.png" alt="Multi-Pair Korean Fashion Stud & Hoop Earring Set" loading="lazy">
+            <img src="images/korean-fashion-stud-and-hoop-earring-set.webp" alt="Multi-Pair Korean Fashion Stud & Hoop Earring Set" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5636,7 +5643,7 @@
         <!-- Product 72 -->
         <div class="product-card" id="product-72" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/korean-geometric-link-chain-hoop-earrings-combo.png" alt="Korean Geometric Link Chain Hoop Earrings Combo (3 Pairs)" loading="lazy">
+            <img src="images/korean-geometric-link-chain-hoop-earrings-combo.webp" alt="Korean Geometric Link Chain Hoop Earrings Combo (3 Pairs)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">New</span>
             </div>
@@ -5671,7 +5678,7 @@
         <!-- Product 73 -->
         <div class="product-card" id="product-73" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/gold-plated-cz-floral-sunburst-stud-earrings.png" alt="Gold Plated CZ Studded Floral Sunburst Stud Earrings" loading="lazy">
+            <img src="images/gold-plated-cz-floral-sunburst-stud-earrings.webp" alt="Gold Plated CZ Studded Floral Sunburst Stud Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -5706,7 +5713,7 @@
         <!-- Product 74 -->
         <div class="product-card" id="product-74" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/gold-plated-multi-layered-triple-band-hoop-earrings.png" alt="Gold-Plated Multi-Layered Triple Band Hoop Earrings" loading="lazy">
+            <img src="images/gold-plated-multi-layered-triple-band-hoop-earrings.webp" alt="Gold-Plated Multi-Layered Triple Band Hoop Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5741,7 +5748,7 @@
         <!-- Product 75 -->
         <div class="product-card" id="product-75" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/mirror-finish-water-drop-teardrop-stud-earrings.png" alt="Mirror-Finish Water Drop Teardrop Stud Earrings" loading="lazy">
+            <img src="images/mirror-finish-water-drop-teardrop-stud-earrings.webp" alt="Mirror-Finish Water Drop Teardrop Stud Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5776,7 +5783,7 @@
         <!-- Product 76 -->
         <div class="product-card" id="product-76" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/floral-enamel-korean-pearl-stud-earrings.png" alt="Floral Enamel Korean Pearl Stud Earrings" loading="lazy">
+            <img src="images/floral-enamel-korean-pearl-stud-earrings.webp" alt="Floral Enamel Korean Pearl Stud Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">New</span>
             </div>
@@ -5811,7 +5818,7 @@
         <!-- Product 77 -->
         <div class="product-card" id="product-77" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/sculptural-bubble-beaded-half-hoop-earrings.png" alt="Sculptural Bubble Beaded Half-Hoop Earrings" loading="lazy">
+            <img src="images/sculptural-bubble-beaded-half-hoop-earrings.webp" alt="Sculptural Bubble Beaded Half-Hoop Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5846,7 +5853,7 @@
         <!-- Product 78 -->
         <div class="product-card" id="product-78" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/liquid-metal-molten-chunky-huggie-earrings.png" alt="Liquid Metal Molten Chunky Huggie Earrings" loading="lazy">
+            <img src="images/liquid-metal-molten-chunky-huggie-earrings.webp" alt="Liquid Metal Molten Chunky Huggie Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5881,7 +5888,7 @@
         <!-- Product 79 -->
         <div class="product-card" id="product-79" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/korean-two-tone-green-pearl-leaf-motif-earrings.png" alt="Korean Two-Tone Green & Pearl Leaf Motif Earrings" loading="lazy">
+            <img src="images/korean-two-tone-green-pearl-leaf-motif-earrings.webp" alt="Korean Two-Tone Green & Pearl Leaf Motif Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">New</span>
             </div>
@@ -5916,7 +5923,7 @@
         <!-- Product 80 -->
         <div class="product-card" id="product-80" data-category="earrings">
           <div class="product-img-wrap">
-            <img src="images/opaline-winged-fairy-stud-earrings.png" alt="Opaline Winged Fairy Stud Earrings" loading="lazy">
+            <img src="images/opaline-winged-fairy-stud-earrings.webp" alt="Opaline Winged Fairy Stud Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -5951,7 +5958,7 @@
         <!-- Product 81 -->
         <div class="product-card" id="product-81" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/black-stone-studded-gold-toned-chandbali-earrings.png" alt="Black-Stone Studded Gold-Toned Chandbali Earrings" loading="lazy">
+            <img src="images/black-stone-studded-gold-toned-chandbali-earrings.webp" alt="Black-Stone Studded Gold-Toned Chandbali Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Partywear</span>
             </div>
@@ -5986,7 +5993,7 @@
         <!-- Product 82 -->
         <div class="product-card" id="product-82" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-gold-chandelier-chandbali-earrings.png" alt="Antique Gold Chandelier Chandbali Earrings" loading="lazy">
+            <img src="images/antique-gold-chandelier-chandbali-earrings.webp" alt="Antique Gold Chandelier Chandbali Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Partywear</span>
             </div>
@@ -6021,7 +6028,7 @@
         <!-- Product 83 -->
         <div class="product-card" id="product-83" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/gold-plated-dhwani-chandbali-earrings.png" alt="Gold-Plated Dhwani Chandbali Earrings" loading="lazy">
+            <img src="images/gold-plated-dhwani-chandbali-earrings.webp" alt="Gold-Plated Dhwani Chandbali Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Partywear</span>
             </div>
@@ -6056,7 +6063,7 @@
         <!-- Product 84 -->
         <div class="product-card" id="product-84" data-category="jhumkas earrings">
           <div class="product-img-wrap">
-            <img src="images/antique-gold-toned-turquoise-chandbali-earrings.png" alt="Antique Gold-Toned Turquoise Chandbali Earrings" loading="lazy">
+            <img src="images/antique-gold-toned-turquoise-chandbali-earrings.webp" alt="Antique Gold-Toned Turquoise Chandbali Earrings" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Partywear</span>
             </div>
@@ -6091,7 +6098,7 @@
         <!-- Product 85 -->
         <div class="product-card" id="product-85" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-beige-hibiscus-hair-claw-clips-combo.png" alt="Matte Beige Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy">
+            <img src="images/matte-beige-hibiscus-hair-claw-clips-combo.webp" alt="Matte Beige Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -6126,7 +6133,7 @@
         <!-- Product 86 -->
         <div class="product-card" id="product-86" data-category="clip-combos hair-clips">
           <div class="product-img-wrap">
-            <img src="images/matte-brown-hibiscus-hair-claw-clips-combo.png" alt="Matte Brown Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy">
+            <img src="images/matte-brown-hibiscus-hair-claw-clips-combo.webp" alt="Matte Brown Hibiscus Hair Claw Clips (3pc Combo)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -6161,7 +6168,7 @@
         <!-- Product 87 -->
         <div class="product-card" id="product-87" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/gold-plated-temple-elakkathali-choker-necklace-set.png" alt="Gold-Plated Temple Elakkathali Choker Necklace Set" loading="lazy">
+            <img src="images/gold-plated-temple-elakkathali-choker-necklace-set.webp" alt="Gold-Plated Temple Elakkathali Choker Necklace Set" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Royal Festive</span>
             </div>
@@ -6196,7 +6203,7 @@
         <!-- Product 88 -->
         <div class="product-card" id="product-88" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/visaga-aura-elakkathali-antique-gold-plated-choker.png" alt="Visaga Aura Elakkathali Antique Gold-Plated Choker Necklace" loading="lazy">
+            <img src="images/visaga-aura-elakkathali-antique-gold-plated-choker.webp" alt="Visaga Aura Elakkathali Antique Gold-Plated Choker Necklace" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -6231,7 +6238,7 @@
         <!-- Product 89 -->
         <div class="product-card" id="product-89" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/gold-plated-manga-mala-necklace-set.png" alt="Gold-Plated Manga Mala Necklace Set" loading="lazy">
+            <img src="images/gold-plated-manga-mala-necklace-set.webp" alt="Gold-Plated Manga Mala Necklace Set" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -6266,7 +6273,7 @@
         <!-- Product 90 -->
         <div class="product-card" id="product-90" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/gold-plated-pink-enamel-lotus-motif-necklace-set.png" alt="Gold-Plated Pink Enamel Lotus Motif Necklace Set" loading="lazy">
+            <img src="images/gold-plated-pink-enamel-lotus-motif-necklace-set.webp" alt="Gold-Plated Pink Enamel Lotus Motif Necklace Set" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -6301,7 +6308,7 @@
         <!-- Product 91 -->
         <div class="product-card" id="product-91" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/invisible-wire-emerald-crescent-moon-pendant-necklace.png" alt="Invisible-Wire Emerald Crescent Moon Pendant Necklace" loading="lazy">
+            <img src="images/invisible-wire-emerald-crescent-moon-pendant-necklace.webp" alt="Invisible-Wire Emerald Crescent Moon Pendant Necklace" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">New</span>
             </div>
@@ -6336,7 +6343,7 @@
         <!-- Product 92 -->
         <div class="product-card" id="product-92" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/invisible-wire-floating-crystal-flower-necklace.png" alt="Invisible-Wire Floating Crystal Flower Necklace" loading="lazy">
+            <img src="images/invisible-wire-floating-crystal-flower-necklace.webp" alt="Invisible-Wire Floating Crystal Flower Necklace" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -6371,7 +6378,7 @@
         <!-- Product 93 -->
         <div class="product-card" id="product-93" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/gold-plated-lakshmi-coin-lotus-necklace-set.png" alt="Gold-Plated Lakshmi Coin and Lotus Motif Necklace Set" loading="lazy">
+            <img src="images/gold-plated-lakshmi-coin-lotus-necklace-set.webp" alt="Gold-Plated Lakshmi Coin and Lotus Motif Necklace Set" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -6406,7 +6413,7 @@
         <!-- Product 94 -->
         <div class="product-card" id="product-94" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/invisible-wire-ruby-crescent-moon-pendant-necklace.png" alt="Invisible-Wire Ruby Crescent Moon Pendant Necklace" loading="lazy">
+            <img src="images/invisible-wire-ruby-crescent-moon-pendant-necklace.webp" alt="Invisible-Wire Ruby Crescent Moon Pendant Necklace" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -6441,7 +6448,7 @@
         <!-- Product 95 -->
         <div class="product-card" id="product-95" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/gold-plated-crystal-tulip-pendant-necklace-clear-lilac.png" alt="Gold-Plated Crystal Tulip Pendant Necklace (Clear & Lilac)" loading="lazy">
+            <img src="images/gold-plated-crystal-tulip-pendant-necklace-clear-lilac.webp" alt="Gold-Plated Crystal Tulip Pendant Necklace (Clear & Lilac)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">New</span>
             </div>
@@ -6476,7 +6483,7 @@
         <!-- Product 96 -->
         <div class="product-card" id="product-96" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/gold-plated-blush-tulip-pendant-necklace-emerald-leaves.png" alt="Gold-Plated Blush Tulip Pendant Necklace (Emerald Leaves)" loading="lazy">
+            <img src="images/gold-plated-blush-tulip-pendant-necklace-emerald-leaves.webp" alt="Gold-Plated Blush Tulip Pendant Necklace (Emerald Leaves)" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Trending</span>
             </div>
@@ -6511,7 +6518,7 @@
         <!-- Product 97 -->
         <div class="product-card" id="product-97" data-category="necklaces">
           <div class="product-img-wrap">
-            <img src="images/anti-tarnish-station-charm-chain-necklace.png" alt="Anti-Tarnish Station Charm Chain Necklace" loading="lazy">
+            <img src="images/anti-tarnish-station-charm-chain-necklace.webp" alt="Anti-Tarnish Station Charm Chain Necklace" loading="lazy" decoding="async" width="300" height="300">
             <div class="product-badges">
               <span class="badge-best">Bestseller</span>
             </div>
@@ -6563,7 +6570,7 @@
   <!-- ===== PROMO / BANNER STRIP ===== -->
   <section class="promo-banner" id="promo-banner">
     <div class="promo-bg">
-      <img src="images/hero.png" alt="" aria-hidden="true">
+      <img src="images/hero.webp" alt="" aria-hidden="true" loading="lazy" decoding="async" width="1376" height="768">
       <div class="promo-overlay"></div>
     </div>
     <div class="container promo-content" id="promo-content">
@@ -6702,27 +6709,27 @@
     </div>
     <div class="instagram-grid" id="instagram-grid">
       <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="ig-tile" id="ig-1">
-        <img src="images/earrings.png" alt="Instagram - Blu Idol hoops" loading="lazy">
+        <img src="images/earrings.webp" decoding="async" width="300" height="300" alt="Instagram - Blu Idol hoops" loading="lazy">
         <div class="ig-hover"><i class="fa-brands fa-instagram"></i></div>
       </a>
       <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="ig-tile" id="ig-2">
-        <img src="images/necklace.png" alt="Instagram - Blu Idol pendant" loading="lazy">
+        <img src="images/necklace.webp" decoding="async" width="300" height="300" alt="Instagram - Blu Idol pendant" loading="lazy">
         <div class="ig-hover"><i class="fa-brands fa-instagram"></i></div>
       </a>
       <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="ig-tile" id="ig-3">
-        <img src="images/rings.png" alt="Instagram - Blu Idol stack rings" loading="lazy">
+        <img src="images/rings.webp" decoding="async" width="300" height="300" alt="Instagram - Blu Idol stack rings" loading="lazy">
         <div class="ig-hover"><i class="fa-brands fa-instagram"></i></div>
       </a>
       <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="ig-tile" id="ig-4">
-        <img src="images/collection.png" alt="Instagram - Blu Idol flatlay" loading="lazy">
+        <img src="images/collection.webp" decoding="async" width="300" height="300" alt="Instagram - Blu Idol flatlay" loading="lazy">
         <div class="ig-hover"><i class="fa-brands fa-instagram"></i></div>
       </a>
       <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="ig-tile" id="ig-5">
-        <img src="images/model_portrait.jpg" alt="Instagram - Blu Idol jewelry shoot" loading="lazy">
+        <img src="images/model_portrait.webp" decoding="async" width="600" height="800" alt="Instagram - Blu Idol jewelry shoot" loading="lazy">
         <div class="ig-hover"><i class="fa-brands fa-instagram"></i></div>
       </a>
       <a href="https://www.instagram.com/blu_idol/" target="_blank" rel="noopener" class="ig-tile" id="ig-6">
-        <img src="images/earrings.png" alt="Instagram - Blu Idol drop earrings" loading="lazy">
+        <img src="images/earrings.webp" decoding="async" width="300" height="300" alt="Instagram - Blu Idol drop earrings" loading="lazy">
         <div class="ig-hover"><i class="fa-brands fa-instagram"></i></div>
       </a>
     </div>
@@ -6732,7 +6739,7 @@
   <section class="section about-section" id="about">
     <div class="container about-inner">
       <div class="about-image" id="about-image">
-        <img src="images/collection.png" alt="About Blu Idol" loading="lazy">
+        <img src="images/collection.webp" decoding="async" width="300" height="300" alt="About Blu Idol" loading="lazy">
         <div class="about-badge" id="about-badge">
           <span class="badge-text">18K Vacuum Plated Gold</span>
         </div>
@@ -6891,7 +6898,7 @@
       <div class="footer-brand" id="footer-brand">
         <div class="logo" style="margin-bottom: 16px;">
           <a href="#" aria-label="Blu Idol Home">
-            <img src="images/logo.jpg" alt="Blu Idol Logo" class="logo-img-el">
+            <img src="images/logo.webp" alt="Blu Idol Logo" class="logo-img-el" width="48" height="48" decoding="async">
             <div class="logo-text">
               <span class="logo-name">BLU IDOL</span>
               <span class="logo-tagline" style="color: var(--accent-color);">Bring Luxury To You</span>
@@ -7047,6 +7054,6 @@
     </a>
   </nav>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>

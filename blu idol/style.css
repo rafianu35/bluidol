@@ -2573,3 +2573,25 @@ body.cart-open {
     font-size: 0.76rem;
   }
 }
+
+/* ==========================================================================
+   PERFORMANCE & CONTENT VISIBILITY OPTIMIZATIONS
+   ========================================================================== */
+
+/* Skip rendering work for off-screen cards until scrolled into viewport */
+.product-card {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 450px;
+}
+
+.collection-card {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 320px;
+}
+
+/* Ensure smooth image rendering */
+.product-img-wrap img,
+.collection-img-wrap img,
+.hero-img {
+  content-visibility: auto;
+}
