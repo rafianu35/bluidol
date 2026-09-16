@@ -543,6 +543,18 @@ const products = [
     reviews: 46,
     badge: "Popular",
     description: "Charming matte-finish double flower hair claw clips featuring twin blooming floral blossoms on an interlocking claw grip with high-tension metal spring. Designed for secure, all-day hold on fine to medium-thick hair in 12 stunning pastel, earthy, and neutral tones (Price ₹25 each)."
+  },
+  {
+    id: 50,
+    name: "Crystal Bloom Floral Hair Claw Clips",
+    category: "hair-clips",
+    price: 35,
+    originalPrice: 79,
+    image: "images/crystal-bloom-floral-hair-claw-clips.png",
+    stars: 5,
+    reviews: 45,
+    badge: "Trending",
+    description: "Dazzling translucent crystal-resin double flower hair claw clips adorned with sparkling iridescent aurora borealis gemstone centers. Features an interlocking non-slip claw grip with gold-tone steel spring, available in 6 jelly pastel shades (Price ₹35 each)."
   }
 ];
 
