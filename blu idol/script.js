@@ -1143,6 +1143,126 @@ const products = [
     reviews: 36,
     badge: "Trending",
     description: "Vibrant Hawaiian plumeria flower hair claw clip combo of 3. Features premium glossy acrylic petals with stunning gradient ombré tones, strong non-slip interlocking spring teeth, and comfortable all-day grip for all hair types."
+  },
+  {
+    id: 100,
+    name: "Hawaiian Sunshine & Sunset Flower Claw Clips (Combo of 3)",
+    category: "clip-combos",
+    price: 59,
+    originalPrice: 149,
+    image: "images/hawaiian-sunshine-sunset-flower-claw-clips-combo.webp",
+    stars: 5,
+    reviews: 33,
+    badge: "Trending",
+    description: "Tropical Hawaiian plumeria flower hair claw clip combo of 3 featuring sunshine yellow, sunset purple-orange, and island emerald green. Crafted from glossy high-durability acrylic with non-slip interlocking spring teeth."
+  },
+  {
+    id: 101,
+    name: "Hawaiian Pearl & Mint Flower Claw Clips (Combo of 2)",
+    category: "clip-combos",
+    price: 39,
+    originalPrice: 99,
+    image: "images/hawaiian-pearl-mint-flower-claw-clips-combo.webp",
+    stars: 5,
+    reviews: 28,
+    badge: "New",
+    description: "Elegant Hawaiian plumeria flower hair claw clip combo of 2 in luminous translucent pearl-white and frosted seafoam mint with sunny yellow floral centers. Strong comfortable all-day hold."
+  },
+  {
+    id: 102,
+    name: "Hawaiian Tropical Ombré Flower Claw Clips (Combo of 3)",
+    category: "clip-combos",
+    price: 59,
+    originalPrice: 149,
+    image: "images/hawaiian-tropical-ombre-flower-claw-clips-combo.webp",
+    stars: 5,
+    reviews: 35,
+    badge: "Trending",
+    description: "Vibrant Hawaiian flower claw clip combo of 3 featuring high-contrast gradient ombré petals: ocean blue & coral red, magenta pink & neon green, and pastel mint & sunset yellow. Interlocking teeth for effortless updos."
+  },
+  {
+    id: 103,
+    name: "Hawaiian Island Bloom Flower Claw Clips (Combo of 3)",
+    category: "clip-combos",
+    price: 59,
+    originalPrice: 149,
+    image: "images/hawaiian-island-bloom-flower-claw-clips-combo.webp",
+    stars: 5,
+    reviews: 31,
+    badge: "New",
+    description: "Exotic island floral claw clip set of 3 in lime-magenta ombré, crystalline icy lime-yellow, and warm honey amber tones. Glossy lightweight finish with durable non-snag spring grip."
+  },
+  {
+    id: 104,
+    name: "Hawaiian Sunrise Lagoon Flower Claw Clips (Combo of 3)",
+    category: "clip-combos",
+    price: 79,
+    originalPrice: 179,
+    image: "images/hawaiian-sunrise-lagoon-flower-claw-clips-combo.webp",
+    stars: 5,
+    reviews: 42,
+    badge: "Bestseller",
+    description: "Luxury tropical lagoon edition plumeria hair claw clip set of 3 in radiant ocean turquoise-teal, glowing peach-coral blossom, and marigold golden amber. Ultra-strong spring mechanism for secure styling."
+  },
+  {
+    id: 105,
+    name: "Hawaiian Pastel Paradise Flower Claw Clips (Combo of 3)",
+    category: "clip-combos",
+    price: 59,
+    originalPrice: 149,
+    image: "images/hawaiian-pastel-paradise-flower-claw-clips-combo.webp",
+    stars: 5,
+    reviews: 38,
+    badge: "Trending",
+    description: "Dreamy pastel Hawaiian plumeria claw clip combo of 3 in sweet candy pink, seafoam aquamarine, and golden caramel honey. Perfect vacation and daily hair accessory with secure teeth."
+  },
+  {
+    id: 106,
+    name: "Aesthetic Wavy Squiggle Hair Claw Clips (Combo of 2)",
+    category: "clip-combos",
+    price: 39,
+    originalPrice: 99,
+    image: "images/aesthetic-wavy-squiggle-claw-clips-combo.webp",
+    stars: 5,
+    reviews: 29,
+    badge: "New",
+    description: "Trendy Danish aesthetic open-frame wavy squiggle hair claw clip set of 2 in pastel coral peach and mint turquoise. Modern minimalist cutout silhouette with lightweight, strong grip."
+  },
+  {
+    id: 107,
+    name: "Hawaiian Sunset Breeze Flower Claw Clips (Combo of 3)",
+    category: "clip-combos",
+    price: 59,
+    originalPrice: 149,
+    image: "images/hawaiian-sunset-breeze-flower-claw-clips-combo.webp",
+    stars: 5,
+    reviews: 34,
+    badge: "Trending",
+    description: "Sunset-inspired Hawaiian plumeria flower claw clip combo of 3 featuring twilight coral & violet ombré, lime & blush pink, and honey vanilla ombré. Designed for effortless buns and half-up styles."
+  },
+  {
+    id: 108,
+    name: "Hawaiian Citrus Blossom Flower Claw Clips (Combo of 2)",
+    category: "clip-combos",
+    price: 49,
+    originalPrice: 119,
+    image: "images/hawaiian-citrus-blossom-flower-claw-clips-combo.webp",
+    stars: 5,
+    reviews: 27,
+    badge: "New",
+    description: "Vibrant duo set of 2 Hawaiian plumeria claw clips in radiant canary yellow with orange star center and glowing peach-coral blossom with ruby core. High-shine glossy acrylic with non-slip grip."
+  },
+  {
+    id: 109,
+    name: "Hawaiian Rainbow Reef Flower Claw Clips (Combo of 3)",
+    category: "clip-combos",
+    price: 59,
+    originalPrice: 149,
+    image: "images/hawaiian-rainbow-reef-flower-claw-clips-combo.webp",
+    stars: 5,
+    reviews: 36,
+    badge: "Trending",
+    description: "Exquisite tropical reef plumeria flower claw clip trio in emerald-cyan gradient, sunset peach-violet gradient, and fuchsia-lime gradient. Smooth, snag-free acrylic with powerful interlocking hold."
   }
 ];
 
