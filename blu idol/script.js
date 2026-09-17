@@ -1835,7 +1835,7 @@ function initQuickView() {
           <span class="price-original">₹${item.originalPrice}</span>
         </div>
         <p class="modal-desc">${item.description}</p>
-        <a href="https://wa.me/919895432549?text=${encodeURIComponent('Hi Blu Idol, I would like to enquire about this product:\n\n*' + item.name + '*\nPrice: ₹' + item.price + '\nProduct Link: https://www.bluidol.in/#product-' + item.id + '\n\nI am located in [City/District, Kerala/India]. Please share availability, delivery timelines (3-4 days), and payment details.')}" target="_blank" rel="noopener" class="btn btn-whatsapp" id="modal-wa-btn" data-product="${item.id}" style="width: 100%; margin-top: 12px; font-size: 0.82rem; padding: 8px 14px;">
+        <a href="https://wa.me/919895432549?text=${encodeURIComponent('Hi Blu Idol, I would like to enquire about:\n*' + item.name + '* (₹' + item.price + ')\nhttps://www.bluidol.in/#product-' + item.id)}" target="_blank" rel="noopener" class="btn btn-whatsapp" id="modal-wa-btn" data-product="${item.id}" style="width: 100%; margin-top: 12px; font-size: 0.82rem; padding: 8px 14px;">
           <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i> Order on WhatsApp
         </a>
       `;
@@ -1984,7 +1984,7 @@ function initWhatsAppTracking() {
       if (productId && typeof products !== 'undefined') {
         const item = products.find(p => p.id === productId);
         if (item) {
-          const msg = `Hi Blu Idol, I would like to enquire about this product:\n\n*${item.name}*\nPrice: ₹${item.price}\nProduct Link: https://www.bluidol.in/#product-${item.id}\n\nI am located in [City/District, Kerala/India]. Please share availability, delivery timelines (3-4 days), and payment details.`;
+          const msg = `Hi Blu Idol, I would like to enquire about:\n*${item.name}* (₹${item.price})\nhttps://www.bluidol.in/#product-${item.id}`;
           waBtn.setAttribute('href', `https://wa.me/919895432549?text=${encodeURIComponent(msg)}`);
         }
       }
