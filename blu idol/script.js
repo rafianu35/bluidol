@@ -1119,6 +1119,18 @@ const products = [
     reviews: 48,
     badge: "Bestseller",
     description: "Waterproof and anti-tarnish 18K gold-plated stainless steel station chain featuring alternating dangling openwork heart-leaf charms, bezel-set shimmering cubic zirconia roundels, and polished golden beads."
+  },
+  {
+    id: 98,
+    name: "Gold Finish Bow Design Anti-Tarnish Stainless Steel Bangle",
+    category: "bangles",
+    price: 219,
+    originalPrice: 449,
+    image: "images/gold-finish-bow-design-anti-tarnish-bangle.webp",
+    stars: 5,
+    reviews: 31,
+    badge: "Trending",
+    description: "Chic 18K gold-finished stainless steel hinged bangle featuring a charming bow motif accented with channel-set baguette cubic zirconia crystals. 100% anti-tarnish, waterproof, and hypoallergenic for effortless daily glamour."
   }
 ];
 
