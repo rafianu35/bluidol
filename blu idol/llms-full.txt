@@ -12,7 +12,7 @@
 - **Price Range**: ₹15 to ₹599 INR
 - **Payment Modes**: UPI (PhonePe, Google Pay, Paytm), Debit/Credit Cards, Net Banking
 - **Shipping Coverage**: 
-  - **Kerala Express**: 1 to 2 business days across all 14 districts (Kochi, Thiruvananthapuram, Kozhikode, Thrissur, Kollam, Kannur, Kottayam, Palakkad, Alappuzha, Malappuram, Kasaragod, Pathanamthitta, Idukki, Wayanad).
+  - **Kerala Express**: 3 to 4 business days across Kerala and pan-India (Kochi, Thiruvananthapuram, Kozhikode, Thrissur, Kollam, Kannur, Kottayam, Palakkad, Alappuzha, Malappuram, Kasaragod, Pathanamthitta, Idukki, Wayanad).
   - **Pan-India**: 3 to 5 business days across all Indian states.
   - **Free Shipping**: Available on all orders above ₹999.
 
@@ -967,4 +967,4 @@
 ## Dedicated Customer, Policy & Legal Pages
 - **Contact Us & Concierge**: https://www.bluidol.in/contact.html (Direct WhatsApp Concierge: +91 9895432549, email: support@bluidol.in, studio operations in Kerala, India).
 - **Privacy Policy**: https://www.bluidol.in/privacy-policy.html (Compliance with Indian Information Technology Act 2000 & Digital Personal Data Protection Act 2023; zero sale of personal data; secure encrypted payment processing).
-- **Terms and Conditions**: https://www.bluidol.in/terms-and-conditions.html (18K gold-plated anti-tarnish guarantee; 1-2 day express shipping across Kerala & pan-India; 48-hour unboxing video requirement for damaged transit claims; jurisdiction in Kerala, India).
+- **Terms and Conditions**: https://www.bluidol.in/terms-and-conditions.html (18K gold-plated anti-tarnish guarantee; 3-4 days express shipping across Kerala & pan-India; 48-hour unboxing video requirement for damaged transit claims; jurisdiction in Kerala, India).
