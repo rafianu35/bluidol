@@ -1335,6 +1335,18 @@ const products = [
     reviews: 48,
     badge: "Royal Drop",
     description: "Regal statement drop jhumkas featuring a diamond-shaped rhombus post set with a faceted jet-black stone, elongated fluted stem, and grand antique gold bell dome fringed with glowing white pearl droplets."
+  },
+  {
+    id: 116,
+    name: "Antique Goddess Lakshmi Jhumkas (Ruby Pink)",
+    category: "jhumkas",
+    price: 45,
+    originalPrice: 99,
+    image: "images/antique-lakshmi-jhumkas-ruby.webp",
+    stars: 5,
+    reviews: 52,
+    badge: "Trending",
+    description: "Auspicious temple jewellery earrings featuring seated Goddess Lakshmi upon a blooming lotus, accented by a radiant scalloped arc of ruby-pink beaded droplet tassels. Crafted in rich antique matte gold finish for timeless festive and bridal elegance."
   }
 ];
 
