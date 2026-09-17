@@ -1448,26 +1448,48 @@ function initMobileMenu() {
     });
   }
 
-  // Mobile search input
-  if (searchInput) {
-    searchInput.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') {
-        const query = searchInput.value.trim().toLowerCase();
-        if (query) {
-          closeMenu();
-          const shopSection = document.getElementById('shop');
-          if (shopSection) {
-            shopSection.scrollIntoView({ behavior: 'smooth' });
-          }
-          // Filter product cards matching query
-          const productCards = document.querySelectorAll('.product-card');
-          productCards.forEach(card => {
-            const text = card.textContent.toLowerCase();
-            card.style.display = text.includes(query) ? 'flex' : 'none';
-          });
-        }
+  const searchBtn = document.getElementById('search-btn');
+  if (searchBtn) {
+    searchBtn.addEventListener('click', () => {
+      openMenu();
+      if (searchInput) {
+        setTimeout(() => searchInput.focus(), 300);
       }
     });
+  }
+
+  // Mobile search input
+  if (searchInput) {
+    function executeSearch() {
+      const query = searchInput.value.trim().toLowerCase();
+      if (query) {
+        closeMenu();
+        const shopSection = document.getElementById('shop');
+        if (shopSection) {
+          shopSection.scrollIntoView({ behavior: 'smooth' });
+        }
+        // Filter product cards matching query
+        const productCards = document.querySelectorAll('.product-card');
+        productCards.forEach(card => {
+          const text = card.textContent.toLowerCase();
+          card.style.display = text.includes(query) ? 'flex' : 'none';
+        });
+        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+      }
+    }
+
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        executeSearch();
+      }
+    });
+
+    const searchIcon = searchInput.previousElementSibling;
+    if (searchIcon) {
+      searchIcon.style.cursor = 'pointer';
+      searchIcon.addEventListener('click', executeSearch);
+    }
   }
 }
 
@@ -2048,7 +2070,7 @@ function initFAQ() {
 
 // Category Hash Navigation Support (both on click and on direct URL load)
 function initCategoryHashNav() {
-  const validCategories = ['#earrings', '#jhumkas', '#necklaces', '#bangles', '#bracelets', '#anklets', '#hair-clips', '#clip-combos'];
+  const validCategories = ['#earrings', '#jhumkas', '#necklaces', '#bangles', '#rings', '#bracelets', '#anklets', '#hair-clips', '#clip-combos'];
   
   function applyFilterFromHash(hash, shouldScroll = false) {
     if (validCategories.includes(hash)) {
