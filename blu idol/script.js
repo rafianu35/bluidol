@@ -1323,6 +1323,18 @@ const products = [
     reviews: 47,
     badge: "Trending",
     description: "Chic glossy heart-shaped resin hair claw clips featuring an artistic twisted loop heart silhouette with shimmering crystal-clear transparency. Equipped with snag-free interlocking teeth and strong spring tension in luminous shades of amber, diamond clear, lilac, and midnight navy for sophisticated everyday hairstyles (Price ₹20 each)."
+  },
+  {
+    id: 115,
+    name: "Oxidised Gold-Plated Rhombus Pearl Jhumkas (Jet Black)",
+    category: "jhumkas",
+    price: 185,
+    originalPrice: 399,
+    image: "images/oxidised-gold-rhombus-pearl-jhumkas-black.webp",
+    stars: 5,
+    reviews: 48,
+    badge: "Royal Drop",
+    description: "Regal statement drop jhumkas featuring a diamond-shaped rhombus post set with a faceted jet-black stone, elongated fluted stem, and grand antique gold bell dome fringed with glowing white pearl droplets."
   }
 ];
 
