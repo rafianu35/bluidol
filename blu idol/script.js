@@ -1131,6 +1131,18 @@ const products = [
     reviews: 31,
     badge: "Trending",
     description: "Chic 18K gold-finished stainless steel hinged bangle featuring a charming bow motif accented with channel-set baguette cubic zirconia crystals. 100% anti-tarnish, waterproof, and hypoallergenic for effortless daily glamour."
+  },
+  {
+    id: 99,
+    name: "Hawaiian Flower Claw Clips (Combo of 3)",
+    category: "clip-combos",
+    price: 59,
+    originalPrice: 149,
+    image: "images/hawaiian-flower-claw-clips-combo.webp",
+    stars: 5,
+    reviews: 36,
+    badge: "Trending",
+    description: "Vibrant Hawaiian plumeria flower hair claw clip combo of 3. Features premium glossy acrylic petals with stunning gradient ombré tones, strong non-slip interlocking spring teeth, and comfortable all-day grip for all hair types."
   }
 ];
 
