@@ -3683,7 +3683,70 @@
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20260917-blu-v4">
+
+  <!-- Critical Hero Sapphire Luxury Styling (Overrides cached stylesheets) -->
+  <style id="hero-critical-blue-theme">
+    .hero {
+      background: linear-gradient(135deg, #eef5fc 0%, #e0edfb 40%, #f4f8fe 100%) !important;
+    }
+    .hero-eyebrow {
+      color: #0b3a75 !important;
+      background: rgba(15, 76, 156, 0.10) !important;
+      border: 1.5px solid rgba(15, 76, 156, 0.32) !important;
+      border-radius: 50px !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.14em !important;
+      text-transform: uppercase !important;
+    }
+    .hero-title {
+      font-family: 'Playfair Display', serif !important;
+      font-size: clamp(2.3rem, 4.2vw, 3.4rem) !important;
+      line-height: 1.15 !important;
+      letter-spacing: 0.03em !important;
+      text-transform: uppercase !important;
+      color: #121212 !important;
+    }
+    .hero-blu-accent {
+      color: #0b4fba !important;
+      background: linear-gradient(135deg, #0b4fba 0%, #1a6ff5 50%, #0284c7 100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+      display: inline-block !important;
+      font-weight: 800 !important;
+      text-transform: uppercase !important;
+    }
+    .hero-everything-accent {
+      font-family: 'Playfair Display', serif !important;
+      font-style: italic !important;
+      text-transform: uppercase !important;
+      color: #61330a !important;
+    }
+    .hero-color-grade {
+      background: radial-gradient(ellipse 65% 70% at 80% 35%, rgba(15, 65, 170, 0.35) 0%, rgba(10, 45, 120, 0.22) 48%, rgba(5, 20, 65, 0.08) 100%), linear-gradient(135deg, rgba(20, 75, 170, 0.14) 0%, rgba(10, 40, 110, 0.24) 100%) !important;
+      mix-blend-mode: multiply !important;
+    }
+    .hero-cta .btn-primary {
+      background: linear-gradient(135deg, #092348 0%, #0d4285 50%, #155dfc 100%) !important;
+      border: 1px solid rgba(21, 93, 252, 0.5) !important;
+      color: #ffffff !important;
+      box-shadow: 0 6px 20px rgba(13, 66, 133, 0.32) !important;
+    }
+    .hero-cta .btn-outline {
+      border: 1.5px solid rgba(13, 66, 133, 0.5) !important;
+      color: #092348 !important;
+      background: rgba(255, 255, 255, 0.9) !important;
+    }
+    @media screen and (max-width: 768px) {
+      .hero {
+        background: linear-gradient(180deg, #edf4fc 0%, #dcebfc 45%, #f1f7fd 100%) !important;
+      }
+      .hero-title {
+        font-size: clamp(1.65rem, 6.2vw, 2.25rem) !important;
+        text-transform: uppercase !important;
+      }
+    }
+  </style>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -3828,7 +3891,7 @@
         <p class="hero-eyebrow" id="hero-eyebrow">✦ BLU — BRINGING LUXURY TO U ✦</p>
         <h1 class="hero-title" id="hero-title">
           A LITTLE <span class="hero-blu-accent">BLU</span><br>
-          CHANGES <em>EVERYTHING.</em>
+          CHANGES <span class="hero-everything-accent">EVERYTHING.</span>
         </h1>
         <p class="hero-subtitle" id="hero-subtitle">
           Not made to simply complete a look. Made to become part of it.<br><br>

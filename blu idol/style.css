@@ -579,7 +579,8 @@ img {
   font-weight: 700;
 }
 
-.hero-title em {
+.hero-title em,
+.hero-everything-accent {
   font-family: var(--font-serif);
   font-style: italic;
   text-transform: uppercase !important;
@@ -2279,7 +2280,7 @@ body.cart-open {
     min-height: calc(100svh - 62px);
     align-items: flex-end;
     padding: 24px 0 44px;
-    background: linear-gradient(180deg, #f0f5fc 0%, #e6effa 50%, #fbf7f0 100%);
+    background: linear-gradient(180deg, #edf4fc 0%, #dcebfc 45%, #f1f7fd 100%);
   }
 
   .hero-img {
@@ -2288,21 +2289,21 @@ body.cart-open {
 
   .hero-color-grade {
     background: 
-      radial-gradient(circle at 75% 30%, rgba(15, 65, 165, 0.35) 0%, rgba(10, 45, 120, 0.18) 60%, transparent 100%),
-      linear-gradient(180deg, rgba(20, 70, 165, 0.15) 0%, transparent 70%);
+      radial-gradient(circle at 75% 30%, rgba(15, 65, 165, 0.38) 0%, rgba(10, 45, 120, 0.22) 60%, transparent 100%),
+      linear-gradient(180deg, rgba(20, 70, 165, 0.18) 0%, transparent 70%);
     mix-blend-mode: multiply;
   }
 
   .hero-overlay {
     background: 
-      radial-gradient(circle at 75% 25%, rgba(20, 80, 190, 0.22) 0%, transparent 65%),
+      radial-gradient(circle at 75% 25%, rgba(20, 80, 190, 0.25) 0%, transparent 65%),
       linear-gradient(
         180deg,
         rgba(15, 55, 140, 0.15) 0%,
-        rgba(210, 230, 255, 0.20) 25%,
-        rgba(240, 245, 252, 0.50) 45%,
-        rgba(251, 247, 240, 0.95) 72%,
-        #fbf7f0 100%
+        rgba(210, 230, 255, 0.25) 25%,
+        rgba(235, 244, 253, 0.65) 45%,
+        rgba(240, 248, 255, 0.95) 72%,
+        #edf4fc 100%
       );
   }
 
