@@ -1822,20 +1822,41 @@ function initFAQ() {
   });
 }
 
-// Category Hash Navigation Support
+// Category Hash Navigation Support (both on click and on direct URL load)
 function initCategoryHashNav() {
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    const href = anchor.getAttribute('href');
-    if (['#earrings', '#jhumkas', '#necklaces', '#bangles', '#bracelets', '#anklets', '#hair-clips', '#clip-combos'].includes(href)) {
-      anchor.addEventListener('click', (e) => {
-        const cat = href.replace('#', '');
-        const filterBtn = document.querySelector(`.filter-btn[data-filter="${cat}"]`);
-        if (filterBtn) {
-          filterBtn.click();
+  const validCategories = ['#earrings', '#jhumkas', '#necklaces', '#bangles', '#bracelets', '#anklets', '#hair-clips', '#clip-combos'];
+  
+  function applyFilterFromHash(hash, shouldScroll = false) {
+    if (validCategories.includes(hash)) {
+      const cat = hash.replace('#', '');
+      const filterBtn = document.querySelector(`.filter-btn[data-filter="${cat}"]`);
+      if (filterBtn) {
+        filterBtn.click();
+        if (shouldScroll) {
           const shop = document.getElementById('shop');
           if (shop) shop.scrollIntoView({ behavior: 'smooth' });
         }
+      }
+    }
+  }
+
+  // Handle direct links in page
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    const href = anchor.getAttribute('href');
+    if (validCategories.includes(href)) {
+      anchor.addEventListener('click', () => {
+        applyFilterFromHash(href, true);
       });
     }
+  });
+
+  // Handle direct page load with hash e.g. https://www.bluidol.in/#bangles
+  if (window.location.hash) {
+    applyFilterFromHash(window.location.hash, false);
+  }
+
+  // Listen to hash changes (e.g. back/forward button)
+  window.addEventListener('hashchange', () => {
+    applyFilterFromHash(window.location.hash, false);
   });
 }
