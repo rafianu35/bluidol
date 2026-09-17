@@ -1263,6 +1263,66 @@ const products = [
     reviews: 36,
     badge: "Trending",
     description: "Exquisite tropical reef plumeria flower claw clip trio in emerald-cyan gradient, sunset peach-violet gradient, and fuchsia-lime gradient. Smooth, snag-free acrylic with powerful interlocking hold."
+  },
+  {
+    id: 110,
+    name: "Jelly-Translucent Pastel Hair Clutchers",
+    category: "hair-clips",
+    price: 20,
+    originalPrice: 49,
+    image: "images/jelly-translucent-pastel-hair-clutchers.webp",
+    stars: 5,
+    reviews: 41,
+    badge: "Trending",
+    description: "Chic jelly-translucent pastel hair clutchers featuring an ergonomic curved silhouette with smooth interlocking teeth and a heavy-duty spring grip. Crafted from lightweight, shatter-resistant acrylic resin in candy pastel ombré and frosted gradient tones for effortless half-up styles (Price ₹20 each)."
+  },
+  {
+    id: 111,
+    name: "Kids Mini Flower-Shaped Hair Claw Clips",
+    category: "hair-clips",
+    price: 25,
+    originalPrice: 59,
+    image: "images/kids-mini-flower-hair-claw-clips.webp",
+    stars: 5,
+    reviews: 38,
+    badge: "Bestseller",
+    description: "Adorable kids mini flower-shaped hair claw clips set presented on a cute bunny display card. Features miniature matte pastel daisy floral clamps with gentle snag-free interlocking teeth designed for girls, fine hair accents, bangs, and playful daily updos (Price ₹25)."
+  },
+  {
+    id: 112,
+    name: "Kids Mini Strawberry-Shaped Hair Claw Clips",
+    category: "hair-clips",
+    price: 25,
+    originalPrice: 59,
+    image: "images/kids-mini-strawberry-hair-claw-clips.webp",
+    stars: 5,
+    reviews: 34,
+    badge: "New",
+    description: "Delightful kids mini strawberry-shaped hair claw clips arranged on a charming bunny display card. Features textured berry motifs in sweet pastel nude, blush, caramel, and chocolate tones with comfortable non-slip grip teeth for fine hair and styling accents (Price ₹25)."
+  },
+  {
+    id: 113,
+    name: "Korean-Style Transparent Hair Clutchers",
+    category: "hair-clips",
+    price: 25,
+    originalPrice: 59,
+    image: "images/korean-style-transparent-hair-clutchers.webp",
+    stars: 5,
+    reviews: 43,
+    badge: "Trending",
+    description: "Aesthetic Korean-style transparent hollow oval cutout hair clutchers crafted from crystal-clear glossy acrylic resin. Features strong interlocking claw teeth and durable gold-tone metal spring in vibrant sheer tones (icy blue, olive green, chartreuse, blush peach, golden amber) for elegant half-up and full updos (Price ₹25 each)."
+  },
+  {
+    id: 114,
+    name: "Glossy Heart-Shaped Resin Hair Claw Clips",
+    category: "hair-clips",
+    price: 20,
+    originalPrice: 49,
+    image: "images/glossy-heart-shaped-resin-hair-claw-clips.webp",
+    stars: 5,
+    reviews: 47,
+    badge: "Trending",
+    description: "Chic glossy heart-shaped resin hair claw clips featuring an artistic twisted loop heart silhouette with shimmering crystal-clear transparency. Equipped with snag-free interlocking teeth and strong spring tension in luminous shades of amber, diamond clear, lilac, and midnight navy for sophisticated everyday hairstyles (Price ₹20 each)."
   }
 ];
 
