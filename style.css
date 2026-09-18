@@ -2283,10 +2283,11 @@ body.cart-open {
 
   /* --- Mobile Hero Section --- */
   .hero {
-    min-height: calc(100svh - 60px);
+    min-height: calc(100svh - 54px);
     display: flex;
     align-items: flex-end;
-    padding: 0 0 16px;
+    justify-content: center;
+    padding: 0 0 calc(74px + env(safe-area-inset-bottom, 0px));
     position: relative;
     background: #fbf7f0;
   }
@@ -2297,7 +2298,7 @@ body.cart-open {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center 18%; /* Perfectly frames necklace box, jewelry tray, and bangle */
+    object-position: center top;
   }
 
   .hero-color-grade {
@@ -2308,57 +2309,70 @@ body.cart-open {
   .hero-overlay {
     background: linear-gradient(
       180deg,
-      rgba(0, 0, 0, 0.02) 0%,
-      rgba(0, 0, 0, 0.05) 35%,
-      rgba(251, 247, 240, 0.60) 65%,
-      #fbf7f0 100%
+      rgba(0, 0, 0, 0.01) 0%,
+      rgba(0, 0, 0, 0.03) 38%,
+      rgba(247, 240, 230, 0.35) 65%,
+      rgba(251, 247, 240, 0.96) 100%
     );
   }
 
   .hero-content {
     justify-content: center;
     text-align: center;
-    padding: 0 16px;
+    padding: 0 14px;
     width: 100%;
     z-index: 4;
   }
 
   .hero-text {
     text-align: center;
-    max-width: 480px;
+    max-width: 440px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.88);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    border: 1px solid rgba(210, 180, 140, 0.40);
-    border-radius: 22px;
-    padding: 20px 16px 22px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 2px 10px rgba(15, 76, 156, 0.06);
+    background: rgba(255, 255, 255, 0.90);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(212, 175, 55, 0.38);
+    border-radius: 20px;
+    padding: 14px 14px 16px;
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.12), 0 2px 10px rgba(15, 76, 156, 0.08);
   }
 
   .hero-eyebrow {
-    font-size: 0.68rem;
+    font-size: 0.65rem;
     letter-spacing: 0.12em;
-    margin-bottom: 8px;
-    padding: 5px 14px;
+    margin-bottom: 6px;
+    padding: 4px 12px;
     display: inline-block;
   }
 
   .hero-title {
-    font-size: clamp(1.55rem, 6.2vw, 2.1rem);
-    line-height: 1.16;
-    margin-bottom: 10px;
+    font-size: clamp(1.45rem, 5.8vw, 1.85rem);
+    line-height: 1.15;
+    margin-bottom: 6px;
     letter-spacing: 0.02em;
   }
 
   .hero-subtitle {
-    font-size: 0.82rem;
-    line-height: 1.48;
-    margin-bottom: 16px;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    margin-bottom: 12px;
     max-width: 380px;
     margin-left: auto;
     margin-right: auto;
-    color: #444444;
+    color: #4a4a4a;
+  }
+
+  .hero-subtitle-rest,
+  .hero-subtitle-br {
+    display: none;
+  }
+
+  .hero-subtitle-lead {
+    display: inline-block;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    color: #4a4a4a;
+    font-weight: 500;
   }
 
   .hero-cta {
@@ -2371,15 +2385,17 @@ body.cart-open {
 
   .hero-cta .btn {
     flex: 1;
-    max-width: 175px;
-    min-height: 44px;
+    max-width: none;
+    min-height: 42px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 12px;
+    padding: 0 8px;
     font-size: 0.78rem;
+    font-weight: 600;
     letter-spacing: 0.03em;
     white-space: nowrap;
+    border-radius: 50px;
     touch-action: manipulation;
   }
 
