@@ -3675,20 +3675,58 @@
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 
   <!-- Preload LCP Hero Image in next-gen WebP -->
-  <link rel="preload" as="image" href="images/hero-luxury.webp" type="image/webp" fetchpriority="high">
+  <link rel="preload" as="image" href="images/hero-luxury.webp?v=20260918-hero-v6" type="image/webp" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
-    <!-- Asynchronous Font Awesome (non-render-blocking) -->
+  <!-- Asynchronous Font Awesome (non-render-blocking) -->
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
 
-  <link rel="stylesheet" href="style.css?v=20260917-blu-v4">
+  <link rel="stylesheet" href="style.css?v=20260918-hero-v6">
 
   <!-- Critical Hero Sapphire Luxury Styling (Overrides cached stylesheets) -->
   <style id="hero-critical-blue-theme">
     .hero {
-      background: linear-gradient(135deg, #eef5fc 0%, #e0edfb 40%, #f4f8fe 100%) !important;
+      position: relative !important;
+      min-height: calc(100vh - 80px) !important;
+      background: #fbf7f0 !important;
+    }
+    .hero-picture {
+      display: block !important;
+      width: 100% !important;
+      height: 100% !important;
+    }
+    .hero-img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+      object-position: right center !important;
+    }
+    .hero-overlay {
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      background: linear-gradient(90deg, 
+        rgba(252, 249, 244, 0.94) 0%, 
+        rgba(252, 249, 244, 0.86) 32%, 
+        rgba(252, 249, 244, 0.50) 52%, 
+        rgba(252, 249, 244, 0.12) 72%, 
+        transparent 100%) !important;
+      z-index: 3 !important;
+      pointer-events: none !important;
+    }
+    .hero-color-grade {
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      background: radial-gradient(ellipse 70% 80% at 85% 35%, rgba(15, 76, 156, 0.08) 0%, transparent 65%) !important;
+      pointer-events: none !important;
+      z-index: 2 !important;
     }
     .hero-eyebrow {
       color: #0b3a75 !important;
@@ -3722,10 +3760,6 @@
       text-transform: uppercase !important;
       color: #61330a !important;
     }
-    .hero-color-grade {
-      background: radial-gradient(ellipse 65% 70% at 80% 35%, rgba(15, 65, 170, 0.35) 0%, rgba(10, 45, 120, 0.22) 48%, rgba(5, 20, 65, 0.08) 100%), linear-gradient(135deg, rgba(20, 75, 170, 0.14) 0%, rgba(10, 40, 110, 0.24) 100%) !important;
-      mix-blend-mode: multiply !important;
-    }
     .hero-cta .btn-primary {
       background: linear-gradient(135deg, #092348 0%, #0d4285 50%, #155dfc 100%) !important;
       border: 1px solid rgba(21, 93, 252, 0.5) !important;
@@ -3739,11 +3773,61 @@
     }
     @media screen and (max-width: 768px) {
       .hero {
-        background: linear-gradient(180deg, #edf4fc 0%, #dcebfc 45%, #f1f7fd 100%) !important;
+        min-height: calc(100svh - 60px) !important;
+        display: flex !important;
+        align-items: flex-end !important;
+        padding: 0 0 16px !important;
+        background: #fbf7f0 !important;
+      }
+      .hero-img {
+        object-position: center 18% !important;
+      }
+      .hero-overlay {
+        background: linear-gradient(180deg, 
+          rgba(0, 0, 0, 0.02) 0%, 
+          rgba(0, 0, 0, 0.05) 35%, 
+          rgba(251, 247, 240, 0.60) 65%, 
+          #fbf7f0 100%) !important;
+      }
+      .hero-content {
+        padding: 0 16px !important;
+        width: 100% !important;
+      }
+      .hero-text {
+        background: rgba(255, 255, 255, 0.88) !important;
+        backdrop-filter: blur(14px) !important;
+        -webkit-backdrop-filter: blur(14px) !important;
+        border: 1px solid rgba(210, 180, 140, 0.40) !important;
+        border-radius: 22px !important;
+        padding: 20px 16px 22px !important;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 2px 10px rgba(15, 76, 156, 0.06) !important;
+        max-width: 480px !important;
+        margin: 0 auto !important;
       }
       .hero-title {
-        font-size: clamp(1.65rem, 6.2vw, 2.25rem) !important;
+        font-size: clamp(1.55rem, 6.2vw, 2.1rem) !important;
+        line-height: 1.16 !important;
         text-transform: uppercase !important;
+        margin-bottom: 10px !important;
+      }
+      .hero-subtitle {
+        font-size: 0.82rem !important;
+        line-height: 1.48 !important;
+        margin-bottom: 16px !important;
+      }
+      .hero-cta {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 10px !important;
+      }
+      .hero-cta .btn {
+        flex: 1 !important;
+        min-height: 44px !important;
+        font-size: 0.78rem !important;
+        white-space: nowrap !important;
+      }
+      .hero-scroll {
+        display: none !important;
       }
     }
   </style>
@@ -3881,7 +3965,12 @@
   <!-- ===== HERO SECTION ===== -->
   <section class="hero" id="hero">
     <div class="hero-bg">
-      <img src="images/hero-luxury.webp" alt="Blu Idol - 18K Gold Plated Jewellery" class="hero-img" loading="eager" fetchpriority="high" decoding="async" width="1376" height="768">
+      <picture class="hero-picture">
+        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.webp?v=20260918-hero-v6" type="image/webp">
+        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.jpg?v=20260918-hero-v6" type="image/jpeg">
+        <source srcset="images/hero-luxury.webp?v=20260918-hero-v6" type="image/webp">
+        <img src="images/hero-luxury.jpg?v=20260918-hero-v6" alt="Blu Idol - 18K Gold Plated Jewellery" class="hero-img" loading="eager" fetchpriority="high" decoding="async" width="1536" height="864">
+      </picture>
       <div class="hero-color-grade"></div>
       <div class="hero-overlay"></div>
     </div>

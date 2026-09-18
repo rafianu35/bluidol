@@ -19,8 +19,9 @@ const MIME_TYPES = {
 const server = http.createServer((req, res) => {
   console.log(`${req.method} ${req.url}`);
   
-  // Normalize URL path
-  let filePath = req.url === '/' ? '/index.html' : req.url;
+  // Normalize URL path and strip query strings
+  let cleanUrl = req.url.split('?')[0];
+  let filePath = cleanUrl === '/' ? '/index.html' : cleanUrl;
   filePath = path.join(__dirname, filePath);
   
   // Safe path check to prevent directory traversal
