@@ -3675,8 +3675,8 @@
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 
   <!-- Preload LCP Hero Image in next-gen WebP -->
-  <link rel="preload" as="image" href="images/hero-luxury-mobile.webp?v=20260918-hero-bgtext-v9" type="image/webp" media="(max-width: 768px)" fetchpriority="high">
-  <link rel="preload" as="image" href="images/hero-luxury.webp?v=20260918-hero-bgtext-v9" type="image/webp" media="(min-width: 769px)" fetchpriority="high">
+  <link rel="preload" as="image" href="images/hero-luxury-mobile.webp?v=20260918-hero-left-v10" type="image/webp" media="(max-width: 768px)" fetchpriority="high">
+  <link rel="preload" as="image" href="images/hero-luxury.webp?v=20260918-hero-left-v10" type="image/webp" media="(min-width: 769px)" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
@@ -3684,7 +3684,7 @@
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
 
-  <link rel="stylesheet" href="style.css?v=20260918-hero-bgtext-v9">
+  <link rel="stylesheet" href="style.css?v=20260918-hero-left-v10">
 
   <!-- Critical Hero Sapphire Luxury Styling (Overrides cached stylesheets) -->
   <style id="hero-critical-blue-theme">
@@ -3788,23 +3788,29 @@
         min-height: calc(100svh - 54px) !important;
         display: flex !important;
         align-items: flex-end !important;
-        justify-content: center !important;
-        padding: 0 0 calc(78px + env(safe-area-inset-bottom, 0px)) !important;
+        justify-content: flex-start !important;
+        padding: 0 0 calc(82px + env(safe-area-inset-bottom, 0px)) !important;
         background: #fbf7f0 !important;
       }
       .hero-img {
         object-position: center top !important;
       }
       .hero-overlay {
-        background: linear-gradient(180deg, 
-          rgba(0, 0, 0, 0.0) 0%, 
-          rgba(0, 0, 0, 0.0) 40%, 
-          rgba(252, 249, 244, 0.15) 60%, 
-          rgba(252, 249, 244, 0.35) 80%, 
-          rgba(252, 249, 244, 0.60) 100%) !important;
+        background: 
+          linear-gradient(90deg, rgba(252, 249, 244, 0.35) 0%, rgba(252, 249, 244, 0.15) 50%, transparent 100%),
+          linear-gradient(
+            180deg, 
+            rgba(0, 0, 0, 0.0) 0%, 
+            rgba(0, 0, 0, 0.0) 35%, 
+            rgba(252, 249, 244, 0.20) 55%, 
+            rgba(252, 249, 244, 0.45) 80%, 
+            rgba(252, 249, 244, 0.70) 100%
+          ) !important;
       }
       .hero-content {
-        padding: 0 14px !important;
+        justify-content: flex-start !important;
+        text-align: left !important;
+        padding: 0 20px !important;
         width: 100% !important;
         z-index: 4 !important;
       }
@@ -3814,11 +3820,11 @@
         -webkit-backdrop-filter: none !important;
         border: none !important;
         border-radius: 0 !important;
-        padding: 0 10px !important;
+        padding: 0 !important;
         box-shadow: none !important;
-        max-width: 440px !important;
-        margin: 0 auto !important;
-        text-align: center !important;
+        max-width: 380px !important;
+        margin: 0 !important;
+        text-align: left !important;
       }
       .hero-eyebrow {
         font-size: 0.68rem !important;
@@ -3826,7 +3832,7 @@
         margin-bottom: 8px !important;
         padding: 4px 14px !important;
         display: inline-block !important;
-        background: rgba(255, 255, 255, 0.85) !important;
+        background: rgba(255, 255, 255, 0.88) !important;
         backdrop-filter: blur(8px) !important;
         -webkit-backdrop-filter: blur(8px) !important;
         border: 1px solid rgba(11, 79, 186, 0.28) !important;
@@ -3834,6 +3840,7 @@
         font-weight: 700 !important;
         border-radius: 50px !important;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06) !important;
+        margin-left: 0 !important;
       }
       .hero-title {
         font-size: clamp(1.55rem, 6.2vw, 2.05rem) !important;
@@ -3842,15 +3849,17 @@
         margin-bottom: 8px !important;
         letter-spacing: 0.03em !important;
         color: #121212 !important;
+        text-align: left !important;
         text-shadow: 0 1px 3px rgba(255, 255, 255, 0.95), 0 2px 8px rgba(255, 255, 255, 0.7) !important;
       }
       .hero-subtitle {
         font-size: 0.82rem !important;
         line-height: 1.4 !important;
         margin-bottom: 16px !important;
-        max-width: 380px !important;
-        margin-left: auto !important;
+        max-width: 340px !important;
+        margin-left: 0 !important;
         margin-right: auto !important;
+        text-align: left !important;
         color: #24201c !important;
       }
       .hero-subtitle-rest,
@@ -3858,11 +3867,12 @@
         display: none !important;
       }
       .hero-subtitle-lead {
-        display: inline-block !important;
+        display: block !important;
         font-size: 0.82rem !important;
         line-height: 1.4 !important;
         color: #24201c !important;
         font-weight: 600 !important;
+        text-align: left !important;
         text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9) !important;
       }
       .hero-cta {
@@ -3870,7 +3880,9 @@
         flex-direction: row !important;
         gap: 10px !important;
         width: 100% !important;
-        justify-content: center !important;
+        justify-content: flex-start !important;
+        max-width: 360px !important;
+        margin-left: 0 !important;
       }
       .hero-cta .btn {
         flex: 1 !important;
@@ -4038,10 +4050,10 @@
   <section class="hero" id="hero">
     <div class="hero-bg">
       <picture class="hero-picture">
-        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.webp?v=20260918-hero-bgtext-v9" type="image/webp">
-        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.jpg?v=20260918-hero-bgtext-v9" type="image/jpeg">
-        <source srcset="images/hero-luxury.webp?v=20260918-hero-bgtext-v9" type="image/webp">
-        <img src="images/hero-luxury.jpg?v=20260918-hero-bgtext-v9" alt="Blu Idol - 18K Gold Plated Jewellery" class="hero-img" loading="eager" fetchpriority="high" decoding="async" width="2048" height="1152">
+        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.webp?v=20260918-hero-left-v10" type="image/webp">
+        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.jpg?v=20260918-hero-left-v10" type="image/jpeg">
+        <source srcset="images/hero-luxury.webp?v=20260918-hero-left-v10" type="image/webp">
+        <img src="images/hero-luxury.jpg?v=20260918-hero-left-v10" alt="Blu Idol - 18K Gold Plated Jewellery" class="hero-img" loading="eager" fetchpriority="high" decoding="async" width="2048" height="1152">
       </picture>
       <div class="hero-color-grade"></div>
       <div class="hero-overlay"></div>
