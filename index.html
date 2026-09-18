@@ -3675,7 +3675,8 @@
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 
   <!-- Preload LCP Hero Image in next-gen WebP -->
-  <link rel="preload" as="image" href="images/hero-luxury.webp?v=20260918-hero-v6" type="image/webp" fetchpriority="high">
+  <link rel="preload" as="image" href="images/hero-luxury-mobile.webp?v=20260918-hero-uhd-v8" type="image/webp" media="(max-width: 768px)" fetchpriority="high">
+  <link rel="preload" as="image" href="images/hero-luxury.webp?v=20260918-hero-uhd-v8" type="image/webp" media="(min-width: 769px)" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
@@ -3683,7 +3684,7 @@
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
 
-  <link rel="stylesheet" href="style.css?v=20260918-hero-v7">
+  <link rel="stylesheet" href="style.css?v=20260918-hero-uhd-v8">
 
   <!-- Critical Hero Sapphire Luxury Styling (Overrides cached stylesheets) -->
   <style id="hero-critical-blue-theme">
@@ -4008,10 +4009,10 @@
   <section class="hero" id="hero">
     <div class="hero-bg">
       <picture class="hero-picture">
-        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.webp?v=20260918-hero-v7" type="image/webp">
-        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.jpg?v=20260918-hero-v7" type="image/jpeg">
-        <source srcset="images/hero-luxury.webp?v=20260918-hero-v7" type="image/webp">
-        <img src="images/hero-luxury.jpg?v=20260918-hero-v7" alt="Blu Idol - 18K Gold Plated Jewellery" class="hero-img" loading="eager" fetchpriority="high" decoding="async" width="1536" height="864">
+        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.webp?v=20260918-hero-uhd-v8" type="image/webp">
+        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.jpg?v=20260918-hero-uhd-v8" type="image/jpeg">
+        <source srcset="images/hero-luxury.webp?v=20260918-hero-uhd-v8" type="image/webp">
+        <img src="images/hero-luxury.jpg?v=20260918-hero-uhd-v8" alt="Blu Idol - 18K Gold Plated Jewellery" class="hero-img" loading="eager" fetchpriority="high" decoding="async" width="2048" height="1152">
       </picture>
       <div class="hero-color-grade"></div>
       <div class="hero-overlay"></div>
