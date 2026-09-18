@@ -3675,8 +3675,8 @@
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 
   <!-- Preload LCP Hero Image in next-gen WebP -->
-  <link rel="preload" as="image" href="images/hero-luxury-mobile.webp?v=20260918-hero-left-v10" type="image/webp" media="(max-width: 768px)" fetchpriority="high">
-  <link rel="preload" as="image" href="images/hero-luxury.webp?v=20260918-hero-left-v10" type="image/webp" media="(min-width: 769px)" fetchpriority="high">
+  <link rel="preload" as="image" href="images/hero-luxury-mobile.webp?v=20260918-hero-topleft-v11" type="image/webp" media="(max-width: 768px)" fetchpriority="high">
+  <link rel="preload" as="image" href="images/hero-luxury.webp?v=20260918-hero-topleft-v11" type="image/webp" media="(min-width: 769px)" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
@@ -3684,7 +3684,7 @@
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
 
-  <link rel="stylesheet" href="style.css?v=20260918-hero-left-v10">
+  <link rel="stylesheet" href="style.css?v=20260918-hero-topleft-v11">
 
   <!-- Critical Hero Sapphire Luxury Styling (Overrides cached stylesheets) -->
   <style id="hero-critical-blue-theme">
@@ -3787,9 +3787,9 @@
       .hero {
         min-height: calc(100svh - 54px) !important;
         display: flex !important;
-        align-items: flex-end !important;
+        align-items: flex-start !important;
         justify-content: flex-start !important;
-        padding: 0 0 calc(82px + env(safe-area-inset-bottom, 0px)) !important;
+        padding: 24px 0 0 !important;
         background: #fbf7f0 !important;
       }
       .hero-img {
@@ -3797,15 +3797,8 @@
       }
       .hero-overlay {
         background: 
-          linear-gradient(90deg, rgba(252, 249, 244, 0.35) 0%, rgba(252, 249, 244, 0.15) 50%, transparent 100%),
-          linear-gradient(
-            180deg, 
-            rgba(0, 0, 0, 0.0) 0%, 
-            rgba(0, 0, 0, 0.0) 35%, 
-            rgba(252, 249, 244, 0.20) 55%, 
-            rgba(252, 249, 244, 0.45) 80%, 
-            rgba(252, 249, 244, 0.70) 100%
-          ) !important;
+          linear-gradient(135deg, rgba(252, 249, 244, 0.65) 0%, rgba(252, 249, 244, 0.35) 45%, transparent 75%),
+          linear-gradient(180deg, rgba(252, 249, 244, 0.50) 0%, rgba(252, 249, 244, 0.15) 40%, transparent 65%) !important;
       }
       .hero-content {
         justify-content: flex-start !important;
@@ -4050,10 +4043,10 @@
   <section class="hero" id="hero">
     <div class="hero-bg">
       <picture class="hero-picture">
-        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.webp?v=20260918-hero-left-v10" type="image/webp">
-        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.jpg?v=20260918-hero-left-v10" type="image/jpeg">
-        <source srcset="images/hero-luxury.webp?v=20260918-hero-left-v10" type="image/webp">
-        <img src="images/hero-luxury.jpg?v=20260918-hero-left-v10" alt="Blu Idol - 18K Gold Plated Jewellery" class="hero-img" loading="eager" fetchpriority="high" decoding="async" width="2048" height="1152">
+        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.webp?v=20260918-hero-topleft-v11" type="image/webp">
+        <source media="(max-width: 768px)" srcset="images/hero-luxury-mobile.jpg?v=20260918-hero-topleft-v11" type="image/jpeg">
+        <source srcset="images/hero-luxury.webp?v=20260918-hero-topleft-v11" type="image/webp">
+        <img src="images/hero-luxury.jpg?v=20260918-hero-topleft-v11" alt="Blu Idol - 18K Gold Plated Jewellery" class="hero-img" loading="eager" fetchpriority="high" decoding="async" width="2048" height="1152">
       </picture>
       <div class="hero-color-grade"></div>
       <div class="hero-overlay"></div>
