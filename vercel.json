@@ -1,26 +1,4 @@
 {
-  "redirects": [
-    {
-      "source": "/contact.html",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/privacy-policy.html",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/terms-and-conditions.html",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/terms.html",
-      "destination": "/",
-      "permanent": false
-    }
-  ],
   "headers": [
     {
       "source": "/images/(.*)",
@@ -36,7 +14,7 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "no-store, no-cache, must-revalidate, max-age=0"
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
         }
       ]
     },
@@ -45,7 +23,7 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "no-store, no-cache, must-revalidate, max-age=0"
+          "value": "public, max-age=0, must-revalidate"
         }
       ]
     },
@@ -54,7 +32,7 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "no-store, no-cache, must-revalidate, max-age=0"
+          "value": "public, max-age=0, must-revalidate"
         }
       ]
     }
