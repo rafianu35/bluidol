@@ -25,7 +25,8 @@ const products = [
     image: "images/ruby-tulip-pendant.webp",
     stars: 5,
     reviews: 29,
-    badge: "New",
+    badge: "Out of Stock",
+    outOfStock: true,
     description: "Graceful floral-inspired pendant featuring sparkling faceted ruby-red crystals in a delicate tulip leaf motif. Set on an 18K gold-plated anti-tarnish chain designed for waterproof daily wear."
   },
   {
@@ -313,7 +314,8 @@ const products = [
     image: "images/antique-gold-bell-jhumka-ruby.webp",
     stars: 5,
     reviews: 47,
-    badge: "New",
+    badge: "Out of Stock",
+    outOfStock: true,
     description: "Classic Indian heritage jhumkas featuring an embossed geometric square top with ruby red enamel accents, suspending ornate antique gold bell domes fringed with vivid ruby-red beads."
   },
   {
@@ -433,7 +435,8 @@ const products = [
     image: "images/oxidised-gold-rhombus-pearl-jhumkas.webp",
     stars: 5,
     reviews: 55,
-    badge: "Royal Drop",
+    badge: "Out of Stock",
+    outOfStock: true,
     description: "Regal drop jhumkas featuring a diamond-shaped post set with a cushion-cut ruby stone, elongated fluted stem, and grand antique gold bell dome fringed with glowing white pearls."
   },
   {
@@ -1045,7 +1048,8 @@ const products = [
     image: "images/invisible-wire-emerald-crescent-moon-pendant-necklace.webp",
     stars: 5,
     reviews: 38,
-    badge: "New",
+    badge: "Out of Stock",
+    outOfStock: true,
     description: "Modern ethereal choker necklace designed with a sleek floating gold cord displaying three pavé crystal crescent moon charms centered with vivid oval emerald green gemstones and golden bead accents."
   },
   {
@@ -1081,7 +1085,8 @@ const products = [
     image: "images/invisible-wire-ruby-crescent-moon-pendant-necklace.webp",
     stars: 5,
     reviews: 39,
-    badge: "Trending",
+    badge: "Out of Stock",
+    outOfStock: true,
     description: "Celestial floating collar necklace with three sparkling micro-pavé crescent moons set with deep ruby red oval crystals and golden spacer beads on a sleek arched gold wire cord."
   },
   {
@@ -1853,12 +1858,21 @@ function initQuickView() {
     }
 
     if (modalImg) {
-      modalImg.innerHTML = `<img src="${item.image}" alt="${item.name}" width="300" height="300" decoding="async">`;
+      modalImg.innerHTML = `<img src="${item.image}" alt="${item.name}" width="300" height="300" decoding="async"${item.outOfStock ? ' style="opacity: 0.72; filter: grayscale(20%);"' : ''}>`;
     }
 
     if (modalInfo) {
+      const ctaBtn = item.outOfStock
+        ? `<button class="btn btn-out-of-stock" disabled style="width: 100%; margin-top: 12px; font-size: 0.82rem; padding: 10px 14px;"><i class="fa fa-circle-xmark"></i> Out of Stock</button>`
+        : `<a href="https://wa.me/919895432549?text=${encodeURIComponent('Hi Blu Idol, I would like to enquire about:\n*' + item.name + '* (₹' + item.price + ')\nhttps://www.bluidol.in/#product-' + item.id)}" target="_blank" rel="noopener" class="btn btn-whatsapp" id="modal-wa-btn" data-product="${item.id}" style="width: 100%; margin-top: 12px; font-size: 0.82rem; padding: 8px 14px;">
+            <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i> Order on WhatsApp
+          </a>`;
+
       modalInfo.innerHTML = `
-        <p class="product-category">${item.category}</p>
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <p class="product-category" style="margin-bottom:0;">${item.category}</p>
+          ${item.outOfStock ? '<span class="badge-out-of-stock" style="padding:2px 8px; font-size:0.62rem; border-radius:12px;">Out of Stock</span>' : ''}
+        </div>
         <h3 class="product-name">${item.name}</h3>
         <div class="product-stars">
           ${getStarsHTML(item.stars)}
@@ -1869,9 +1883,7 @@ function initQuickView() {
           <span class="price-original">₹${item.originalPrice}</span>
         </div>
         <p class="modal-desc">${item.description}</p>
-        <a href="https://wa.me/919895432549?text=${encodeURIComponent('Hi Blu Idol, I would like to enquire about:\n*' + item.name + '* (₹' + item.price + ')\nhttps://www.bluidol.in/#product-' + item.id)}" target="_blank" rel="noopener" class="btn btn-whatsapp" id="modal-wa-btn" data-product="${item.id}" style="width: 100%; margin-top: 12px; font-size: 0.82rem; padding: 8px 14px;">
-          <i class="fa-brands fa-whatsapp" style="font-size: 1.25rem;"></i> Order on WhatsApp
-        </a>
+        ${ctaBtn}
       `;
     }
 

@@ -49,6 +49,7 @@
 
 ### Product #6: Dainty Ruby Tulip Pendant Chain
 - **SKU**: BI-NK-006
+- **Availability**: Out of Stock
 - **Category**: necklaces
 - **Price**: ₹210 INR (MSRP: ₹399 INR)
 - **Customer Rating**: 5 / 5.0 (29 verified reviews)
@@ -289,6 +290,7 @@
 
 ### Product #30: Antique Gold Traditional Bell Jhumka Earrings (Ruby Red)
 - **SKU**: BI-JH-030
+- **Availability**: Out of Stock
 - **Category**: jhumkas
 - **Price**: ₹119 INR (MSRP: ₹249 INR)
 - **Customer Rating**: 5 / 5.0 (47 verified reviews)
@@ -389,6 +391,7 @@
 
 ### Product #40: Oxidised Gold-Plated Rhombus Pearl Jhumkas
 - **SKU**: BI-JH-040
+- **Availability**: Out of Stock
 - **Category**: jhumkas
 - **Price**: ₹185 INR (MSRP: ₹399 INR)
 - **Customer Rating**: 5 / 5.0 (55 verified reviews)
@@ -899,6 +902,7 @@
 
 ### Product #91: Invisible-Wire Emerald Crescent Moon Pendant Necklace
 - **SKU**: BI-NK-091
+- **Availability**: Out of Stock
 - **Category**: necklaces
 - **Price**: ₹165 INR (MSRP: ₹349 INR)
 - **Customer Rating**: 5 / 5.0 (38 verified reviews)
@@ -929,6 +933,7 @@
 
 ### Product #94: Invisible-Wire Ruby Crescent Moon Pendant Necklace
 - **SKU**: BI-NK-094
+- **Availability**: Out of Stock
 - **Category**: necklaces
 - **Price**: ₹165 INR (MSRP: ₹349 INR)
 - **Customer Rating**: 5 / 5.0 (39 verified reviews)
